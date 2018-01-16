@@ -1,0 +1,2 @@
+webpackJsonp([0xd351638727d5],{251:function(e,t,n){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var l=n(1),d=u(l),a=function(){return d.default.createElement("div",null,d.default.createElement("h3",null,"Recommendations"))};t.default=a,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-recommendations-js-5e2898daf037f6010cc3.js.map
