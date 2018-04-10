@@ -8,7 +8,7 @@ const About = () => (
   <div>
     <h3>About Me</h3>
     <div className="profile-picture-container">
-      <img src={LaurenCampusLedger} alt="LaurenCampusLedger" />
+      <img src={LaurenCampusLedger} alt="LaurenCampusLedger"/>
     </div>
     <p>
     As a Computer Science Student, Developer, Founder, Facilitator, Speaker, Teacher, Learner, I get to write code for
@@ -18,7 +18,7 @@ const About = () => (
         taught students using other languages as well.
     </p>
     <div className="second-picture-container">
-      <img src={LaurenPTKInductionSpeech} alt="LaurenPTKInductionSpeech" />
+      <img src={LaurenPTKInductionSpeech} alt="LaurenPTKInductionSpeech"/>
     </div>
     <p>
     I'm a forward-thinking troubleshooter, but not just in class or on the job. After learning of the lack of resources
