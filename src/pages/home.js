@@ -4,12 +4,12 @@ import Link from 'gatsby-link';
 const IndexPage = () => (
   <div>
     <div>
-      <h1>Hi Lauren</h1>
-      <p>Welcome to your new Gatsby site.</p>
+      <h1>Hi there.</h1>
+      <p>This website is not finished yet. Please <a href="https://www.linkedin.com/in/compscilauren/">click here</a> to view my Linkedin, and <a href url="https://github.com/CompSciLauren">click here</a> to view my public projects. Thanks!</p>
     </div>
     <div>
       <section className="featured work">
-        <h2 id="portfolio">Portfolio</h2>;
+        <h2 id="portfolio">Portfolio</h2>
         <ul className="portfolio items">
           <li>
             <Link to="https://compscilauren.com/portfolio/title-of-item-1/"></Link>

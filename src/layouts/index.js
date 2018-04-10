@@ -17,7 +17,7 @@ const TemplateWrapper = ({ children }) => (
     />
     <div className="topnav">
       <h3>Lauren Stephenson</h3>
-      <p>Computer Science Major, CoLab Support Specialist</p>
+      <p>Computer Science Student, Collaboration Center Support Specialist</p>
       <Link to="/about">About Me</Link>
       <Link to="/home">Portfolio</Link>
       <Link to="/recommendations">Recommendations</Link>
