@@ -2,7 +2,7 @@ import React from 'react';
 
 import './recommendations.css';
 import TomPagano from './tompagano.jpg';
-import RecommendationPerson from './recommendationperson.jpg';
+import RecommendationPerson from './recommendationperson.png';
 
 const Recommendations = () => (
   <div>
