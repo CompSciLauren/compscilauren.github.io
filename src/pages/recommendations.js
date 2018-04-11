@@ -1,17 +1,17 @@
 import React from 'react';
 
 import './recommendations.css';
-import TomPagano from './tompagano.jpg';
-import RecommendationPerson from './recommendationperson.png';
+import tom_pagano from './images/recommendations/tom_pagano.jpg';
+import recommendations_person from './images/recommendations/recommendations_person.png';
 
 const Recommendations = () => (
   <div>
-    <h3>Recommendations</h3>
+    <h1>Recommendations</h1>
     <div className="tom-pagano-picture-container">
-      <img src={TomPagano} alt="TomPagano"/>
+      <img src={tom_pagano} alt="Tom Pagano portrait picture."/>
     </div>
-    <h2>Tom Pagano, VP/CIO Johnson County Community College Information Services</h2>
-    <h1>December 3, 2017</h1>
+    <h2 className="left">Tom Pagano, VP/CIO at Johnson County Community College</h2>
+    <h3>December 3, 2017</h3>
     <p>
     “I met Lauren through the JCCC Student Computer Club. After an insightful and vibrant first meeting, I was impressed
      with her desire to enhance the Computer Club experience. As the President of the Club, Lauren, worked with the Faculty
@@ -23,11 +23,12 @@ const Recommendations = () => (
            interaction with Lauren as she moves on to future success.”
     </p>
     <hr></hr>
-    <div className="recommendation-person-picture-container">
-      <img src={RecommendationPerson} alt="RecommendationPerson"/>
+    <br />
+    <div className="recommendations-person-picture-container">
+      <img src={recommendations_person} alt="Drawing of a person used to represent anybody interested in giving a recommendation."/>
     </div>
-    <h2>Your Name Here</h2>
-    <h1>Date Here</h1>
+    <h2 className="left">Your Name Here</h2>
+    <h3>Date Here</h3>
     <p>
     Have you worked with me on a project or in an organization? You can write an honest
      review via LinkedIn or by contacting me. Thanks!

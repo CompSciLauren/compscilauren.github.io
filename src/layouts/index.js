@@ -15,9 +15,10 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+
     <div className="topnav">
-      <h3>Lauren Stephenson</h3>
-      <p>Computer Science Student, Collaboration Center Support Specialist</p>
+      <h3 className="color center">Lauren Stephenson</h3>
+      <p className="color center">Computer Science Student, Collaboration Center Support Specialist</p>
       <Link to="/about">About Me</Link>
       <Link to="/home">Portfolio</Link>
       <Link to="/recommendations">Recommendations</Link>

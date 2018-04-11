@@ -1,3 +1,11 @@
+.center {
+  text-align: center;
+}
+
+.color {
+  color: lightblue;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -84,7 +92,7 @@ sup {
   top: -.5em;
 }
 img {
-  border-style: solid;
+  border: none;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -235,6 +243,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+  text-align: center;
 }
 h2 {
   margin-left: 0;
@@ -252,6 +261,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
+  text-align: center;
 }
 h3 {
   margin-left: 0;
