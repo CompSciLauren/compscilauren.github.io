@@ -23,6 +23,7 @@ const TemplateWrapper = ({ children }) => (
       </div>
       <Link to="/about">About Me</Link>
       <Link to="/home">Portfolio</Link>
+      <Link to="/resume">Resume</Link>
       <Link to="/recommendations">Recommendations</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/contact">Contact Me</Link>

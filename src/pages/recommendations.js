@@ -1,17 +1,35 @@
 import React from 'react';
 
 import './recommendations.css';
+import christy_mcward from './images/recommendations/christy_mcward.jpg';
 import tom_pagano from './images/recommendations/tom_pagano.jpg';
 import recommendations_person from './images/recommendations/recommendations_person.png';
 
 const Recommendations = () => (
   <div>
     <h1>Recommendations</h1>
+    <div className="christy-mcward-picture-container">
+      <img src={christy_mcward} alt="Christy Mcward portrait picture."/>
+    </div>
+    <h2 className="left">Christy McWard, Director of Communications & Advancement at University of Kansas</h2>
+    <h3>April 2018</h3>
+    <p>
+    “Lauren is exceptional in every one of the many roles she plays at Johnson County Community College. As a student,
+     she works hard and excels in her classes while building strong relationships with faculty and classmates. As
+      a campus leader, she is engaged in several groups, not only as a member, but often as an officer, a
+       co-founder, an event planner, or a public speaker on behalf of the groups she belongs to. As an
+        employee of JCCC's Collaboration Center, the CoLab, where I was her supervisor, she was a
+         shining example of what it means to be a committed, responsible and enthusiastic colleague.
+          And finally, she is a delightful person through and through. Her kindness, compassion
+           and curiosity about the world are contagious among all who have the good fortune to work with her."
+    </p>
+    <hr></hr>
+    <br />
     <div className="tom-pagano-picture-container">
       <img src={tom_pagano} alt="Tom Pagano portrait picture."/>
     </div>
     <h2 className="left">Tom Pagano, VP/CIO at Johnson County Community College</h2>
-    <h3>December 3, 2017</h3>
+    <h3>December 2017</h3>
     <p>
     “I met Lauren through the JCCC Student Computer Club. After an insightful and vibrant first meeting, I was impressed
      with her desire to enhance the Computer Club experience. As the President of the Club, Lauren, worked with the Faculty
