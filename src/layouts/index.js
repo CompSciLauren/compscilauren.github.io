@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 import './style.css';
 
 import './index.css';
+import compscilauren_logo from './compscilauren_logo.png';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -17,8 +18,9 @@ const TemplateWrapper = ({ children }) => (
     />
 
     <div className="topnav">
-      <h3 className="color center">Lauren Stephenson</h3>
-      <p className="color center">Computer Science Student, Collaboration Center Support Specialist</p>
+      <div className="compscilauren-logo-picture-container">
+        <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren."/>
+      </div>
       <Link to="/about">About Me</Link>
       <Link to="/home">Portfolio</Link>
       <Link to="/recommendations">Recommendations</Link>

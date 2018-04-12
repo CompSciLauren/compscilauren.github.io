@@ -12,7 +12,7 @@ const Contact = () => (
         <h1>Contact Me</h1>
         <div className="lauren-with-cat-picture-container">
           <img src={lauren_holding_cat} alt="Lauren holding an orange cat."/>
-    </div>
+        </div>
     <p>
         I am always up for a challenge. Are you a recruiter? Are you looking to collaborate on a project?
          In need of a guest speaker or volunteer for a worthwhile cause? Perhaps you just want to ask me
@@ -27,21 +27,20 @@ const Contact = () => (
     </p>
     <br />
     <div className="twitter-icon-picture-container">
-        <a href="https://twitter.com/CompSciLauren">
+        <a href="https://twitter.com/CompSciLauren" target="_blank">
         <img src={twitter_icon} alt="Twitter icon."/>
         </a>
     </div>
     <div className="github-icon-picture-container">
-          <a href="https://github.com/CompSciLauren">
+          <a href="https://github.com/CompSciLauren" target="_blank">
           <img src={github_icon} alt="Git Hub icon."/>
           </a>
     </div>
     <div className="linkedin-icon-picture-container">
-          <a href="https://www.linkedin.com/in/compscilauren/">
+          <a href="https://www.linkedin.com/in/compscilauren/" target="_blank">
           <img src={linkedin_icon} alt="Linked in icon."/>
           </a>
     </div>
-
     </div>
 );
 

@@ -26,7 +26,7 @@ const IndexPage = () => (
   <div>
     <div>
       <h1>Hi there.</h1>
-      <p>This website is not finished yet. Please <a href="https://www.linkedin.com/in/compscilauren/">click here</a> to view my Linkedin, and <a href="https://github.com/CompSciLauren">click here</a> to view my public projects. Thanks!</p>
+      <p>This website is not finished yet. Please <a href="https://www.linkedin.com/in/compscilauren/" target="_blank">click here</a> to view my Linkedin, and <a href="https://github.com/CompSciLauren" target="_blank">click here</a> to view my public projects. Thanks!</p>
     </div>
     <div>
     <section className="featured work">
