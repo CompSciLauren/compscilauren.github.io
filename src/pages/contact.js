@@ -9,7 +9,7 @@ import linkedin_icon from './images/contact/linkedin_icon.png';
 
 const Contact = () => (
     <div>
-        <h1>Contact Me</h1>
+        <h1>Contact Lauren Stephenson</h1>
         <div className="lauren-with-cat-picture-container">
           <img src={lauren_holding_cat} alt="Lauren holding an orange cat."/>
         </div>

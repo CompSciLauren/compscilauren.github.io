@@ -11,7 +11,7 @@ const About = () => (
       <img src={lauren_campus_ledger} alt="Lauren sitting at a table surrounded by objects that represent a few stem and j c c c experiences."/>
     </div>
     <p>
-    As a Computer Science Student, Developer, Founder, Facilitator, Speaker, Teacher, Learner, I get to write code for
+    My name is Lauren Stephenson. As a Computer Science Student, Developer, Founder, Facilitator, Speaker, Teacher, Learner, I get to write code for
      diverse projects and participate in lots of cool stuff. Whether it's writing code for my OOP college class, working
       on a personal project, or teaching beginners the fundamentals of computer science, I'm always having a good time.
        The majority of my computer programming experience is in Java and C++, but I've done some personal projects and
@@ -36,11 +36,11 @@ const About = () => (
      that grows each day, it is my priority to provide high-quality technological solutions for your community,
       business, and quality-driven needs.
     </p>
-    <h2>News Stories</h2>
     <p>
       <a href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/">Some students so involved, others not so much</a>
       <br />
-      <a href="https://blogs.jccc.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/">Honors program holds used book sale to support student scholarships</a>
+      <a href="https://blogs.jcc
+    <h2>News Stories</h2>c.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/">Honors program holds used book sale to support student scholarships</a>
       <br />
       <a href="http://www.gardneredge.com/featured/gehs-students-initiated-into-national-technical-honor-society/">GEHS students initiated into National Technical Honor Society</a>
     </p>
