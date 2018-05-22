@@ -7,7 +7,7 @@ const Circuit_Maker = () => (
     <i>An online GUI for demonstrating binary logic gates.</i>
     <br/>
     <br/>
-    <a href="https://github.com/CompSciLauren/circuit-maker">Click Here</a> to view project on GitHub.
+    <a href="https://github.com/CompSciLauren/circuit-maker" target="_blank">Click Here</a> to view project on GitHub.
     </p>
   </div>
 );

@@ -36,15 +36,14 @@ const About = () => (
      that grows each day, it is my priority to provide high-quality technological solutions for your community,
       business, and quality-driven needs.
     </p>
-    <p>
-      <a href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/">Some students so involved, others not so much</a>
+    <h2>News Stories</h2>
+     <p>
+      <a href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/" target="_blank">Some students so involved, others not so much</a>
       <br />
-      <a href="https://blogs.jcc
-    <h2>News Stories</h2>c.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/">Honors program holds used book sale to support student scholarships</a>
+      <a href="https://blogs.jccc.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/" target="_blank">Honors program holds used book sale to support student scholarships</a>
       <br />
-      <a href="http://www.gardneredge.com/featured/gehs-students-initiated-into-national-technical-honor-society/">GEHS students initiated into National Technical Honor Society</a>
-    </p>
+       <a href="http://www.gardneredge.com/featured/gehs-students-initiated-into-national-technical-honor-society/" target="_blank">GEHS students initiated into National Technical Honor Society</a>
+     </p>
   </div>
 );
-
 export default About;

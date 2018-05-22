@@ -9,18 +9,14 @@ import autoit_scripts from './images/portfolio/autoit_scripts.png';
 import girls_who_code_lawrence from './images/portfolio/girls_who_code_lawrence.png';
 import kc_steminists from './images/portfolio/kc_steminists.png';
 import jccc_computer_club from './images/portfolio/jccc_computer_club.jpg';
-import girls_just_want_to_have_fun_coding from './images/portfolio/girls_just_want_to_have_fun_coding.png';
-import ptk_induction_ceremonies from './images/portfolio/ptk_induction_ceremonies.png';
-import jccc_halloween_binary_bracelets from './images/portfolio/jccc_computer_club_halloween_binary_bracelets.png';
-import aauw_brig_general from './images/portfolio/aauw_brig_general.png';
+import girls_just_want_to_have_fun_coding from './images/portfolio/girls_just_want_to_have_fun_coding.jpg';
 import aauw_women_leadership from './images/portfolio/aauw_women_leadership.png';
 import first_robotics from './images/portfolio/first_robotics.png';
 import girls_who_code_overland_park from './images/portfolio/girls_who_code_overland_park.png'
 import kc_women_in_tech from './images/portfolio/kc_women_in_tech.png';
 import hackedkc from './images/portfolio/hackedkc.jpg';
-import jccc_computer_club_create_your_own_app from './images/portfolio/jccc_computer_club_create_your_own_app.png';
+import jccc_honors_symposium from './images/portfolio/jccc_honors_symposium.jpg';
 import ptk_safehome from './images/portfolio/ptk_safehome.png';
-import other_events from './images/portfolio/other_events.png';
 
 const IndexPage = () => (
   <div>
@@ -54,30 +50,18 @@ const IndexPage = () => (
         <div className="jccc-computer-club-picture-container">
         <img className="btn" src={jccc_computer_club} alt="Click to learn more about j c c c computer club initiative."/>
         </div>
-        <h2 className="left">Events I Participated in as an Organizer, Leader, or Speaker</h2>
+        <h2 className="left">Events I Participated in as an Organizer or Speaker</h2>
         <div className="girls-just-want-to-have-fun-coding-picture-container">
         <img className="btn" src={girls_just_want_to_have_fun_coding} alt="Click to learn more about girls just want to have fun coding event."/>
-        </div>
-        <div className="ptk-induction-ceremonies-picture-container">
-        <img className="btn" src={ptk_induction_ceremonies} alt="Click to learn more about p t k induction ceremonies events."/>
-        </div>
-        <div className="jccc-halloween-binary-braclets-picture-container">
-        <img className="btn" src={jccc_halloween_binary_bracelets} alt="Click to learn more about j c c c halloween binary bracelets event."/>
-        </div>
-        <div className="aauw-brigadier-general-picture-container">
-        <img className="btn" src={aauw_brig_general} alt="Click to learn more about a a u w brigadier general event."/>
         </div>
         <div className="aauw-women-leadership-picture-container">
         <img className="btn" src={aauw_women_leadership} alt="Click to learn more about a a u w women in leadership event."/>
         </div>
-        <div className="jccc-computer-club-create-your-own-app-picture-container">
-        <img className="btn" src={jccc_computer_club_create_your_own_app} alt="Click to learn more about j c c c computer club create your own app event."/>
+        <div className="jccc-honors-symposium-picture-container">
+        <img className="btn" src={jccc_honors_symposium} alt="Click to learn more about j c c c honors symposium."/>
         </div>
         <div className="ptk-safehome-picture-container">
         <img className="btn" src={ptk_safehome} alt="Click to learn more about p t k safe home events."/>
-        </div>
-        <div className="other-events-picture-container">
-        <img className="btn" src={other_events} alt="Click to learn more about other events."/>
         </div>
         <h2 className="left">Nonprofits and Events I Have Participated in as a Volunteer</h2>
         <div className="first-robotics-picture-container">

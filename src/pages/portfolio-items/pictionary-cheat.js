@@ -7,7 +7,7 @@ const Pictionary_Cheat = () => (
     <i>GUI to cheat on online pictionary games.</i>
     <br/>
     <br/>
-    <a href="https://github.com/CompSciLauren/pictionary-cheat">Click Here</a> to view project on GitHub.
+    <a href="https://github.com/CompSciLauren/pictionary-cheat" target="_blank">Click Here</a> to view project on GitHub.
     </p>
   </div>
 );

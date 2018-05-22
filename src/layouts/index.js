@@ -23,7 +23,7 @@ const TemplateWrapper = ({ children }) => (
       </div>
       <Link to="/about">About</Link>
       <Link to="/home">Portfolio</Link>
-      <Link to="/resume">Resume</Link>
+      <a href="https://drive.google.com/file/d/1X5P25-Bi4RcAMACAlVWfVSHWxBNSP1KG/view?usp=sharing" target="_blank">Resume</a>
       <Link to="/recommendations">Recommendations</Link>
       <Link to="/blog">Blog</Link>
       <Link to="/contact">Contact Me</Link>
