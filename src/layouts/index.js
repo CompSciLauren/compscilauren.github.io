@@ -19,13 +19,12 @@ const TemplateWrapper = ({ children }) => (
 
     <div className="topnav">
       <div className="compscilauren-logo-picture-container">
-        <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren."/>
+        <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren." />
       </div>
       <Link to="/about">About</Link>
       <Link to="/home">Portfolio</Link>
-      <a href="https://drive.google.com/file/d/1X5P25-Bi4RcAMACAlVWfVSHWxBNSP1KG/view?usp=sharing" target="_blank">Resume</a>
+      <a href="https://drive.google.com/open?id=1JLEBx0AYOl4_qKoNMqz7vKbxVZgkCvO2" target="_blank">Resume</a>
       <Link to="/recommendations">Recommendations</Link>
-      <Link to="/blog">Blog</Link>
       <Link to="/contact">Contact Me</Link>
     </div>
     <div className="main-content">
