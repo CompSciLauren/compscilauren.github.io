@@ -1,5 +1,6 @@
-.profile-picture-container {
-  text-align: center;
+.custom-center-image {
+  display: flex;
+  justify-content: center;
 }
 
 .second-picture-container {

@@ -5,10 +5,10 @@ import lauren_campus_ledger from './images/about/lauren_campus_ledger.jpg';
 import lauren_ptk_induction_speech from './images/about/lauren_ptk_induction_speech.jpg';
 
 const About = () => (
-  <div>
-    <h1>About Me</h1>
-    <div className="profile-picture-container">
-      <img src={lauren_campus_ledger} alt="Lauren sitting at a table surrounded by objects that represent a few stem and j c c c experiences." />
+  <div className="container-fluid">
+    <h1 className="text-center">About Lauren Stephenson</h1>
+    <div className="custom-center-image">
+      <img className="img-responsive" src={lauren_campus_ledger} alt="Lauren sitting at a table surrounded by objects that represent a few stem and j c c c experiences." />
     </div>
     <p>
       My name is Lauren Stephenson. As a Computer Science Student, Developer, Founder, Facilitator, Speaker, Teacher, Learner, I get to write code for
@@ -18,7 +18,7 @@ const About = () => (
           taught students using other languages as well.
     </p>
     <div className="second-picture-container">
-      <img src={lauren_ptk_induction_speech} alt="Lauren giving a speech at a p t k induction ceremony." />
+      <img class="img-responsive" src={lauren_ptk_induction_speech} alt="Lauren giving a speech at a p t k induction ceremony." />
     </div>
     <p>
       I'm a forward-thinking troubleshooter, but not just in class or on the job. After learning of the lack of resources
