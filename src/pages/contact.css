@@ -1,24 +1,4 @@
-.lauren-with-cat-picture-container {
+.custom-image-adjust {
     float: left;
     padding-right: 15px;
-}
-
-.email-icon-picture-container {
-    float: left;
-    padding-right: 10px;
-    color: white;
-}
-
-.twitter-icon-picture-container {
-    float: left;
-    padding-right: 15px;
-}
-
-.github-icon-picture-container {
-    float: left;
-    padding-right: 15px;
-}
-
-.linkedin-icon-picture-container {
-    float: left;
 }

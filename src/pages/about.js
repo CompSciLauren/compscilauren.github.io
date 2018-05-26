@@ -18,7 +18,7 @@ const About = () => (
           taught students using other languages as well.
     </p>
     <div className="second-picture-container">
-      <img class="img-responsive" src={lauren_ptk_induction_speech} alt="Lauren giving a speech at a p t k induction ceremony." />
+      <img className="img-responsive" src={lauren_ptk_induction_speech} alt="Lauren giving a speech at a p t k induction ceremony." />
     </div>
     <p>
       I'm a forward-thinking troubleshooter, but not just in class or on the job. After learning of the lack of resources
@@ -36,6 +36,10 @@ const About = () => (
        that grows each day, it is my priority to provide high-quality technological solutions for your community,
         business, and quality-driven needs.
     </p>
+    <br />
+    <br />
+    <br />
+    <br />
     <br />
     <h2>News Stories</h2>
     <p>

@@ -11,8 +11,8 @@ const Recommendations = () => (
     <div className="christy-mcward-picture-container">
       <img src={christy_mcward} alt="Christy Mcward portrait picture." />
     </div>
-    <h2 className="left">Christy McWard, Director of Communications & Advancement at University of Kansas</h2>
-    <h3>April 2018</h3>
+    <h3 className="left">Christy McWard, Director of Communications & Advancement at University of Kansas</h3>
+    <h4>April 2018</h4>
     <p>
       “Lauren is exceptional in every one of the many roles she plays at Johnson County Community College. As a student,
        she works hard and excels in her classes while building strong relationships with faculty and classmates. As
@@ -28,8 +28,8 @@ const Recommendations = () => (
     <div className="tom-pagano-picture-container">
       <img src={tom_pagano} alt="Tom Pagano portrait picture." />
     </div>
-    <h2 className="left">Tom Pagano, VP/CIO at Johnson County Community College</h2>
-    <h3>December 2017</h3>
+    <h3 className="left">Tom Pagano, VP/CIO at Johnson County Community College</h3>
+    <h4>December 2017</h4>
     <p>
       “I met Lauren through the JCCC Student Computer Club. After an insightful and vibrant first meeting, I was impressed
        with her desire to enhance the Computer Club experience. As the President of the Club, Lauren, worked with the Faculty
@@ -45,8 +45,8 @@ const Recommendations = () => (
     <div className="recommendations-person-picture-container">
       <img src={recommendations_person} alt="Drawing of a person used to represent anybody interested in giving a recommendation." />
     </div>
-    <h2 className="left">Your Name Here</h2>
-    <h3>Date Here</h3>
+    <h3 className="left">Your Name Here</h3>
+    <h4>Date Here</h4>
     <p>
       Have you worked with me on a project or in an organization? You can write an honest
        review via LinkedIn or by contacting me. Thanks!

@@ -71,6 +71,10 @@ const IndexPage = () => (
         </div>
         <br />
         <br />
+        <a href="https://github.com/CompSciLauren" target="_blank"><button className="btn btn-block btn-info"><i className="fa fa-github"></i> See more on GitHub</button></a>
+        <br />
+        <br />
+        <br />
         <h2>My Initiatives</h2>
         <h4>Check out the clubs and organizations I've founded.</h4>
         <div className="girls-who-code-lawrence-picture-container custom-three-image-layout">
@@ -82,6 +86,8 @@ const IndexPage = () => (
         <div className="jccc-computer-club-picture-container custom-three-image-layout">
           <img className="btn" src={jccc_computer_club} alt="Click to learn more about j c c c computer club initiative." />
         </div>
+        <br />
+        <br />
         <br />
         <br />
         <h2>Recent Events I Participated in as an Organizer or Speaker</h2>
@@ -98,6 +104,8 @@ const IndexPage = () => (
         <div className="ptk-safehome-picture-container custom-four-image-layout">
           <img className="btn" src={ptk_safehome} alt="Click to learn more about p t k safe home events." />
         </div>
+        <br />
+        <br />
         <br />
         <br />
         <h2>Nonprofits and Events I Participated in as a Volunteer</h2>
