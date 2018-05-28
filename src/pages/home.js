@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import PortfolioListing from '../components/PortfolioListing/PortfolioListing';
 import './home.css';
+
 import circuit_maker from './images/portfolio/circuit_maker.png';
 import pictionary_cheat from './images/portfolio/pictionary_cheat.png';
 import autoit_scripts from './images/portfolio/autoit_scripts.png';
@@ -24,104 +26,138 @@ const IndexPage = () => (
         <br />
         <h2>My Recent Work</h2>
         <h4>View my recent projects.</h4>
-        <div className="circuit-maker-picture-container custom-three-image-layout">
-          <div className="custom-container">
-            <img src={circuit_maker} alt="Click to learn more about circuit maker project." className="custom-image" />
-            <div className="custom-overlay">
-              <div className="custom-text">
-                An online GUI for demonstrating binary logic gates.
-                <br />
-                <br />
-                <Link to="/portfolio-items/circuit-maker">
-                  <button>Learn More ></button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="pictionary-cheat-picture-container custom-three-image-layout">
-          <div className="custom-container">
-            <img src={pictionary_cheat} alt="Click to learn more about pictionary cheat project." className="custom-image" />
-            <div className="custom-overlay">
-              <div className="custom-text">
-                A GUI for assisting gamers in online pictionary games.
-                <br />
-                <br />
-                <Link to="/portfolio-items/pictionary-cheat">
-                  <button>Learn More ></button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="autoit-scripts-picture-container custom-three-image-layout">
-          <div className="custom-container">
-            <img src={autoit_scripts} alt="Click to learn more about auto it scripts project." className="custom-image" />
-            <div className="custom-overlay">
-              <div className="custom-text">
-                AutoIt scripts used to automate simple tasks for games and websites.
-                <br />
-                <br />
-                <Link to="/portfolio-items/autoit-scripts">
-                  <button>Learn More ></button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
+        <PortfolioListing
+          layout="custom-three-image-layout"
+          image={circuit_maker}
+          image_shape="rectangle-image"
+          alt="Click to learn more about circuit maker project."
+          description="An online GUI for demonstrating binary logic gates."
+          link="/portfolio-items/circuit-maker"
+        />
+        <PortfolioListing
+          layout="custom-three-image-layout"
+          image={pictionary_cheat}
+          image_shape="rectangle-image"
+          alt="Click to learn more about pictionary cheat project."
+          description="A GUI for assisting gamers in online pictionary games."
+          link="/portfolio-items/pictionary-cheat"
+        />
+        <PortfolioListing
+          layout="custom-three-image-layout"
+          image={autoit_scripts}
+          image_shape="rectangle-image"
+          alt="Click to learn more about auto it scripts project."
+          description="AutoIt scripts used to automate simple tasks for games and websites."
+          link="/portfolio-items/autoit-scripts"
+        />
         <br />
         <br />
-        <a href="https://github.com/CompSciLauren" target="_blank"><button className="btn btn-block btn-info"><i className="fa fa-github"></i> See more on GitHub</button></a>
+        <a href="https://github.com/CompSciLauren" target="_blank"><button className="btn-block btn-info"><i className="fa fa-github"></i> See more on GitHub</button></a>
         <br />
         <br />
         <br />
         <h2>My Initiatives</h2>
         <h4>Check out the clubs and organizations I've founded.</h4>
-        <div className="girls-who-code-lawrence-picture-container custom-three-image-layout">
-          <img className="btn" src={girls_who_code_lawrence} alt="Click to learn more about girls who code lawrence initiative." />
-        </div>
-        <div className="kc-steminists-picture-container custom-three-image-layout">
-          <img className="btn" src={kc_steminists} alt="Click to learn more about k c steminists initiative." />
-        </div>
-        <div className="jccc-computer-club-picture-container custom-three-image-layout">
-          <img className="btn" src={jccc_computer_club} alt="Click to learn more about j c c c computer club initiative." />
-        </div>
+        <PortfolioListing
+          layout="custom-three-image-layout"
+          image={girls_who_code_lawrence}
+          image_shape="square-image"
+          alt="Click to learn more about girls who code lawrence initiative."
+          description="A club for girls to learn how to code in Lawrence, KS."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-three-image-layout"
+          image={kc_steminists}
+          image_shape="square-image"
+          alt="Click to learn more about k c steminists initiative."
+          description="A group for girls to learn how to code in Overland Park, KS."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-three-image-layout"
+          image={jccc_computer_club}
+          image_shape="square-image"
+          alt="Click to learn more about j c c c computer club initiative."
+          description="A club for students to explore computer science at JCCC."
+          link="/portfolio-items/autoit-scripts"
+        />
         <br />
         <br />
         <br />
         <br />
         <h2>Recent Events I Participated in as an Organizer or Speaker</h2>
         <h4>Read about a few recent events I participated in.</h4>
-        <div className="girls-just-want-to-have-fun-coding-picture-container custom-four-image-layout">
-          <img className="btn" src={girls_just_want_to_have_fun_coding} alt="Click to learn more about girls just want to have fun coding event." />
-        </div>
-        <div className="aauw-women-leadership-picture-container custom-four-image-layout">
-          <img className="btn" src={aauw_women_leadership} alt="Click to learn more about a a u w women in leadership event." />
-        </div>
-        <div className="jccc-honors-symposium-picture-container custom-four-image-layout">
-          <img className="btn" src={jccc_honors_symposium} alt="Click to learn more about j c c c honors symposium." />
-        </div>
-        <div className="ptk-safehome-picture-container custom-four-image-layout">
-          <img className="btn" src={ptk_safehome} alt="Click to learn more about p t k safe home events." />
-        </div>
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={girls_just_want_to_have_fun_coding}
+          image_shape="square-image"
+          alt="Click to learn more about girls just want to have fun coding event."
+          description="A one day event for middle school girls to explore computer science."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={aauw_women_leadership}
+          image_shape="square-image"
+          alt="Click to learn more about a a u w women in leadership event."
+          description="A roundtable discussion of women in leadership."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={jccc_honors_symposium}
+          image_shape="square-image"
+          alt="Click to learn more about j c c c honors symposium."
+          description="A presentation of one of my computer science projects."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={ptk_safehome}
+          image_shape="square-image"
+          alt="Click to learn more about p t k safe home event."
+          description="A series of events and fundraisers for SAFEHOME."
+          link="/portfolio-items/autoit-scripts"
+        />
         <br />
         <br />
         <br />
         <br />
         <h2>Nonprofits and Events I Participated in as a Volunteer</h2>
         <h4>Learn more about my volunteer work in computer science education.</h4>
-        <div className="first-robotics-picture-container custom-four-image-layout">
-          <img className="btn" src={first_robotics} alt="Click to learn more about first robotics volunteering experience." />
-        </div>
-        <div className="girls-who-code-overland-park-picture-container custom-four-image-layout">
-          <img className="btn" src={girls_who_code_overland_park} alt="Click to learn more about girls who code overland park volunteering experience." />
-        </div>
-        <div className="kc-women-in-tech-picture-container custom-four-image-layout">
-          <img className="btn" src={kc_women_in_tech} alt="Click to learn more about k c women in tech volunteering experience." />
-        </div>
-        <div className="hackedkc-picture-container custom-four-image-layout">
-          <img className="btn" src={hackedkc} alt="Click to learn more about hack ed k c volunteering experience." />
-        </div>
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={first_robotics}
+          image_shape="square-image"
+          alt="Click to learn more about first robotics volunteering experience."
+          description="Mentoring a robotics team and volunteering at competitions."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={girls_who_code_overland_park}
+          image_shape="square-image"
+          alt="Click to learn more about girls who code overland park volunteering experience."
+          description="Mentoring girls as they learn how to code."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={kc_women_in_tech}
+          image_shape="square-image"
+          alt="Click to learn more about k c women in tech volunteering experience."
+          description="Mentoring children in two KC Women in Tech coding programs."
+          link="/portfolio-items/autoit-scripts"
+        />
+        <PortfolioListing
+          layout="custom-four-image-layout"
+          image={hackedkc}
+          image_shape="square-image"
+          alt="Click to learn more about hack ed k c volunteering experience."
+          description="Mentoring high school students in an annual hackathon."
+          link="/portfolio-items/autoit-scripts"
+        />
       </section>
     </div>
   </div>

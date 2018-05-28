@@ -1,3 +1,7 @@
+.custom-corners {
+    border-radius: 15px;
+}
+
 .custom-display {
     display: block;
     text-align: center;
@@ -7,24 +11,32 @@
     position: relative;
     display: inline-block;
     width: 33.3%;
+    padding-right: 20px;
 }
 
 .custom-four-image-layout {
     position: relative;
     display: inline-block;
     width: 25%;
+    padding-right: 20px;
 }
 
-.custom-container {
-    position: relative;
-}
-
-.custom-image {
+.rectangle-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 100%;
+    border-radius: 15px;
+}
+
+.square-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
 }
 
 .custom-overlay {
@@ -38,10 +50,7 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #b71ef4;
-}
-
-.custom-container:hover .custom-overlay {
-    opacity: .95;
+    border-radius: 15px;
 }
 
 .custom-text {
@@ -56,80 +65,29 @@
     text-align: center;
 }
 
-.circuit-maker-picture-container {
-    padding-right: 20px;
+.project-listing-container {
+    position: relative; /* make any positioned child elements relative to this */ 
+    width: 100%;
 }
 
-.pictionary-cheat-picture-container {
-    padding-right: 20px;
+.project-listing-container:hover .translucent {  
+    position: absolute;  
+    top: 0; /* Add a top and bottom position so the element */  
+    bottom: 0; /* stretches to the height of the parent */  
+    left: 0;
+    width: 100%;
+    background-color: #b71ef4;  
+    opacity: 0.9;  
+    -moz-opacity: 0.3;  
+    filter: alpha(opacity=30);  
+    transition: .5s ease;
+    border-radius: 15px;
+}  
+
+.project-listing-description {
+    opacity: 0;
 }
 
-.autoit-scripts-picture-container {
-    padding-right: 20px;
+.project-listing-container:hover .project-listing-description {
+    opacity: 1;
 }
-
-.girls-who-code-lawrence-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.kc-steminists-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.jccc-computer-club-picture-container {
-    padding-right: 20px;
-}
-
-.girls-just-want-to-have-fun-coding-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.aauw-women-leadership-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.jccc-honors-symposium-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.ptk-safehome-picture-container {
-    padding-right: 20px;
-}
-
-.first-robotics-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.girls-who-code-overland-park-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.kc-women-in-tech-picture-container {
-    float: left;
-    padding-right: 20px;
-}
-
-.hackedkc-picture-container {
-    padding-right: 20px;
-}
-
-.btn {
-    background-color: #b71ef4;
-    border: none;
-    color: white;
-    padding: 8px 8px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
-  }
-
-  .btn:hover {opacity: 1}
