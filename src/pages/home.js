@@ -59,28 +59,28 @@ const IndexPage = () => (
         <h2>My Initiatives</h2>
         <h4>Check out the clubs and organizations I've founded.</h4>
         <PortfolioListing
-          layout="custom-three-image-layout"
+          layout="custom-four-image-layout"
           image={girls_who_code_lawrence}
           image_shape="square-image"
           alt="Click to learn more about girls who code lawrence initiative."
           description="A club for girls to learn how to code in Lawrence, KS."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/girls-who-code-lawrence"
         />
         <PortfolioListing
-          layout="custom-three-image-layout"
+          layout="custom-four-image-layout"
           image={kc_steminists}
           image_shape="square-image"
           alt="Click to learn more about k c steminists initiative."
           description="A group for girls to learn how to code in Overland Park, KS."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/kc-steminists"
         />
         <PortfolioListing
-          layout="custom-three-image-layout"
+          layout="custom-four-image-layout"
           image={jccc_computer_club}
           image_shape="square-image"
           alt="Click to learn more about j c c c computer club initiative."
           description="A club for students to explore computer science at JCCC."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/jccc-computer-club"
         />
         <br />
         <br />
@@ -94,7 +94,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about girls just want to have fun coding event."
           description="A one day event for middle school girls to explore computer science."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/girls-just-want-to-have-fun-coding"
         />
         <PortfolioListing
           layout="custom-four-image-layout"
@@ -102,7 +102,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about a a u w women in leadership event."
           description="A roundtable discussion of women in leadership."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/aauw-women-leadership"
         />
         <PortfolioListing
           layout="custom-four-image-layout"
@@ -110,7 +110,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about j c c c honors symposium."
           description="A presentation of one of my computer science projects."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/jccc-honors-symposium"
         />
         <PortfolioListing
           layout="custom-four-image-layout"
@@ -118,7 +118,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about p t k safe home event."
           description="A series of events and fundraisers for SAFEHOME."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/ptk-safehome"
         />
         <br />
         <br />
@@ -132,7 +132,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about first robotics volunteering experience."
           description="Mentoring a robotics team and volunteering at competitions."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/first-robotics"
         />
         <PortfolioListing
           layout="custom-four-image-layout"
@@ -140,7 +140,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about girls who code overland park volunteering experience."
           description="Mentoring girls as they learn how to code."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/girls-who-code-overland-park"
         />
         <PortfolioListing
           layout="custom-four-image-layout"
@@ -148,7 +148,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about k c women in tech volunteering experience."
           description="Mentoring children in two KC Women in Tech coding programs."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/kc-women-in-tech"
         />
         <PortfolioListing
           layout="custom-four-image-layout"
@@ -156,7 +156,7 @@ const IndexPage = () => (
           image_shape="square-image"
           alt="Click to learn more about hack ed k c volunteering experience."
           description="Mentoring high school students in an annual hackathon."
-          link="/portfolio-items/autoit-scripts"
+          link="/portfolio-items/hackedkc"
         />
       </section>
     </div>
