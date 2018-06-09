@@ -43,6 +43,8 @@ const About = () => (
     <br />
     <h2>News Stories</h2>
     <p>
+      <a href="http://www2.ljworld.com/news/2018/jun/05/got-daughter-interested-computers-lawrence-now-has/" target="_blank">Have a daughter interested in computers? Lawrence now has a ‘Girls Who Code’ club</a>
+      <br />
       <a href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/" target="_blank">Some students so involved, others not so much</a>
       <br />
       <a href="https://blogs.jccc.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/" target="_blank">Honors program holds used book sale to support student scholarships</a>
