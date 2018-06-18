@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children }) => (
         <div className="compscilauren-logo-picture-container">
           <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren." />
         </div>
-        <Link to="/about">About</Link>
+        <Link to="/">About</Link>
         <Link to="/home">Portfolio</Link>
         <a href="https://drive.google.com/open?id=1JLEBx0AYOl4_qKoNMqz7vKbxVZgkCvO2" target="_blank">Resume</a>
         <Link to="/recommendations">Recommendations</Link>
