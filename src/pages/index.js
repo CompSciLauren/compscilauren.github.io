@@ -11,31 +11,33 @@ const About = () => (
       <img className="img-responsive" src={lauren_campus_ledger} alt="Lauren sitting at a table surrounded by objects that represent a few stem and j c c c experiences." />
     </div>
     <p>
-      My name is Lauren Stephenson. As a Computer Science Student, Developer, Founder, Facilitator, Speaker, Teacher, Learner, I get to write code for
-       diverse projects and participate in lots of cool stuff. Whether it's writing code for my OOP college class, working
-        on a personal project, or teaching beginners the fundamentals of computer science, I'm always having a good time.
-         The majority of my computer programming experience is in Java and C++, but I've done some personal projects and
-          taught students using other languages as well.
+      My name is Lauren Stephenson. As a KCIT Apprentice, Founder, Speaker, and Computer Science Student,
+       I get to write code for diverse projects and participate in many exciting opportunities. Whether
+        it's writing code for my OOP college class, working on a personal project, or teaching computer
+         programming at non-profit events, I'm always having a great time. The majority of my computer
+          programming experience is in Java and C++.
     </p>
     <div className="second-picture-container">
       <img className="img-responsive" src={lauren_ptk_induction_speech} alt="Lauren giving a speech at a p t k induction ceremony." />
     </div>
     <p>
-      I'm a forward-thinking troubleshooter, but not just in class or on the job. After learning of the lack of resources
-       for girls interested in computer science who live West of the KC area, I partnered with two other women to start a
-        new Girls Who Code Club in Lawrence, Kansas in 2018. I'm also Founder and President of the JCCC Computer Club, a
-         student organization to help students develop coding skills, collaborate on projects, and learn from
-          professionals in the industry. One of my earlier endeavors was back in 2016, when I Co-Founded KC STEMinists,
-           an organization that teaches Kansas City area middle and high school girls how to code, with an emphasis on
-            entrepreneurship and community-driven development. I also have extensive leadership and volunteer experience
-             in a variety of student and non-profit organizations, which you can learn more about by checking out
-              my Linkedin profile.
+    I'm a forward-thinking troubleshooter, but not just in class or on the job. After learning of the lack
+     of resources for girls interested in computer science who live West of the KC area, I partnered with
+      three other women to start a new Girls Who Code Club in Lawrence, Kansas in 2018. I'm also Founder
+       and former President of the JCCC Computer Club, which began in 2017, and is a student organization
+        to help students develop coding skills, collaborate on projects, and learn from professionals in
+         the industry. One of my earlier endeavors was back in 2016, when I Co-Founded KC STEMinists, an
+          organization that teaches Kansas City area middle and high school girls how to code, with an
+           emphasis on entrepreneurship and community-driven development. I also have extensive leadership
+            and volunteer experience in a variety of student and non-profit organizations.
     </p>
     <p>
-      With a strong grasp of computer science fundamentals and a knowledge base of more advanced coding concepts
-       that grows each day, it is my priority to provide high-quality technological solutions for your community,
-        business, and quality-driven needs.
+    With a strong grasp of computer science fundamentals and a knowledge base of more advanced coding concepts
+     that grows each day, it is my priority to provide high-quality technological solutions to our communities.
     </p>
+    <br />
+    <br />
+    <br />
     <br />
     <br />
     <br />

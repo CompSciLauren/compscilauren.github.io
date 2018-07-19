@@ -6,6 +6,10 @@
   color: lightblue;
 }
 
+.white-center-background {
+  background-color: white;
+}
+
 .compscilauren-logo-picture-container {
   float: left;
 }
@@ -18,7 +22,9 @@ html {
 body {
   margin: 0;
   padding: 0px 250px;
+  background-color: #d9b3ff !important;
 }
+
 article,
 aside,
 details,

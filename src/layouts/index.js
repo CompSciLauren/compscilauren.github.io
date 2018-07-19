@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import './style.css';
 
 import './index.css';
-import compscilauren_logo from './compscilauren_logo.png';
+import compscilauren_logo from './compscilauren_logo.jpg';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -31,7 +31,7 @@ const TemplateWrapper = ({ children }) => (
         <Link to="/recommendations">Recommendations</Link>
         <Link to="/contact">Contact Me</Link>
       </div>
-      <div className="main-content">
+      <div className="main-content white-center-background">
         {children()}
       </div>
   </div>
