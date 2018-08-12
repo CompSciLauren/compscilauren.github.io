@@ -10,7 +10,8 @@ import tom_pagano from './images/recommendations/tom_pagano.jpg';
 
 const About = () => (
   <div className="container-fluid">
-    <h1 className="text-center">About Me</h1>
+    <br />
+    <br />
     <div className="second-picture-container">
       <img
         className="img-responsive rounded-corners"
@@ -18,6 +19,12 @@ const About = () => (
         alt="Lauren holding her orange cat."
       />
     </div>
+    <h1 className="text-center">About Me</h1>
+    <h3>
+      I'm an apprentice software engineer at Cerner and a computer science major
+      at the University of Kansas. Co-Founder of KC STEMinists and a Girls Who
+      Code Club.
+    </h3>
     <p>
       I'm a forward-thinking troubleshooter, but not just in class or on the
       job. After learning of the lack of resources for girls interested in
@@ -32,11 +39,6 @@ const About = () => (
       entrepreneurship and community-driven development. I also have extensive
       leadership and volunteer experience in a variety of student and non-profit
       organizations.
-    </p>
-    <p>
-      With a strong grasp of computer science fundamentals and a knowledge base
-      of more advanced coding concepts that grows each day, it is my priority to
-      provide high-quality technological solutions to our communities.
     </p>
     <br />
     <br />
@@ -133,7 +135,6 @@ const About = () => (
       Tweets by CompSciLauren
     </a>
     <TwitterLoader />
-
     <div className="custom-image-adjust">
       <img
         className="img-responsive"

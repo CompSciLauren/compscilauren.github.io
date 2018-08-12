@@ -4,8 +4,12 @@
   overflow: hidden;
 }
 
+.topnavimage {
+  float: left;
+}
+
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav .menu-item {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -16,14 +20,14 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav .menu-item:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
