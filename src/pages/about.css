@@ -27,3 +27,8 @@
 .recommendations-person-picture-container {
   text-align: center;
 }
+
+.custom-image-adjust {
+  float: left;
+  padding-right: 15px;
+}

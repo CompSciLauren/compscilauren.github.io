@@ -39,7 +39,8 @@ const TemplateWrapper = ({ children }) => (
       >
         Resume
       </a>
-      <Link to="/contact">Contact Me</Link>
+      <Link to="#">Contact Me</Link>
+      <Link to="#">Blog</Link>
     </div>
     <div className="main-content white-center-background">{children()}</div>
   </div>
