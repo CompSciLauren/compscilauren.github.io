@@ -7,3 +7,23 @@
   float: left;
   padding-right: 15px;
 }
+
+.rounded-corners {
+  border-radius: 50%;
+}
+
+.left {
+  text-align: left;
+}
+
+.christy-mcward-picture-container {
+  text-align: center;
+}
+
+.tom-pagano-picture-container {
+  text-align: center;
+}
+
+.recommendations-person-picture-container {
+  text-align: center;
+}
