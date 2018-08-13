@@ -56,7 +56,6 @@ const TemplateWrapper = ({ children }) => (
       <Link to="#" className="menu-item">
         Blog
       </Link>
-
       <div className="menu-item">
         <a href="https://twitter.com/CompSciLauren" target="_blank">
           <i className="fa fa-twitter" />
