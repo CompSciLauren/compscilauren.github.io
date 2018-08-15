@@ -1,8 +1,6 @@
 import React from 'react';
 import { withPrefix } from 'gatsby-link';
 
-import TwitterLoader from '../components/TwitterLoader';
-
 import './about.css';
 import lauren_holding_cat from './images/contact/lauren_holding_cat.jpg';
 import christy_mcward from './images/recommendations/christy_mcward.jpg';
@@ -133,7 +131,6 @@ const About = () => (
     >
       Tweets by CompSciLauren
     </a>
-    <TwitterLoader />
     <div className="custom-image-adjust">
       <img
         className="img-responsive"

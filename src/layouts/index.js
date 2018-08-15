@@ -53,7 +53,7 @@ const TemplateWrapper = ({ children }) => (
       <Link to="#" className="menu-item">
         Contact Me
       </Link>
-      <Link to="#" className="menu-item">
+      <Link to="/blog" className="menu-item">
         Blog
       </Link>
       <div className="menu-item">
