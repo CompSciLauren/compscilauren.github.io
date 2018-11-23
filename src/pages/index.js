@@ -161,48 +161,60 @@ const About = () => (
         </a>
       </div>
     </div>
-    <div className="news-stories">
-      <br />
-      <hr />
-      <h2>News Stories</h2>
-      <p>
-        <a
-          href="http://www2.ljworld.com/news/2018/jun/05/got-daughter-interested-computers-lawrence-now-has/"
-          target="_blank"
-        >
-          Have a daughter interested in computers? Lawrence now has a ‘Girls Who
-          Code’ club
-        </a>
-        <br />
-        <a
-          href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/"
-          target="_blank"
-        >
-          Some students so involved, others not so much
-        </a>
-        <br />
-        <a
-          href="https://blogs.jccc.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/"
-          target="_blank"
-        >
-          Honors program holds used book sale to support student scholarships
-        </a>
-        <br />
-        <a
-          href="http://www.gardneredge.com/featured/gehs-students-initiated-into-national-technical-honor-society/"
-          target="_blank"
-        >
-          GEHS students initiated into National Technical Honor Society
-        </a>
-      </p>
-      <a
-        className="twitter-timeline"
-        data-height="500"
-        data-link-color="#981CEB"
-        href="https://twitter.com/CompSciLauren?ref_src=twsrc%5Etfw"
-      >
-        Tweets by CompSciLauren
-      </a>
+    <div className="center-div">
+      <div className="row">
+        <div className="column">
+          <h2 className="text-center">Media</h2>
+          <p>
+            <a
+              href="http://www2.ljworld.com/news/2018/jun/05/got-daughter-interested-computers-lawrence-now-has/"
+              target="_blank"
+            >
+              Have a daughter interested in computers? Lawrence now has a ‘Girls
+              Who Code’ club
+            </a>
+            <br />
+            <a
+              href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/"
+              target="_blank"
+            >
+              Some students so involved, others not so much
+            </a>
+            <br />
+            <a
+              href="https://blogs.jccc.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/"
+              target="_blank"
+            >
+              Honors program holds used book sale to support student
+              scholarships
+            </a>
+            <br />
+            <a
+              href="http://www.gardneredge.com/featured/gehs-students-initiated-into-national-technical-honor-society/"
+              target="_blank"
+            >
+              GEHS students initiated into National Technical Honor Society
+            </a>
+          </p>
+        </div>
+        <div className="column">
+          <h2 className="text-center">Tweets</h2>
+          <p>
+            <a
+              className="twitter-timeline"
+              data-height="500"
+              data-link-color="#981CEB"
+              href="https://twitter.com/CompSciLauren?ref_src=twsrc%5Etfw"
+            >
+              Tweets by CompSciLauren
+            </a>
+          </p>
+        </div>
+        <div className="column">
+          <h2 className="text-center">Instagram Posts</h2>
+          <p>Coming Soon!</p>
+        </div>
+      </div>
     </div>
   </div>
 );
