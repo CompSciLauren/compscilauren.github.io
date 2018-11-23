@@ -1,7 +1,7 @@
 import React from 'react';
 import './blog.css';
 
-import joybytes_logo from './images/blog/joybytes_logo.png';
+import joybytes_logo from '../images/blog/joybytes_logo.png';
 
 const BlogPage = () => (
   <div>
