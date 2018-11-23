@@ -163,7 +163,7 @@ const About = () => (
     </div>
     <div className="center-div">
       <div className="row">
-        <div className="column">
+        <div className="column footer-piece">
           <h2 className="text-center">Media</h2>
           <p>
             <a
@@ -174,12 +174,14 @@ const About = () => (
               Who Code’ club
             </a>
             <br />
+            <br />
             <a
               href="http://blogs.jccc.edu/campusledger/2017/11/07/some-students-so-involved-others-not-so-much/"
               target="_blank"
             >
               Some students so involved, others not so much
             </a>
+            <br />
             <br />
             <a
               href="https://blogs.jccc.edu/campusledger/2017/10/11/honors-program-holds-used-book-sale-to-support-student-scholarships/"
@@ -189,6 +191,7 @@ const About = () => (
               scholarships
             </a>
             <br />
+            <br />
             <a
               href="http://www.gardneredge.com/featured/gehs-students-initiated-into-national-technical-honor-society/"
               target="_blank"
@@ -197,8 +200,8 @@ const About = () => (
             </a>
           </p>
         </div>
-        <div className="column">
-          <h2 className="text-center">Tweets</h2>
+        <div className="column footer-piece">
+          <h2 className="text-center">Twitter</h2>
           <p>
             <a
               className="twitter-timeline"
@@ -210,9 +213,16 @@ const About = () => (
             </a>
           </p>
         </div>
-        <div className="column">
-          <h2 className="text-center">Instagram Posts</h2>
-          <p>Coming Soon!</p>
+        <div className="column footer-piece">
+          <h2 className="text-center">Instagram</h2>
+          <iframe
+            src="https://www.instagram.com/p/BpXW0YohcGS/embed"
+            width="400"
+            height="480"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true"
+          />
         </div>
       </div>
     </div>
