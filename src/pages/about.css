@@ -36,3 +36,17 @@
 .darker-background {
   background-color: #f8f8f8;
 }
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sit next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.center-div {
+  margin: auto;
+  width: 50%;
+}

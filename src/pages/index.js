@@ -10,34 +10,35 @@ const About = () => (
   <div className="container-fluid">
     <br />
     <br />
-    <div className="second-picture-container">
-      <img
-        className="img-responsive rounded-corners"
-        src={lauren_holding_cat}
-        alt="Lauren holding her orange cat."
-      />
+    <h1 className="text-center">About</h1>
+    <div className="center-div">
+      <div className="row">
+        <div className="column">
+          <p>
+            I'm an apprentice software engineer at Cerner and a computer science
+            major at the University of Kansas. Co-Founder of KC STEMinists and a
+            Girls Who Code Club. I'm a forward-thinking troubleshooter, but not
+            just in class or on the job. After learning of the lack of resources
+            for girls interested in computer science who live West of the KC
+            area, I partnered with three other women to start a Girls Who Code
+            Club in Lawrence, Kansas in 2018.
+          </p>
+        </div>
+        <div className="column">
+          <p>
+            I'm also Founder and former President of the JCCC Computer Club,
+            which began in 2017, and is a student organization that aims to help
+            students explore computer science. One of my earlier endeavors was
+            in 2016, when I Co-Founded KC STEMinists, an organization that
+            teaches Kansas City area middle and high school girls how to code,
+            with an emphasis on entrepreneurship and community-driven
+            development. I also have extensive leadership and volunteer
+            experience in a variety of student and non-profit organizations.
+          </p>
+        </div>
+      </div>
     </div>
-    <h1 className="text-center">About Me</h1>
-    <h3>
-      I'm an apprentice software engineer at Cerner and a computer science major
-      at the University of Kansas. Co-Founder of KC STEMinists and a Girls Who
-      Code Club.
-    </h3>
-    <p>
-      I'm a forward-thinking troubleshooter, but not just in class or on the
-      job. After learning of the lack of resources for girls interested in
-      computer science who live West of the KC area, I partnered with three
-      other women to start a new Girls Who Code Club in Lawrence, Kansas in
-      2018. I'm also Founder and former President of the JCCC Computer Club,
-      which began in 2017, and is a student organization to help students
-      develop coding skills, collaborate on projects, and learn from
-      professionals in the industry. One of my earlier endeavors was back in
-      2016, when I Co-Founded KC STEMinists, an organization that teaches Kansas
-      City area middle and high school girls how to code, with an emphasis on
-      entrepreneurship and community-driven development. I also have extensive
-      leadership and volunteer experience in a variety of student and non-profit
-      organizations.
-    </p>
+
     <br />
     <br />
     <div className="darker-background">
