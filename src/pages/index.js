@@ -2,14 +2,45 @@ import React from 'react';
 import { withPrefix } from 'gatsby-link';
 
 import './about.css';
+import PortfolioListing from '../components/PortfolioListing/PortfolioListing';
 import lauren_holding_cat from './images/contact/lauren_holding_cat.jpg';
 import christy_mcward from './images/recommendations/christy_mcward.jpg';
 import tom_pagano from './images/recommendations/tom_pagano.jpg';
+import circuit_maker from './images/portfolio/circuit_maker.png';
+import pictionary_cheat from './images/portfolio/pictionary_cheat.png';
+import autoit_scripts from './images/portfolio/autoit_scripts.png';
 
 const About = () => (
   <div className="container-fluid">
     <br />
     <br />
+    <h1 className="text-center">Portfolio</h1>
+    <div className="portfolio">
+      <PortfolioListing
+        layout="custom-three-image-layout"
+        image={circuit_maker}
+        image_shape="rectangle-image"
+        alt="Click to learn more about circuit maker project."
+        description="An online GUI for demonstrating binary logic gates."
+        link="/portfolio-items/circuit-maker"
+      />
+      <PortfolioListing
+        layout="custom-three-image-layout"
+        image={pictionary_cheat}
+        image_shape="rectangle-image"
+        alt="Click to learn more about pictionary cheat project."
+        description="A GUI for assisting gamers in online pictionary games."
+        link="/portfolio-items/pictionary-cheat"
+      />
+      <PortfolioListing
+        layout="custom-three-image-layout"
+        image={autoit_scripts}
+        image_shape="rectangle-image"
+        alt="Click to learn more about auto it scripts project."
+        description="AutoIt scripts used to automate simple tasks for games and websites."
+        link="/portfolio-items/autoit-scripts"
+      />
+    </div>
     <h1 className="text-center">About</h1>
     <div className="center-div">
       <div className="row">
@@ -38,6 +69,7 @@ const About = () => (
         </div>
       </div>
     </div>
+    <h3 className="text-center">View Resume</h3>
 
     <br />
     <br />

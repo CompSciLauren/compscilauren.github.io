@@ -50,3 +50,13 @@
   margin: auto;
   width: 50%;
 }
+.custom-three-image-layout {
+  position: relative;
+  display: inline-block;
+  width: 33.3%;
+  padding-right: 20px;
+}
+.portfolio {
+  margin: auto;
+  width: 50%;
+}

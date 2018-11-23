@@ -30,11 +30,11 @@ const TemplateWrapper = ({ children }) => (
 
     <div className="topnav">
       <ul className="topnav">
-        <Link to="/" className="menu-item">
-          About
-        </Link>
         <Link to="/home" className="menu-item">
           Portfolio
+        </Link>
+        <Link to="/" className="menu-item">
+          About
         </Link>
         <a
           className="menu-item"
