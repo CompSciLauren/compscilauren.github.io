@@ -29,47 +29,49 @@ const TemplateWrapper = ({ children }) => (
     />
 
     <div className="topnav">
-      <div className="compscilauren-logo-picture-container">
-        <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren." />
-      </div>
+      <ul className="topnav">
+        <Link to="/" className="menu-item">
+          About
+        </Link>
+        <Link to="/home" className="menu-item">
+          Portfolio
+        </Link>
+        <a
+          className="menu-item"
+          href="https://drive.google.com/open?id=1JLEBx0AYOl4_qKoNMqz7vKbxVZgkCvO2"
+          target="_blank"
+        >
+          Resume
+        </a>
+        <Link to="#" className="menu-item">
+          Contact Me
+        </Link>
+        <Link to="/blog" className="menu-item">
+          Blog
+        </Link>
+        <div className="menu-item">
+          <a href="https://twitter.com/CompSciLauren" target="_blank">
+            <i className="fa fa-twitter" />
+          </a>
+        </div>
+        <div className="menu-item">
+          <a href="https://github.com/CompSciLauren" target="_blank">
+            <i className="fa fa-github" />
+          </a>
+        </div>
+        <div className="menu-item">
+          <a href="https://www.linkedin.com/in/compscilauren/" target="_blank">
+            <i className="fa fa-linkedin" />
+          </a>
+        </div>
+      </ul>
       <img
         className="topnavimage"
         src={compscilauren_logo2}
         alt="Logo for Comp Sci Lauren."
       />
-      <Link to="/" className="menu-item">
-        About
-      </Link>
-      <Link to="/home" className="menu-item">
-        Portfolio
-      </Link>
-      <a
-        className="menu-item"
-        href="https://drive.google.com/open?id=1JLEBx0AYOl4_qKoNMqz7vKbxVZgkCvO2"
-        target="_blank"
-      >
-        Resume
-      </a>
-      <Link to="#" className="menu-item">
-        Contact Me
-      </Link>
-      <Link to="/blog" className="menu-item">
-        Blog
-      </Link>
-      <div className="menu-item">
-        <a href="https://twitter.com/CompSciLauren" target="_blank">
-          <i className="fa fa-twitter" />
-        </a>
-      </div>
-      <div className="menu-item">
-        <a href="https://github.com/CompSciLauren" target="_blank">
-          <i className="fa fa-github" />
-        </a>
-      </div>
-      <div className="menu-item">
-        <a href="https://www.linkedin.com/in/compscilauren/" target="_blank">
-          <i className="fa fa-linkedin" />
-        </a>
+      <div className="compscilauren-logo-picture-container">
+        <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren." />
       </div>
     </div>
     <div className="main-content white-center-background">{children()}</div>
