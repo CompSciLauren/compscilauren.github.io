@@ -13,7 +13,9 @@ const About = () => (
   <div className="container-fluid">
     <br />
     <br />
-    <h1 className="text-center">Portfolio</h1>
+    <h1 className="text-center" id="portfolio-section">
+      Portfolio
+    </h1>
     <div className="portfolio">
       <PortfolioListing
         layout="custom-three-image-layout"
@@ -39,6 +41,11 @@ const About = () => (
         description="AutoIt scripts used to automate simple tasks for games and websites."
         link="/portfolio-items/autoit-scripts"
       />
+      <a href="https://github.com/CompSciLauren" target="_blank">
+        <button className="btn-block btn-info">
+          <i className="fa fa-github" /> View Projects on GitHub
+        </button>
+      </a>
     </div>
     <h1 className="text-center">About</h1>
     <div className="center-div">
