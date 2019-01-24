@@ -8,6 +8,7 @@ import tom_pagano from './images/recommendations/tom_pagano.jpg';
 import circuit_maker from './images/portfolio/circuit_maker.png';
 import pictionary_cheat from './images/portfolio/pictionary_cheat.png';
 import autoit_scripts from './images/portfolio/autoit_scripts.png';
+import community_impact_collage from './images/portfolio/communityimpactcollage.jpg';
 
 const About = () => (
   <div className="container-fluid">
@@ -44,6 +45,33 @@ const About = () => (
       <a href="https://github.com/CompSciLauren" target="_blank">
         <button className="btn-block btn-info">
           <i className="fa fa-github" /> View Projects on GitHub
+        </button>
+      </a>
+    </div>
+    <h1 className="text-center">Community Impact</h1>
+    <div className="center-div">
+      <div className="row">
+        <div className="column">
+          <img
+            src={community_impact_collage}
+            alt="Collage displaying community impact activities."
+          />
+        </div>
+        <div className="column">
+          <p>
+            I have been an active volunteer in my tech community for several
+            years. I have started several computer science education
+            organizations, organized numerous educational events about computer
+            science and women's issues, and spoken at a small number of events.
+            Most often, you'll find me mentoring young learners and teaching in
+            small group settings. You can find out more about my civic efforts
+            below!
+          </p>
+        </div>
+      </div>
+      <a href="/">
+        <button className="btn-block btn-info">
+          View Community Impact Activities
         </button>
       </a>
     </div>
