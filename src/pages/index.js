@@ -167,6 +167,15 @@ const About = () => (
           <h2 className="text-center">Media</h2>
           <p>
             <a
+              href="http://blogs.jccc.edu/cbl/2018/08/13/service-testimonial-lauren-stephenson/"
+              target="_blank"
+            >
+              Advancing Computer Science Education, a Community Service
+              Testimonial
+            </a>
+            <br />
+            <br />
+            <a
               href="http://www2.ljworld.com/news/2018/jun/05/got-daughter-interested-computers-lawrence-now-has/"
               target="_blank"
             >
