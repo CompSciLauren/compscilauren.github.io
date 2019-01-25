@@ -5,8 +5,7 @@ import Helmet from 'react-helmet';
 import './style.css';
 
 import './index.css';
-import compscilauren_logo from './compscilauren_logo.jpg';
-import compscilauren_logo2 from './compscilauren_logo.png';
+import compscilauren_logo from './compscilauren_logo.png';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -27,6 +26,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+
+    <header />
 
     <div className="topnav">
       <ul className="topnav">
@@ -67,12 +68,9 @@ const TemplateWrapper = ({ children }) => (
       </ul>
       <img
         className="topnavimage"
-        src={compscilauren_logo2}
+        src={compscilauren_logo}
         alt="Logo for Comp Sci Lauren."
       />
-      <div className="compscilauren-logo-picture-container">
-        <img src={compscilauren_logo} alt="Logo for Comp Sci Lauren." />
-      </div>
     </div>
     <div className="main-content white-center-background">{children()}</div>
   </div>
