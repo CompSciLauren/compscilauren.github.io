@@ -1,8 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
   overflow: hidden;
   float: right;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topnav-container {
+  width: 100%;
+  background-color: #333;
+  z-index: 9999;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.hero-image {
+  z-index: -1;
 }
 
 .topnavimage {

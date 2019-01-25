@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import './style.css';
-
 import './index.css';
 import compscilauren_logo from './compscilauren_logo.png';
 
@@ -27,9 +26,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
 
-    <header />
-
-    <div className="topnav">
+    <div className="topnav-container clearfix sticky-navbar">
       <ul className="topnav">
         <Link to="#portfolio-section" className="menu-item">
           Portfolio
@@ -72,6 +69,9 @@ const TemplateWrapper = ({ children }) => (
         alt="Logo for Comp Sci Lauren."
       />
     </div>
+
+    <header className="hero-image" />
+
     <div className="main-content white-center-background">{children()}</div>
   </div>
 );
