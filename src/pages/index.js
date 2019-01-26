@@ -12,12 +12,11 @@ import community_impact_collage from './images/portfolio/communityimpactcollage.
 
 const About = () => (
   <div className="container-fluid">
-    <br />
-    <br />
-    <h1 className="text-center" id="portfolio-section">
-      Portfolio
-    </h1>
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio-section">
+      <br />
+      <br />
+      <br />
+      <h1 className="text-center">Portfolio</h1>
       <PortfolioListing
         layout="custom-three-image-layout"
         image={circuit_maker}
@@ -75,8 +74,12 @@ const About = () => (
         </button>
       </a>
     </div>
-    <h1 className="text-center">About</h1>
-    <div className="center-div">
+
+    <div className="center-div" id="about-section">
+      <br />
+      <br />
+      <br />
+      <h1 className="text-center">About</h1>
       <div className="row">
         <div className="column">
           <p>
@@ -108,8 +111,8 @@ const About = () => (
     <br />
     <div className="darker-background">
       <hr />
-      <h1 className="text-center">Recommendations</h1>
       <div className="center-div">
+        <h1 className="text-center">Recommendations</h1>
         <div className="row">
           <div className="column">
             <div className="christy-mcward-picture-container">
@@ -168,7 +171,10 @@ const About = () => (
       </div>
     </div>
     <br />
-    <div className="contact">
+    <div className="contact" id="contact-section">
+      <br />
+      <br />
+      <br />
       <h1 className="text-center">Contact Me</h1>
 
       <div className="center-div">

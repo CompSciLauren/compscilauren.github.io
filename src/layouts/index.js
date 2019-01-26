@@ -31,7 +31,7 @@ const TemplateWrapper = ({ children }) => (
         <Link to="#portfolio-section" className="menu-item">
           Portfolio
         </Link>
-        <Link to="/" className="menu-item">
+        <Link to="#about-section" className="menu-item">
           About
         </Link>
         <a
@@ -41,7 +41,7 @@ const TemplateWrapper = ({ children }) => (
         >
           Resume
         </a>
-        <Link to="#" className="menu-item">
+        <Link to="#contact-section" className="menu-item">
           Contact Me
         </Link>
         <Link to="/blog" className="menu-item">
