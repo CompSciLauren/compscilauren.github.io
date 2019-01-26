@@ -1,9 +1,6 @@
 import React from 'react';
-import Link from 'gatsby-link';
-
 import PortfolioListing from '../components/PortfolioListing/PortfolioListing';
 import './home.css';
-
 import circuit_maker from './images/portfolio/circuit_maker.png';
 import pictionary_cheat from './images/portfolio/pictionary_cheat.png';
 import autoit_scripts from './images/portfolio/autoit_scripts.png';
@@ -13,7 +10,7 @@ import jccc_computer_club from './images/portfolio/jccc_computer_club.jpg';
 import girls_just_want_to_have_fun_coding from './images/portfolio/girls_just_want_to_have_fun_coding.jpg';
 import aauw_women_leadership from './images/portfolio/aauw_women_leadership.png';
 import first_robotics from './images/portfolio/first_robotics.png';
-import girls_who_code_overland_park from './images/portfolio/girls_who_code_overland_park.png'
+import girls_who_code_overland_park from './images/portfolio/girls_who_code_overland_park.png';
 import kc_women_in_tech from './images/portfolio/kc_women_in_tech.png';
 import hackedkc from './images/portfolio/hackedkc.jpg';
 import jccc_honors_symposium from './images/portfolio/jccc_honors_symposium.jpg';
@@ -52,7 +49,11 @@ const IndexPage = () => (
         />
         <br />
         <br />
-        <a href="https://github.com/CompSciLauren" target="_blank"><button className="btn-block btn-info"><i className="fa fa-github"></i> See more on GitHub</button></a>
+        <a href="https://github.com/CompSciLauren" target="_blank">
+          <button className="btn-block btn-info">
+            <i className="fa fa-github" /> See more on GitHub
+          </button>
+        </a>
         <br />
         <br />
         <br />
@@ -125,7 +126,9 @@ const IndexPage = () => (
         <br />
         <br />
         <h2>Nonprofits and Events I Participated in as a Volunteer</h2>
-        <h4>Learn more about my volunteer work in computer science education.</h4>
+        <h4>
+          Learn more about my volunteer work in computer science education.
+        </h4>
         <PortfolioListing
           layout="custom-four-image-layout"
           image={first_robotics}

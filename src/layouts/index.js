@@ -72,7 +72,7 @@ const TemplateWrapper = ({ children }) => (
 
     <header className="hero-image" />
 
-    <div className="main-content white-center-background">{children()}</div>
+    <div className="main-content white-background">{children()}</div>
   </div>
 );
 

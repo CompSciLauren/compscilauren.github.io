@@ -1,6 +1,4 @@
 import React from 'react';
-import { withPrefix } from 'gatsby-link';
-
 import './about.css';
 import PortfolioListing from '../components/PortfolioListing/PortfolioListing';
 import christy_mcward from './images/recommendations/christy_mcward.jpg';
@@ -16,7 +14,7 @@ const About = () => (
       <br />
       <br />
       <br />
-      <h1 className="text-center">Portfolio</h1>
+      <h1>Portfolio</h1>
       <PortfolioListing
         layout="custom-three-image-layout"
         image={circuit_maker}
@@ -47,7 +45,7 @@ const About = () => (
         </button>
       </a>
     </div>
-    <h1 className="text-center">Community Impact</h1>
+    <h1>Community Impact</h1>
     <div className="center-div">
       <div className="row">
         <div className="column">
@@ -79,7 +77,7 @@ const About = () => (
       <br />
       <br />
       <br />
-      <h1 className="text-center">About</h1>
+      <h1>About</h1>
       <div className="row">
         <div className="column">
           <p>
@@ -117,7 +115,7 @@ const About = () => (
     <div className="darker-background">
       <hr />
       <div className="center-div">
-        <h1 className="text-center">Recommendations</h1>
+        <h1>Recommendations</h1>
         <div className="row">
           <div className="column">
             <div className="christy-mcward-picture-container">
@@ -180,7 +178,7 @@ const About = () => (
       <br />
       <br />
       <br />
-      <h1 className="text-center">Contact Me</h1>
+      <h1>Contact Me</h1>
 
       <div className="center-div">
         <div className="row">
@@ -221,7 +219,7 @@ const About = () => (
     <div className="center-div">
       <div className="row">
         <div className="column footer-piece">
-          <h2 className="text-center">Media</h2>
+          <h2>Media</h2>
           <p>
             <a
               href="http://blogs.jccc.edu/cbl/2018/08/13/service-testimonial-lauren-stephenson/"
@@ -267,7 +265,7 @@ const About = () => (
           </p>
         </div>
         <div className="column footer-piece">
-          <h2 className="text-center">Twitter</h2>
+          <h2>Twitter</h2>
           <p>
             <a
               className="twitter-timeline"
@@ -280,7 +278,7 @@ const About = () => (
           </p>
         </div>
         <div className="column footer-piece">
-          <h2 className="text-center">Instagram</h2>
+          <h2>Instagram</h2>
           <iframe
             src="https://www.instagram.com/p/BpXW0YohcGS/embed"
             width="400"
