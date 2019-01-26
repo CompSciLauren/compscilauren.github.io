@@ -105,8 +105,13 @@ const About = () => (
           </p>
         </div>
       </div>
+      <a
+        href="https://drive.google.com/open?id=1JLEBx0AYOl4_qKoNMqz7vKbxVZgkCvO2"
+        target="_blank"
+      >
+        <button className="btn-block btn-info">View Resume</button>
+      </a>
     </div>
-    <h3 className="text-center">View Resume</h3>
     <br />
     <br />
     <div className="darker-background">
