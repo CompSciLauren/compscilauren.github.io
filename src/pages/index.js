@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import './about.css';
+import Layout from '../layouts/index';
 import logo from '../../src/images/logo.png';
 import PortfolioListing from '../components/PortfolioListing/PortfolioListing';
 import christy_mcward from './images/recommendations/christy_mcward.jpg';
@@ -14,7 +15,7 @@ import community_impact_collage from './images/portfolio/communityimpactcollage.
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <Layout>
         <div className="topnav-container clearfix sticky-navbar">
           <ul className="topnav">
             <Link to="#portfolio-section" className="menu-item">
@@ -355,7 +356,7 @@ class About extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </Layout>
     );
   }
 }

@@ -30,7 +30,7 @@ class TemplateWrapper extends React.Component {
           ]}
         />
 
-        {children()}
+        {children}
       </div>
     );
   }
