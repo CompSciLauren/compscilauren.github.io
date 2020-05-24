@@ -24,7 +24,7 @@ function App() {
           </a>
         </div>
       </header>
-      <div className="Page-center">
+      <div className="Projects-section">
         <div className="Page-wrap">
           <h1 id="portfolio-section">Projects</h1>
           <div className="projects-grid-container">
@@ -178,13 +178,16 @@ function App() {
               Cavalier Leadership Development Program Graduate with Distinction,
               2018
             </p>
-
-            <h1>Thanks!</h1>
-            <h2>Want to get in touch?</h2>
-            <p>CompSciLauren@gmail.com</p>
-            <p>Linkedin, Twitter, GitHub</p>
           </div>
         </div>
+      </div>
+      <div className="triangle"></div>
+
+      <div className="Footer-section">
+        <h1>Thanks!</h1>
+        <h2>Want to chat?</h2>
+        <p>CompSciLauren@gmail.com</p>
+        <p>Linkedin, Twitter, GitHub</p>
       </div>
     </div>
   );
