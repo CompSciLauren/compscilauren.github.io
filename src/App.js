@@ -1,5 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Project from "./components/Project";
+import Experience from "./components/Experience";
+import "./App.css";
+import "./styles/project.css";
+import "./styles/experience.css";
 
 function App() {
   return (
@@ -21,83 +25,93 @@ function App() {
       <div className="Page-center">
         <div className="Page-wrap">
           <h1 id="portfolio-section">Projects</h1>
-          <div class="grid-container">
-            <a
-              href="https://www.nexusmods.com/stardewvalley/mods/4779"
-              target="_blank"
-            >
-              <div class="grid-item">
-                <h2>Daily Screenshot Mod</h2>
-                <p>
-                  Stardew Valley mod that automatically takes a screenshot of
-                  your entire farm at the start of each day
-                </p>
-                <p className="tool-list">Built with C#</p>
-              </div>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1LsDeMeXUBJeSpBp4mGFLBYRrhL9-T9uG/view"
-              target="_blank"
-            >
-              <div class="grid-item">
-                <h2>PillPal</h2>
-                <p>
-                  Medical app that reminds people to take their medication and
-                  makes medication management simple
-                </p>
-                <p className="tool-list">Built with React Native</p>
-              </div>
-            </a>
-            <a
-              href="https://github.com/compscilauren/awesome-git-hooks"
-              target="_blank"
-            >
-              <div class="grid-item">
-                <h2>Awesome Git Hooks</h2>
-                <p>Curated list of awesome git hooks</p>
-                <p className="tool-list">Built with Bash, Python, Perl</p>
-              </div>
-            </a>
-            <a
-              href="https://boiling-garden-86985.herokuapp.com/"
-              target="_blank"
-            >
-              <div class="grid-item">
-                <h2>Server Finder</h2>
-                <p>
-                  Website for Stardew Valley that connects hosts and players for
-                  multiplayer servers
-                </p>
-                <p className="tool-list">Built with React</p>
-              </div>
-            </a>
-            <a
-              href="https://github.com/compscilauren/fedcodeathon"
-              target="_blank"
-            >
-              <div class="grid-item">
-                <h2>ValleyFind</h2>
-                <p>
-                  Website that helps entrepreneurs find the best location to
-                  start their business
-                </p>
-                <p className="tool-list">Built with JavaScript, Bootstrap</p>
-              </div>
-            </a>
-            <a
-              href="https://compscilauren.github.io/uno/index.html"
-              target="_blank"
-            >
-              <div class="grid-item">
-                <h2>Uno</h2>
-                <p>Card game Uno, playable in the browser</p>
-                <p className="tool-list">Built with JavaScript</p>
-              </div>
-            </a>
+          <div className="projects-grid-container">
+            <Project
+              link="https://www.nexusmods.com/stardewvalley/mods/4779"
+              title="Daily Screenshot Mod"
+              description="Stardew Valley mod that automatically takes a screenshot of
+                  your entire farm at the start of each day"
+              builtWith="C#"
+            ></Project>
+
+            <Project
+              link="https://drive.google.com/file/d/1LsDeMeXUBJeSpBp4mGFLBYRrhL9-T9uG/view"
+              title="PillPal"
+              description="Medical app that reminds people to take their medication and
+            makes medication management simple"
+              builtWith="React Native"
+            ></Project>
+
+            <Project
+              link="https://github.com/compscilauren/awesome-git-hooks"
+              title="Awesome Git Hooks"
+              description="Curated list of awesome git hooks"
+              builtWith="Bash, Python, Perl"
+            ></Project>
+
+            <Project
+              link="https://boiling-garden-86985.herokuapp.com/"
+              title="Server Finder"
+              description="Website for Stardew Valley that connects hosts and players for
+              multiplayer servers"
+              builtWith="React"
+            ></Project>
+
+            <Project
+              link="https://github.com/compscilauren/fedcodeathon"
+              title="ValleyFind"
+              description="Website that helps entrepreneurs find the best location to
+              start their business"
+              builtWith="JavaScript, Bootstrap"
+            ></Project>
+
+            <Project
+              link="https://compscilauren.github.io/uno/index.html"
+              title="Uno"
+              description="Card game Uno, playable in the browser"
+              builtWith="JavaScript"
+            ></Project>
           </div>
           <a href="https://github.com/CompSciLauren" target="_blank">
             <button className="Header-btn">See all projects on GitHub ></button>
           </a>
+          <h1>Experience</h1>
+          <div className="experience-grid-container">
+            <Experience
+              company="Cerner Corporation"
+              job="Software Intern"
+              startDate="May 2020"
+              endDate="Present"
+              accomplishments={
+                <ul>
+                  <li>Just started the job!</li>
+                </ul>
+              }
+            ></Experience>
+            <Experience
+              company="Cerner Corporation"
+              job="Technical Apprentice"
+              startDate="July 2018"
+              endDate="August 2019"
+              accomplishments={
+                <ul>
+                  <li>
+                    Developed backend APIs to validate if clinical information
+                    was safe to delete, which decreased risk of deleting
+                    critical data.
+                  </li>
+                  <li>
+                    Debugged and resolved defects in clinical information
+                    management system, which improved overall user experience.
+                  </li>
+                  <li>
+                    Wrote open source scripts to automate Git workflows, which
+                    saved time for developers on team. Over 580 stars on GitHub.
+                  </li>
+                </ul>
+              }
+            ></Experience>
+          </div>
         </div>
       </div>
     </div>
