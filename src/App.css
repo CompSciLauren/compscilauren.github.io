@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url('images/header_image.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fcfbeb;
+}
+
+.Page-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #fcfbeb;
+}
+
+.Page-wrap {
+  width: 65%;
+}
+
+.Header-btn {
+  transition-duration: 0.4s;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ffed4a;
+  color: #453411;
+  opacity: 90%;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #fcfbeb;
+  border-width: 2px;
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Header-btn:hover {
+  opacity: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #453411;
+}
+
+.Intro {
+  font-size: 48px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  height: 250px;
+  background-color: #9561e2;
+  padding: 20px;
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
+  opacity: 80%;
+  border-style: solid;
+  border-color: #fcfbeb;
+  border-width: 2px;
+  border-radius: 8px;
+}
+
+.grid-item:hover {
+  opacity: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #453411;
+}
+
+.tool-list {
+  color: #fff382;
+  font-size: 14px;
+}
