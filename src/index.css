@@ -4,22 +4,22 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Segoe Print', 'Segoe UI', -apple-system, BlinkMacSystemFont,
-    'Roboto', 'Ubuntu', Sans-serif;
+  font-family: "Segoe Print", "Segoe UI", -apple-system, BlinkMacSystemFont,
+    "Roboto", "Ubuntu", Sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 button {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Segoe UI', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Segoe UI", monospace;
 }
 
-h2 {
-  color: #ffed4a;
+h1 {
+  text-decoration: underline;
 }
 
 a {
