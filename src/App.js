@@ -1,8 +1,10 @@
 import React from "react";
 import Project from "./components/Project";
+import Skillset from "./components/Skillset";
 import Experience from "./components/Experience";
 import "./App.css";
 import "./styles/project.css";
+import "./styles/skillset.css";
 import "./styles/experience.css";
 
 function App() {
@@ -75,6 +77,30 @@ function App() {
           <a href="https://github.com/CompSciLauren" target="_blank">
             <button className="Header-btn">See all projects on GitHub ></button>
           </a>
+
+          <h1>Blog</h1>
+          <h2>Recent Post 1</h2>
+          <h2>Recent Post 2</h2>
+          <h2>Recent Post 3</h2>
+          <h2>Recent Post 4</h2>
+          <h2>Recent Post 5</h2>
+          <button className="Header-btn">See all blog posts ></button>
+
+          <h1>Skills</h1>
+          <Skillset title="HTML, CSS" skills="HTML, CSS, Bootstrap"></Skillset>
+          <Skillset
+            title="JavaScript"
+            skills="JavaScript, React, React Native, Node"
+          ></Skillset>
+          <Skillset
+            title="Methods"
+            skills="Git, Agile, Unit Testing, Integration Testing, CI/CD"
+          ></Skillset>
+          <Skillset
+            title="Other"
+            skills="C#, C++, Java, Haskell, MySQL"
+          ></Skillset>
+
           <h1>Experience</h1>
           <div className="experience-grid-container">
             <Experience
@@ -111,6 +137,17 @@ function App() {
                 </ul>
               }
             ></Experience>
+
+            <h1>Awards</h1>
+            <p>1, 2, 3, 4</p>
+
+            <h1>Leadership & Involvement</h1>
+            <p>Text</p>
+
+            <h1>Thanks!</h1>
+            <h2>Want to get in touch?</h2>
+            <p>CompSciLauren@gmail.com</p>
+            <p>Linkedin, Twitter, GitHub</p>
           </div>
         </div>
       </div>
