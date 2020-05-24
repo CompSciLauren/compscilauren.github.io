@@ -139,10 +139,45 @@ function App() {
             ></Experience>
 
             <h1>Awards</h1>
-            <p>1, 2, 3, 4</p>
+            <p>
+              KU student team placed 3rd overall in KC Federal Reserve
+              Code-A-Thon 2019
+            </p>
+            <p>STEMMy Student Achiever Award, Central Exchange 2018</p>
+            <p>
+              Outstanding Student Award, Johnson County Community College 2018
+            </p>
+            <p>
+              Honors Student Association Member of the Year Nominee, Johnson
+              County Community College 2017
+            </p>
 
             <h1>Leadership & Involvement</h1>
-            <p>Text</p>
+            <p>
+              Co-Founder and Facilitator, Girls Who Code Club, 2018 - present
+            </p>
+            <p>
+              Leadership Challenge 2020 Participant - Competitively selected to
+              represent the KU School of Engineering, 2020
+            </p>
+            <p>Founder and President, Computer Club, 2017 - 2018</p>
+            <p>Co-Founder, KC STEMinists, 2016 - 2018</p>
+            <p>
+              Vice President of Communication, Phi Theta Kappa Honor Society,
+              2017 - 2018
+            </p>
+            <p>
+              Vice President of Communication, American Association of
+              University Women, 2017 - 2018
+            </p>
+            <p>
+              Honors Program Graduate and Civic Leadership Program Graduate at
+              Johnson County Community College, 2018
+            </p>
+            <p>
+              Cavalier Leadership Development Program Graduate with Distinction,
+              2018
+            </p>
 
             <h1>Thanks!</h1>
             <h2>Want to get in touch?</h2>
