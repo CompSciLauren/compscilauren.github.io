@@ -16,3 +16,19 @@
   border-width: 2px;
   border-radius: 8px;
 }
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.individual-skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.individual-skill img {
+  max-height: 70px;
+  width: auto;
+}

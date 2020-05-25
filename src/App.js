@@ -6,6 +6,24 @@ import "./App.css";
 import "./styles/project.css";
 import "./styles/skillset.css";
 import "./styles/experience.css";
+import HTML5Logo from "./images/html5-logo.png";
+import CSS3Logo from "./images/css3-logo.png";
+import BootstrapLogo from "./images/bootstrap-logo.png";
+import JavaScriptLogo from "./images/javascript-logo.png";
+import ReactLogo from "./images/react-logo.png";
+import NodeLogo from "./images/node-logo.png";
+
+import GitLogo from "./images/git-logo.png";
+import AgileLogo from "./images/agile-logo.png";
+import UnitTestingLogo from "./images/unit-testing-logo.png";
+import IntegrationTestingLogo from "./images/integration-testing-logo.png";
+import CICDLogo from "./images/cicd-logo.png";
+
+import CSharpLogo from "./images/csharp-logo.png";
+import CPlusPlusLogo from "./images/cplusplus-logo.png";
+import JavaLogo from "./images/java-logo.png";
+import HaskellLogo from "./images/haskell-logo.png";
+import SQLLogo from "./images/sql-logo.png";
 
 function App() {
   return (
@@ -96,18 +114,101 @@ function App() {
       <div className="Skills-section">
         <div className="Page-wrap">
           <h1>Skills</h1>
-          <Skillset title="HTML, CSS" skills="HTML, CSS, Bootstrap"></Skillset>
+          <Skillset
+            title="HTML, CSS"
+            skills={
+              <div className="skill-list">
+                <div className="individual-skill">
+                  <img src={HTML5Logo}></img>
+                  <p>HTML5</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={CSS3Logo}></img>
+                  <p>CSS3</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={BootstrapLogo}></img>
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+            }
+          ></Skillset>
           <Skillset
             title="JavaScript"
-            skills="JavaScript, React, React Native, Node"
+            skills={
+              <div className="skill-list">
+                <div className="individual-skill">
+                  <img src={JavaScriptLogo}></img>
+                  <p>JavaScript</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={ReactLogo}></img>
+                  <p>React</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={ReactLogo}></img>
+                  <p>React Native</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={NodeLogo}></img>
+                  <p>Node</p>
+                </div>
+              </div>
+            }
           ></Skillset>
           <Skillset
             title="Methods"
-            skills="Git, Agile, Unit Testing, Integration Testing, CI/CD"
+            skills={
+              <div className="skill-list">
+                <div className="individual-skill">
+                  <img src={GitLogo}></img>
+                  <p>Git</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={AgileLogo}></img>
+                  <p>Agile</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={UnitTestingLogo}></img>
+                  <p>Unit Testing</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={IntegrationTestingLogo}></img>
+                  <p>Integration Testing</p>
+                </div>
+                <div className="individual-skill">
+                  <img src={CICDLogo}></img>
+                  <p>CI/CD</p>
+                </div>
+              </div>
+            }
           ></Skillset>
           <Skillset
             title="Other"
-            skills="C#, C++, Java, Haskell, MySQL"
+            skills={
+              <div className="skill-list">
+                <div className="individual-skill">
+                  <img src={CSharpLogo}></img>
+                  <p>C#</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={CPlusPlusLogo}></img>
+                  <p>C++</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={JavaLogo}></img>
+                  <p>Java</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={HaskellLogo}></img>
+                  <p>Haskell</p>
+                </div>{" "}
+                <div className="individual-skill">
+                  <img src={SQLLogo}></img>
+                  <p>SQL</p>
+                </div>
+              </div>
+            }
           ></Skillset>
         </div>
       </div>

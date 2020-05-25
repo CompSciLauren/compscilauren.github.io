@@ -4,7 +4,8 @@ const Skillset = (props) => {
   return (
     <div class="skillset-grid-item">
       <h2>{props.title}</h2>
-      <p>{props.skills}</p>
+      <hr></hr>
+      {props.skills}
     </div>
   );
 };
