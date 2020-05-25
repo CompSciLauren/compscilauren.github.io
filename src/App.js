@@ -24,6 +24,7 @@ function App() {
           </a>
         </div>
       </header>
+
       <div className="Projects-section">
         <div className="Page-wrap">
           <h1 id="portfolio-section">Projects</h1>
@@ -77,7 +78,11 @@ function App() {
           <a href="https://github.com/CompSciLauren" target="_blank">
             <button className="Header-btn">See all projects on GitHub ></button>
           </a>
+        </div>
+      </div>
 
+      <div className="Blog-section">
+        <div className="Page-wrap">
           <h1>Blog</h1>
           <h2>Recent Post 1</h2>
           <h2>Recent Post 2</h2>
@@ -85,7 +90,11 @@ function App() {
           <h2>Recent Post 4</h2>
           <h2>Recent Post 5</h2>
           <button className="Header-btn">See all blog posts ></button>
+        </div>
+      </div>
 
+      <div className="Skills-section">
+        <div className="Page-wrap">
           <h1>Skills</h1>
           <Skillset title="HTML, CSS" skills="HTML, CSS, Bootstrap"></Skillset>
           <Skillset
@@ -100,7 +109,11 @@ function App() {
             title="Other"
             skills="C#, C++, Java, Haskell, MySQL"
           ></Skillset>
+        </div>
+      </div>
 
+      <div className="Experience-section">
+        <div className="Page-wrap">
           <h1>Experience</h1>
           <div className="experience-grid-container">
             <Experience
@@ -137,53 +150,59 @@ function App() {
                 </ul>
               }
             ></Experience>
-
-            <h1>Awards</h1>
-            <p>
-              KU student team placed 3rd overall in KC Federal Reserve
-              Code-A-Thon 2019
-            </p>
-            <p>STEMMy Student Achiever Award, Central Exchange 2018</p>
-            <p>
-              Outstanding Student Award, Johnson County Community College 2018
-            </p>
-            <p>
-              Honors Student Association Member of the Year Nominee, Johnson
-              County Community College 2017
-            </p>
-
-            <h1>Leadership & Involvement</h1>
-            <p>
-              Co-Founder and Facilitator, Girls Who Code Club, 2018 - present
-            </p>
-            <p>
-              Leadership Challenge 2020 Participant - Competitively selected to
-              represent the KU School of Engineering, 2020
-            </p>
-            <p>Founder and President, Computer Club, 2017 - 2018</p>
-            <p>Co-Founder, KC STEMinists, 2016 - 2018</p>
-            <p>
-              Vice President of Communication, Phi Theta Kappa Honor Society,
-              2017 - 2018
-            </p>
-            <p>
-              Vice President of Communication, American Association of
-              University Women, 2017 - 2018
-            </p>
-            <p>
-              Honors Program Graduate and Civic Leadership Program Graduate at
-              Johnson County Community College, 2018
-            </p>
-            <p>
-              Cavalier Leadership Development Program Graduate with Distinction,
-              2018
-            </p>
           </div>
         </div>
       </div>
-      <div className="triangle"></div>
+
+      <div className="Awards-section">
+        <div className="Page-wrap">
+          <h1>Awards</h1>
+          <p>
+            KU student team placed 3rd overall in KC Federal Reserve Code-A-Thon
+            2019
+          </p>
+          <p>STEMMy Student Achiever Award, Central Exchange 2018</p>
+          <p>
+            Outstanding Student Award, Johnson County Community College 2018
+          </p>
+          <p>
+            Honors Student Association Member of the Year Nominee, Johnson
+            County Community College 2017
+          </p>
+        </div>
+      </div>
+
+      <div className="Involvement-section">
+        <div className="Page-wrap">
+          <h1>Leadership & Involvement</h1>
+          <p>Co-Founder and Facilitator, Girls Who Code Club, 2018 - present</p>
+          <p>
+            Leadership Challenge 2020 Participant - Competitively selected to
+            represent the KU School of Engineering, 2020
+          </p>
+          <p>Founder and President, Computer Club, 2017 - 2018</p>
+          <p>Co-Founder, KC STEMinists, 2016 - 2018</p>
+          <p>
+            Vice President of Communication, Phi Theta Kappa Honor Society, 2017
+            - 2018
+          </p>
+          <p>
+            Vice President of Communication, American Association of University
+            Women, 2017 - 2018
+          </p>
+          <p>
+            Honors Program Graduate and Civic Leadership Program Graduate at
+            Johnson County Community College, 2018
+          </p>
+          <p>
+            Cavalier Leadership Development Program Graduate with Distinction,
+            2018
+          </p>
+        </div>
+      </div>
 
       <div className="Footer-section">
+        <div className="triangle"></div>
         <h1>Thanks!</h1>
         <h2>Want to chat?</h2>
         <p>CompSciLauren@gmail.com</p>
