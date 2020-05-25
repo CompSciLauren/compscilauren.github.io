@@ -262,24 +262,19 @@ function App() {
           <h1>Awards</h1>
           <div className="award-grid-container">
             <Award
-              description="3rd Place in KC Federal Reserve Hackathon"
+              title="3rd Place in Hackathon"
               organization="KC Federal Reserve"
               year="2019"
             ></Award>
             <Award
-              description="STEMMy Student Achiever Award"
+              title="STEMMy Student Achiever Award"
               organization="Central Exchange"
               year="2018"
             ></Award>
             <Award
-              description="Outstanding Student Award"
+              title="Outstanding Student Award"
               organization="Johnson County Community College"
               year="2018"
-            ></Award>
-            <Award
-              description="Honors Student Association Member of the Year Nominee"
-              organization="Johnson County Community College"
-              year="2017"
             ></Award>
           </div>
         </div>
