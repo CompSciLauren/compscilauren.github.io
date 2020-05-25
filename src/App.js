@@ -1,10 +1,12 @@
 import React from "react";
 import Project from "./components/Project";
+import BlogPost from "./components/BlogPost";
 import Skillset from "./components/Skillset";
 import Experience from "./components/Experience";
 import Award from "./components/Award";
 import "./App.css";
 import "./styles/project.css";
+import "./styles/blogpost.css";
 import "./styles/skillset.css";
 import "./styles/experience.css";
 import "./styles/award.css";
@@ -106,11 +108,11 @@ function App() {
       <div className="Blog-section">
         <div className="Page-wrap">
           <h1>Blog</h1>
-          <h2>Recent Post 1</h2>
-          <h2>Recent Post 2</h2>
-          <h2>Recent Post 3</h2>
-          <h2>Recent Post 4</h2>
-          <h2>Recent Post 5</h2>
+          <BlogPost title="Recent Post 1" date="May 29th, 2020"></BlogPost>
+          <BlogPost title="Recent Post 2" date="June 5th, 2020"></BlogPost>
+          <BlogPost title="Recent Post 3" date="June 12th, 2020"></BlogPost>
+          <BlogPost title="Recent Post 4" date="June 19th, 2020"></BlogPost>
+          <BlogPost title="Recent Post 5" date="June 26th, 2020"></BlogPost>
           <button className="Header-btn">See all blog posts ></button>
         </div>
       </div>
