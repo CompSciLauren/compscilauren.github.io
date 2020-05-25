@@ -3,11 +3,13 @@
   grid-template-columns: auto auto auto;
 }
 .projects-grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 250px;
   background-color: #9561e2;
   padding: 20px;
   margin: 20px;
-  font-size: 16px;
   text-align: center;
   box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
   opacity: 80%;
@@ -15,6 +17,14 @@
   border-color: #fcfbeb;
   border-width: 2px;
   border-radius: 8px;
+}
+
+.projects-grid-item h2 {
+  font-size: 28px;
+}
+
+.projects-grid-item p {
+  font-size: 18px;
 }
 
 .projects-grid-item:hover {
@@ -26,5 +36,5 @@
 
 .tool-list {
   color: #fff382;
-  font-size: 14px;
+  font-size: 16px;
 }
