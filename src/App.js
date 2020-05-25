@@ -8,6 +8,7 @@ import "./styles/project.css";
 import "./styles/skillset.css";
 import "./styles/experience.css";
 import "./styles/award.css";
+import "./styles/involvement.css";
 import HTML5Logo from "./images/html5-logo.png";
 import CSS3Logo from "./images/css3-logo.png";
 import BootstrapLogo from "./images/bootstrap-logo.png";
@@ -26,6 +27,7 @@ import CPlusPlusLogo from "./images/cplusplus-logo.png";
 import JavaLogo from "./images/java-logo.png";
 import HaskellLogo from "./images/haskell-logo.png";
 import SQLLogo from "./images/sql-logo.png";
+import Involvement from "./components/Involvement";
 
 function App() {
   return (
@@ -283,29 +285,66 @@ function App() {
       <div className="Involvement-section">
         <div className="Page-wrap">
           <h1>Leadership & Involvement</h1>
-          <p>Co-Founder and Facilitator, Girls Who Code Club, 2018 - present</p>
-          <p>
-            Leadership Challenge 2020 Participant - Competitively selected to
-            represent the KU School of Engineering, 2020
-          </p>
-          <p>Founder and President, Computer Club, 2017 - 2018</p>
-          <p>Co-Founder, KC STEMinists, 2016 - 2018</p>
-          <p>
-            Vice President of Communication, Phi Theta Kappa Honor Society, 2017
-            - 2018
-          </p>
-          <p>
-            Vice President of Communication, American Association of University
-            Women, 2017 - 2018
-          </p>
-          <p>
-            Honors Program Graduate and Civic Leadership Program Graduate at
-            Johnson County Community College, 2018
-          </p>
-          <p>
-            Cavalier Leadership Development Program Graduate with Distinction,
-            2018
-          </p>
+          <Involvement
+            company="Girls Who Code Club"
+            job="Co-Founder and Facilitator"
+            startDate="2018"
+            endDate="Present"
+            accomplishments={
+              <ul>
+                <li>Text</li>
+              </ul>
+            }
+          ></Involvement>
+          <Involvement
+            company="Leadership Challenge"
+            job="Participant; Competitively selected to
+            represent KU School of Engineering"
+            startDate="2020"
+            endDate="2020"
+          ></Involvement>
+          <Involvement
+            company="Computer Club"
+            job="Founder and President"
+            startDate="2017"
+            endDate="2018"
+          ></Involvement>
+          <Involvement
+            company="KC STEMinists"
+            job="Co-Founder"
+            startDate="2016"
+            endDate="2018"
+          ></Involvement>
+          <Involvement
+            company="Phi Theta Kappa Honor Society"
+            job="Vice President of Communication"
+            startDate="2017"
+            endDate="2018"
+          ></Involvement>
+          <Involvement
+            company="American Association of University Women"
+            job="Vice President of Communication"
+            startDate="2017"
+            endDate="2018"
+          ></Involvement>
+          <Involvement
+            company="Honors Program"
+            job="Graduate"
+            startDate="2018"
+            endDate="2018"
+          ></Involvement>
+          <Involvement
+            company="Civic Leadership Program"
+            job="Graduate"
+            startDate="2018"
+            endDate="2018"
+          ></Involvement>
+          <Involvement
+            company="Cavalier Leadership Development Program"
+            job="Graduate with Distinction"
+            startDate="2018"
+            endDate="2018"
+          ></Involvement>
         </div>
       </div>
 
