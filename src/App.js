@@ -2,10 +2,12 @@ import React from "react";
 import Project from "./components/Project";
 import Skillset from "./components/Skillset";
 import Experience from "./components/Experience";
+import Award from "./components/Award";
 import "./App.css";
 import "./styles/project.css";
 import "./styles/skillset.css";
 import "./styles/experience.css";
+import "./styles/award.css";
 import HTML5Logo from "./images/html5-logo.png";
 import CSS3Logo from "./images/css3-logo.png";
 import BootstrapLogo from "./images/bootstrap-logo.png";
@@ -258,18 +260,28 @@ function App() {
       <div className="Awards-section">
         <div className="Page-wrap">
           <h1>Awards</h1>
-          <p>
-            KU student team placed 3rd overall in KC Federal Reserve Code-A-Thon
-            2019
-          </p>
-          <p>STEMMy Student Achiever Award, Central Exchange 2018</p>
-          <p>
-            Outstanding Student Award, Johnson County Community College 2018
-          </p>
-          <p>
-            Honors Student Association Member of the Year Nominee, Johnson
-            County Community College 2017
-          </p>
+          <div className="award-grid-container">
+            <Award
+              description="3rd Place in KC Federal Reserve Hackathon"
+              organization="KC Federal Reserve"
+              year="2019"
+            ></Award>
+            <Award
+              description="STEMMy Student Achiever Award"
+              organization="Central Exchange"
+              year="2018"
+            ></Award>
+            <Award
+              description="Outstanding Student Award"
+              organization="Johnson County Community College"
+              year="2018"
+            ></Award>
+            <Award
+              description="Honors Student Association Member of the Year Nominee"
+              organization="Johnson County Community College"
+              year="2017"
+            ></Award>
+          </div>
         </div>
       </div>
 
