@@ -306,66 +306,68 @@ function App() {
       <div className="Involvement-section">
         <div className="Page-wrap">
           <h1>Leadership & Involvement</h1>
-          <Involvement
-            company="Girls Who Code Club"
-            job="Co-Founder and Facilitator"
-            startDate="2018"
-            endDate="Present"
-            accomplishments={
-              <ul>
-                <li>Text</li>
-              </ul>
-            }
-          ></Involvement>
-          <Involvement
-            company="Leadership Challenge"
-            job="Participant; Competitively selected to
+          <div className="involvement-grid-container">
+            <Involvement
+              company="Girls Who Code Club"
+              job="Co-Founder and Facilitator"
+              startDate="2018"
+              endDate="Present"
+              accomplishments={
+                <ul>
+                  <li>Text</li>
+                </ul>
+              }
+            ></Involvement>
+            <Involvement
+              company="Leadership Challenge"
+              job="Participant; Competitively selected to
             represent KU School of Engineering"
-            startDate="2020"
-            endDate="2020"
-          ></Involvement>
-          <Involvement
-            company="Computer Club"
-            job="Founder and President"
-            startDate="2017"
-            endDate="2018"
-          ></Involvement>
-          <Involvement
-            company="KC STEMinists"
-            job="Co-Founder"
-            startDate="2016"
-            endDate="2018"
-          ></Involvement>
-          <Involvement
-            company="Phi Theta Kappa Honor Society"
-            job="Vice President of Communication"
-            startDate="2017"
-            endDate="2018"
-          ></Involvement>
-          <Involvement
-            company="American Association of University Women"
-            job="Vice President of Communication"
-            startDate="2017"
-            endDate="2018"
-          ></Involvement>
-          <Involvement
-            company="Honors Program"
-            job="Graduate"
-            startDate="2018"
-            endDate="2018"
-          ></Involvement>
-          <Involvement
-            company="Civic Leadership Program"
-            job="Graduate"
-            startDate="2018"
-            endDate="2018"
-          ></Involvement>
-          <Involvement
-            company="Cavalier Leadership Development Program"
-            job="Graduate with Distinction"
-            startDate="2018"
-            endDate="2018"
-          ></Involvement>
+              startDate="2020"
+              endDate="2020"
+            ></Involvement>
+            <Involvement
+              company="Computer Club"
+              job="Founder and President"
+              startDate="2017"
+              endDate="2018"
+            ></Involvement>
+            <Involvement
+              company="KC STEMinists"
+              job="Co-Founder"
+              startDate="2016"
+              endDate="2018"
+            ></Involvement>
+            <Involvement
+              company="Phi Theta Kappa Honor Society"
+              job="Vice President of Communication"
+              startDate="2017"
+              endDate="2018"
+            ></Involvement>
+            <Involvement
+              company="American Association of University Women"
+              job="Vice President of Communication"
+              startDate="2017"
+              endDate="2018"
+            ></Involvement>
+            <Involvement
+              company="Honors Program"
+              job="Graduate"
+              startDate="2018"
+              endDate="2018"
+            ></Involvement>
+            <Involvement
+              company="Civic Leadership Program"
+              job="Graduate"
+              startDate="2018"
+              endDate="2018"
+            ></Involvement>
+            <Involvement
+              company="Cavalier Leadership Development Program"
+              job="Graduate with Distinction"
+              startDate="2018"
+              endDate="2018"
+            ></Involvement>
+          </div>
         </div>
       </div>
 
