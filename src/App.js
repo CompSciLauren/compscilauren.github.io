@@ -40,9 +40,10 @@ function App() {
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
             <p>
               I'm a software developer in Overland Park, Kansas. I love
-              front-end development and UI/UX design too. I will graduate from
-              the University of Kansas in December 2020 with a bachelor's degree
-              in computer science.
+              front-end development and UI/UX design too. I'm currently
+              interning at Cerner Corporation and will graduate from the
+              University of Kansas in December 2020 with a bachelor's degree in
+              computer science.
             </p>
             <a href="#portfolio-section">
               <button className="Header-btn">See my work!</button>
