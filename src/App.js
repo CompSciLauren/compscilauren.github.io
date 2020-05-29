@@ -99,7 +99,11 @@ function App() {
               builtWith="JavaScript"
             ></Project>
           </div>
-          <a href="https://github.com/CompSciLauren" target="_blank">
+          <a
+            href="https://github.com/CompSciLauren"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="Header-btn">See all projects on GitHub ></button>
           </a>
         </div>
@@ -107,12 +111,27 @@ function App() {
 
       <div className="Blog-section">
         <div className="Page-wrap">
-          <h1>Blog</h1>
-          <BlogPost title="Recent Post 1" date="May 29th, 2020"></BlogPost>
-          <BlogPost title="Recent Post 2" date="June 5th, 2020"></BlogPost>
-          <BlogPost title="Recent Post 3" date="June 12th, 2020"></BlogPost>
-          <BlogPost title="Recent Post 4" date="June 19th, 2020"></BlogPost>
-          <BlogPost title="Recent Post 5" date="June 26th, 2020"></BlogPost>
+          <h1>Latest Articles</h1>
+          <BlogPost
+            title="Recent Post Title 1"
+            date="May 29th, 2020"
+          ></BlogPost>
+          <BlogPost
+            title="Recent Post Title 2"
+            date="June 5th, 2020"
+          ></BlogPost>
+          <BlogPost
+            title="Recent Post Title 3"
+            date="June 12th, 2020"
+          ></BlogPost>
+          <BlogPost
+            title="Recent Post Title 4"
+            date="June 19th, 2020"
+          ></BlogPost>
+          <BlogPost
+            title="Recent Post Title 5"
+            date="June 26th, 2020"
+          ></BlogPost>
           <button className="Header-btn">See all blog posts ></button>
         </div>
       </div>
