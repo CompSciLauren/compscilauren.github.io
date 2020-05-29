@@ -4,10 +4,10 @@ const Involvement = (props) => {
   return (
     <div class="involvement-grid-item">
       <h2>{props.company}</h2>
-      <h3>{props.job}</h3>
-      <p>
+      <p style={{ textAlign: "right" }}>
         {props.startDate} - {props.endDate}
       </p>
+      <h3>{props.job}</h3>
     </div>
   );
 };
