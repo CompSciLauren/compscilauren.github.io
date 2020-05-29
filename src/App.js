@@ -144,15 +144,15 @@ function App() {
             skills={
               <div className="skill-list">
                 <div className="individual-skill">
-                  <img src={HTML5Logo}></img>
+                  <img src={HTML5Logo} alt="HTML5 Logo"></img>
                   <p>HTML5</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={CSS3Logo}></img>
+                  <img src={CSS3Logo} alt="CSS3 Logo"></img>
                   <p>CSS3</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={BootstrapLogo}></img>
+                  <img src={BootstrapLogo} alt="Bootstrap Logo"></img>
                   <p>Bootstrap</p>
                 </div>
               </div>
@@ -163,19 +163,19 @@ function App() {
             skills={
               <div className="skill-list">
                 <div className="individual-skill">
-                  <img src={JavaScriptLogo}></img>
+                  <img src={JavaScriptLogo} alt="JavaScript Logo"></img>
                   <p>JavaScript</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={ReactLogo}></img>
+                  <img src={ReactLogo} alt="React Logo"></img>
                   <p>React</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={ReactLogo}></img>
+                  <img src={ReactLogo} alt="React Logo"></img>
                   <p>React Native</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={NodeLogo}></img>
+                  <img src={NodeLogo} alt="Node Logo"></img>
                   <p>Node</p>
                 </div>
               </div>
@@ -186,23 +186,29 @@ function App() {
             skills={
               <div className="skill-list">
                 <div className="individual-skill">
-                  <img src={GitLogo}></img>
+                  <img src={GitLogo} alt="Git Logo"></img>
                   <p>Git</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={AgileLogo}></img>
+                  <img src={AgileLogo} alt="Agile Logo"></img>
                   <p>Agile</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={UnitTestingLogo}></img>
+                  <img src={UnitTestingLogo} alt="Unit Testing Logo"></img>
                   <p>Unit Testing</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={IntegrationTestingLogo}></img>
+                  <img
+                    src={IntegrationTestingLogo}
+                    alt="Integration Testing Logo"
+                  ></img>
                   <p>Integration Testing</p>
                 </div>
                 <div className="individual-skill">
-                  <img src={CICDLogo}></img>
+                  <img
+                    src={CICDLogo}
+                    alt="Continuous Integration Continuous Development Logo"
+                  ></img>
                   <p>CI/CD</p>
                 </div>
               </div>
@@ -213,23 +219,23 @@ function App() {
             skills={
               <div className="skill-list">
                 <div className="individual-skill">
-                  <img src={CSharpLogo}></img>
+                  <img src={CSharpLogo} alt="C Sharp Logo"></img>
                   <p>C#</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={CPlusPlusLogo}></img>
+                  <img src={CPlusPlusLogo} alt="C Plus Plus Logo"></img>
                   <p>C++</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={JavaLogo}></img>
+                  <img src={JavaLogo} alt="Java Logo"></img>
                   <p>Java</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={HaskellLogo}></img>
+                  <img src={HaskellLogo} alt="Haskell Logo"></img>
                   <p>Haskell</p>
                 </div>{" "}
                 <div className="individual-skill">
-                  <img src={SQLLogo}></img>
+                  <img src={SQLLogo} alt="SQL Logo"></img>
                   <p>SQL</p>
                 </div>
               </div>
