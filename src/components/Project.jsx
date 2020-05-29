@@ -6,7 +6,9 @@ const Project = (props) => {
       <div className="projects-grid-item">
         <h2 style={{ color: "#ffed4a" }}>{props.title}</h2>
         <p>{props.description}</p>
-        <p className="tool-list">Built with {props.builtWith}</p>
+        <p className="tool-list" style={{ fontSize: 18 }}>
+          Built with {props.builtWith}
+        </p>
       </div>
     </a>
   );
