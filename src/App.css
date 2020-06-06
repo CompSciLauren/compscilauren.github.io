@@ -102,8 +102,8 @@
 .triangle {
   width: auto;
   height: 0;
-  border-left: 50vw solid #21183c;
-  border-right: 50vw solid #21183c;
+  border-left: 49vw solid #21183c;
+  border-right: 49vw solid #21183c;
   border-top: 80px solid #f1f5f8;
 }
 
