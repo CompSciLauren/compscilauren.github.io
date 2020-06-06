@@ -149,25 +149,6 @@ function App() {
           <div className="Page-wrap">
             <h1>Skills</h1>
             <Skillset
-              title="HTML, CSS"
-              skills={
-                <div className="skill-list">
-                  <div className="individual-skill">
-                    <img src={HTML5Logo} alt="HTML5 Logo"></img>
-                    <p>HTML5</p>
-                  </div>{" "}
-                  <div className="individual-skill">
-                    <img src={CSS3Logo} alt="CSS3 Logo"></img>
-                    <p>CSS3</p>
-                  </div>{" "}
-                  <div className="individual-skill">
-                    <img src={BootstrapLogo} alt="Bootstrap Logo"></img>
-                    <p>Bootstrap</p>
-                  </div>
-                </div>
-              }
-            ></Skillset>
-            <Skillset
               title="JavaScript"
               skills={
                 <div className="skill-list">
@@ -186,6 +167,25 @@ function App() {
                   <div className="individual-skill">
                     <img src={NodeLogo} alt="Node Logo"></img>
                     <p>Node</p>
+                  </div>
+                </div>
+              }
+            ></Skillset>
+            <Skillset
+              title="HTML, CSS"
+              skills={
+                <div className="skill-list">
+                  <div className="individual-skill">
+                    <img src={HTML5Logo} alt="HTML5 Logo"></img>
+                    <p>HTML5</p>
+                  </div>{" "}
+                  <div className="individual-skill">
+                    <img src={CSS3Logo} alt="CSS3 Logo"></img>
+                    <p>CSS3</p>
+                  </div>{" "}
+                  <div className="individual-skill">
+                    <img src={BootstrapLogo} alt="Bootstrap Logo"></img>
+                    <p>Bootstrap</p>
                   </div>
                 </div>
               }
