@@ -39,8 +39,8 @@ function App() {
           <div className="Page-wrap">
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
             <p>
-              I'm a software developer in Overland Park, Kansas. I love
-              front-end development and UI/UX design too. I'm currently
+              I'm a software developer in Overland Park, Kansas. I'm passionate
+              about front-end development and UI/UX design. I'm currently
               interning at Cerner Corporation and will graduate from the
               University of Kansas in December 2020 with a bachelor's degree in
               computer science.
@@ -49,6 +49,11 @@ function App() {
               <button className="Header-btn">See my work!</button>
             </a>
           </div>
+
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          ></link>
         </header>
 
         <div className="Projects-section">
@@ -387,7 +392,35 @@ function App() {
           <h1>Thanks!</h1>
           <h2>Want to chat?</h2>
           <p>CompSciLauren@gmail.com</p>
-          <p>Linkedin, Twitter, GitHub</p>
+          <div className="social-media-section">
+            <a
+              href="https://www.linkedin.com/in/compscilauren/"
+              aria-label="View Lauren's Linkedin profile"
+            >
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/CompSciLauren"
+              aria-label="View Lauren's Twitter profile"
+            >
+              <i className="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+
+            <a
+              href="https://github.com/compscilauren/"
+              aria-label="View Lauren's GitHub profile"
+            >
+              <i className="fa fa-github" aria-hidden="true"></i>
+            </a>
+
+            <a
+              href="https://www.reddit.com/user/CompSciLauren"
+              aria-label="View Lauren's Reddit profile"
+            >
+              <i className="fa fa-reddit" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
       </main>
     </div>
