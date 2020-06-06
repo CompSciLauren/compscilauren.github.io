@@ -2,7 +2,7 @@ import React from "react";
 
 const Involvement = (props) => {
   return (
-    <div class="involvement-grid-item">
+    <div className="involvement-grid-item">
       <h2>{props.company}</h2>
       <p style={{ textAlign: "right" }}>
         {props.startDate} - {props.endDate}
