@@ -7,7 +7,9 @@ const Involvement = (props) => {
       <p style={{ textAlign: "right" }}>
         {props.startDate} - {props.endDate}
       </p>
-      <h3>{props.job}</h3>
+      <div className="involvement-grid-content">
+        <span>{props.job}</span>
+      </div>
     </div>
   );
 };

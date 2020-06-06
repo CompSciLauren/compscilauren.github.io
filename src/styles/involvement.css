@@ -5,12 +5,12 @@
 .involvement-grid-item {
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-rows: 1fr 30px;
   text-align: left;
-  height: 140px;
+  height: 200px;
   background-color: #f3ebff;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 50px;
   margin: 10px;
   margin-bottom: 30px;
   font-size: 16px;
@@ -19,4 +19,13 @@
   border-color: #453411;
   border-width: 2px;
   border-radius: 12px;
+}
+.involvement-grid-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  grid-column: 1 / span 2;
+  font-size: 24px;
+  font-weight: 500;
 }
