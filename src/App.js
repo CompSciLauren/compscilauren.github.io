@@ -153,7 +153,9 @@ function App() {
               title="Recent Post Title 5"
               date="July 6th, 2020"
             ></BlogPost>
-            <button className="Header-btn">See all blog posts ></button>
+            <a href="/blog" target="_blank">
+              <button className="Header-btn">See all blog posts ></button>
+            </a>
           </div>
         </div>
 
