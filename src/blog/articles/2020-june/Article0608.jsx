@@ -11,7 +11,7 @@ function Article0608() {
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1>Improve your Git workflow and save time with Git Hooks</h1>
-          <BlogProfileTop date="July 8th, 2020" readTime="9 min" />
+          <BlogProfileTop date="June 8th, 2020" readTime="5 min" />
           <div className="tag-container">
             <Tag title="git" />
             <Tag title="automation" />

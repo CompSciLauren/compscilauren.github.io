@@ -32,7 +32,7 @@ import SQLLogo from "../images/sql-logo.png";
 import Involvement from "../components/Involvement";
 import CommunityImpact from "../images/community-involvement.jpg";
 
-import Contact from "../contact/contact";
+import Contact from "../components/Contact";
 
 function home() {
   return (
@@ -41,7 +41,7 @@ function home() {
         <header className="App-header">
           <div className="Page-wrap">
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
-            <p>
+            <p className="header-description">
               I'm a software developer in Overland Park, Kansas. I'm passionate
               about front-end development and UI/UX design. I'm currently
               interning at Cerner Corporation and will graduate from the
@@ -61,7 +61,9 @@ function home() {
 
         <div className="Projects-section">
           <div className="Page-wrap">
-            <h1 id="portfolio-section">Projects</h1>
+            <h1 className="homeHeader" id="portfolio-section">
+              Projects
+            </h1>
             <div className="projects-grid-container">
               <Project
                 link="https://www.nexusmods.com/stardewvalley/mods/4779"
@@ -123,14 +125,16 @@ function home() {
 
         <div className="Blog-section">
           <div className="Page-wrap">
-            <h1 id="latest-articles">Latest Articles</h1>
-            <BlogPost
+            <h1 className="homeHeader" id="latest-articles">
+              Latest Articles
+            </h1>
+            {/* <BlogPost
               title="Recent Post Title 1"
-              date="June 8th, 2020"
+              date="July 6th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 2"
-              date="June 15th, 2020"
+              date="June 29th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 3"
@@ -138,13 +142,14 @@ function home() {
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 4"
-              date="June 29th, 2020"
-            ></BlogPost>
+              date="June 15th, 2020"
+            ></BlogPost> */}
             <BlogPost
-              title="Recent Post Title 5"
-              date="July 6th, 2020"
+              title="Improve your Git workflow and save time with Git Hooks"
+              date="June 8th, 2020"
+              link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
             ></BlogPost>
-            <a href="/blog" target="_blank">
+            <a href="/blog">
               <button className="Header-btn">See all blog posts ></button>
             </a>
           </div>
@@ -152,7 +157,9 @@ function home() {
 
         <div className="Skills-section">
           <div className="Page-wrap">
-            <h1 id="skills">Skills</h1>
+            <h1 className="homeHeader" id="skills">
+              Skills
+            </h1>
             <Skillset
               title="JavaScript"
               skills={
@@ -260,7 +267,9 @@ function home() {
 
         <div className="Experience-section">
           <div className="Page-wrap">
-            <h1 id="experience">Experience</h1>
+            <h1 className="homeHeader" id="experience">
+              Experience
+            </h1>
             <div className="experience-grid-container">
               <Experience
                 company="Cerner Corporation"
@@ -303,7 +312,9 @@ function home() {
 
         <div className="Awards-section">
           <div className="Page-wrap">
-            <h1 id="awards">Awards</h1>
+            <h1 className="homeHeader" id="awards">
+              Awards
+            </h1>
             <div className="award-grid-container">
               <Award
                 title="3rd Place in Hackathon"
@@ -326,7 +337,9 @@ function home() {
 
         <div className="Involvement-section">
           <div className="Page-wrap">
-            <h1 id="community-impact">Community Impact</h1>
+            <h1 className="homeHeader" id="community-impact">
+              Community Impact
+            </h1>
             <div className="involvement-container">
               <div className="involvement-item">
                 <img
@@ -336,7 +349,7 @@ function home() {
                 ></img>
               </div>
               <div className="involvement-item">
-                <p>
+                <p className="involvement-description">
                   I have been an active volunteer in my local community for
                   several years. I have started several computer science
                   education organizations, organized many educational events
@@ -344,11 +357,11 @@ function home() {
                   at a small number of events. Most often, you'll find me
                   mentoring young learners and teaching in small group settings.
                 </p>
-                <p>
+                <p className="involvement-description">
                   I'm currently focusing on facilitating a local Girls Who Code
                   Club for students in 6th - 12th grade.
                 </p>
-                <p>
+                <p className="involvement-description">
                   Below are some of the things I've been especially involved in
                   over the last few years.
                 </p>

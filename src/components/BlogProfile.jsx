@@ -25,6 +25,8 @@ function BlogProfile() {
         </p>
         <a
           href="https://www.linkedin.com/in/compscilauren/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="View Lauren's Linkedin profile"
         >
           <i className="fa fa-linkedin" aria-hidden="true"></i>
@@ -32,6 +34,8 @@ function BlogProfile() {
 
         <a
           href="https://twitter.com/CompSciLauren"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="View Lauren's Twitter profile"
         >
           <i className="fa fa-twitter" aria-hidden="true"></i>
@@ -39,6 +43,8 @@ function BlogProfile() {
 
         <a
           href="https://github.com/compscilauren/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="View Lauren's GitHub profile"
         >
           <i className="fa fa-github" aria-hidden="true"></i>
@@ -46,6 +52,8 @@ function BlogProfile() {
 
         <a
           href="https://www.reddit.com/user/CompSciLauren"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="View Lauren's Reddit profile"
         >
           <i className="fa fa-reddit" aria-hidden="true"></i>

@@ -1,6 +1,15 @@
-h1 {
+.blogTitle {
   padding-top: 0px;
   margin: 16px;
+  text-decoration: none;
+  font-size: 48px;
+}
+
+.blogHeader {
+  padding-top: 0px;
+  margin: 16px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 p {
@@ -17,6 +26,7 @@ p {
 .blog-page-wrap {
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 60px;
   width: 56%;
   padding: 30px;
   border: 2px solid #b8c2cc;
