@@ -12,7 +12,6 @@
   margin: 20px;
   text-align: center;
   box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
-  opacity: 100%;
   border-style: solid;
   border-color: #fcfbeb;
   border-width: 2px;
@@ -28,7 +27,6 @@
 }
 
 .projects-grid-item:hover {
-  opacity: 100%;
   border-style: solid;
   border-width: 2px;
   border-color: #453411;
