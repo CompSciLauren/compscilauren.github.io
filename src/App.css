@@ -14,6 +14,24 @@
   color: #fcfbeb;
 }
 
+.NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #794acf;
+  z-index: 1;
+}
+
+.NavBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .Page-wrap {
   margin: auto;
   width: 65%;
@@ -52,6 +70,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: #fff;
+  padding-bottom: 40px;
 }
 
 .Blog-section {
@@ -61,6 +80,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: #f1f5f8;
+  padding-bottom: 40px;
 }
 
 .Skills-section {
@@ -70,6 +90,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: #fff;
+  padding-bottom: 40px;
 }
 
 .Experience-section {
@@ -79,6 +100,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: #f1f5f8;
+  padding-bottom: 40px;
 }
 
 .Awards-section {
@@ -88,6 +110,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: #fff;
+  padding-bottom: 40px;
 }
 
 .Involvement-section {
@@ -97,6 +120,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   background-color: #f1f5f8;
+  padding-bottom: 40px;
 }
 
 .triangle {

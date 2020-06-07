@@ -37,6 +37,17 @@ function App() {
     <div className="App">
       <main id="main-content">
         <header className="App-header">
+          <div className="NavBar">
+            <a className="active" href="#portfolio-section">
+              Projects
+            </a>
+            <a href="#latest-articles">Latest Articles</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#awards">Awards</a>
+            <a href="#community-impact">Community Impact</a>
+            <a href="#contact">Contact</a>
+          </div>
           <div className="Page-wrap">
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
             <p>
@@ -121,7 +132,7 @@ function App() {
 
         <div className="Blog-section">
           <div className="Page-wrap">
-            <h1>Latest Articles</h1>
+            <h1 id="latest-articles">Latest Articles</h1>
             <BlogPost
               title="Recent Post Title 1"
               date="May 29th, 2020"
@@ -148,7 +159,7 @@ function App() {
 
         <div className="Skills-section">
           <div className="Page-wrap">
-            <h1>Skills</h1>
+            <h1 id="skills">Skills</h1>
             <Skillset
               title="JavaScript"
               skills={
@@ -256,7 +267,7 @@ function App() {
 
         <div className="Experience-section">
           <div className="Page-wrap">
-            <h1>Experience</h1>
+            <h1 id="experience">Experience</h1>
             <div className="experience-grid-container">
               <Experience
                 company="Cerner Corporation"
@@ -299,7 +310,7 @@ function App() {
 
         <div className="Awards-section">
           <div className="Page-wrap">
-            <h1>Awards</h1>
+            <h1 id="awards">Awards</h1>
             <div className="award-grid-container">
               <Award
                 title="3rd Place in Hackathon"
@@ -322,7 +333,7 @@ function App() {
 
         <div className="Involvement-section">
           <div className="Page-wrap">
-            <h1>Community Impact</h1>
+            <h1 id="community-impact">Community Impact</h1>
             <div className="involvement-container">
               <div className="involvement-item">
                 <img
@@ -417,7 +428,7 @@ function App() {
 
         <div className="Footer-section">
           <div className="triangle"></div>
-          <h1>Thanks!</h1>
+          <h1 id="contact">Thanks!</h1>
           <h2>Want to chat?</h2>
           <p>CompSciLauren@gmail.com</p>
           <div className="social-media-section">
