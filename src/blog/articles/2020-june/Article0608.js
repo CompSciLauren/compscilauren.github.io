@@ -2,14 +2,21 @@ import React from "react";
 import "../../blog.css";
 import "../../../home/home.css";
 import BlogProfile from "../../../components/BlogProfile";
+import BlogProfileTop from "../../../components/BlogProfileTop";
+import Tag from "../../../components/Tag";
 
 function Article0608() {
   return (
     <>
       <main id="main-content">
-        <h1>hi</h1>
         <div className="blog-page-wrap">
           <h1>Improve your Git workflow and save time with Git Hooks</h1>
+          <BlogProfileTop date="July 8th, 2020" readTime="9 min" />
+          <div className="tag-container">
+            <Tag title="git" />
+            <Tag title="automation" />
+          </div>
+          <hr></hr>
           <p>
             You've probably heard of GitHub. You probably use Git for version
             control at work. But one interesting feature you probably haven't

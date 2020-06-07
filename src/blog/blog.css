@@ -29,6 +29,13 @@ p {
   margin-top: 64px;
 }
 
+.blogprofiletop-grid-container {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+  margin-top: 64px;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -61,4 +68,9 @@ p {
 .fa-github {
   background: black;
   color: white;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: row;
 }
