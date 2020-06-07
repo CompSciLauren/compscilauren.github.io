@@ -135,23 +135,23 @@ function App() {
             <h1 id="latest-articles">Latest Articles</h1>
             <BlogPost
               title="Recent Post Title 1"
-              date="May 29th, 2020"
+              date="June 8th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 2"
-              date="June 5th, 2020"
+              date="June 15th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 3"
-              date="June 12th, 2020"
+              date="June 22nd, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 4"
-              date="June 19th, 2020"
+              date="June 29th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 5"
-              date="June 26th, 2020"
+              date="July 6th, 2020"
             ></BlogPost>
             <button className="Header-btn">See all blog posts ></button>
           </div>
