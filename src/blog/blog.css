@@ -1,0 +1,64 @@
+h1 {
+  padding-top: 0px;
+  margin: 16px;
+}
+
+p {
+  margin: 16px;
+  font-size: 20px;
+}
+
+.blog-home-page-wrap {
+  margin: auto;
+  margin-top: 100px;
+  width: 56%;
+}
+
+.blog-page-wrap {
+  margin: auto;
+  margin-top: 100px;
+  width: 56%;
+  padding: 30px;
+  border: 2px solid #b8c2cc;
+}
+
+.blogprofile-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 16px;
+  margin-top: 64px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
