@@ -1,0 +1,22 @@
+.blogpost-grid-container {
+  display: flex;
+  flex-direction: column;
+}
+.blogpost-grid-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  background-color: #f3ebff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-color: #453411;
+  border-width: 2px;
+  border-radius: 12px;
+}

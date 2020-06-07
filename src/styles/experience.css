@@ -1,0 +1,23 @@
+.experience-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+.experience-grid-item {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 250px;
+  background-color: #f3ebff;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-color: #453411;
+  border-width: 2px;
+  border-radius: 12px;
+}
+.experience-grid-subitem {
+  text-align: left;
+}

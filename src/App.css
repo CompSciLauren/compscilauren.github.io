@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("images/header_image.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fcfbeb;
+}
+
+.NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #794acf;
+  z-index: 1;
+}
+
+.NavBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.Page-wrap {
+  margin: auto;
+  width: 65%;
+}
+
+.Header-btn {
+  transition-duration: 0.4s;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #ffed4a;
+  color: #453411;
+  opacity: 90%;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: #fcfbeb;
+  border-width: 2px;
+  box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Header-btn:hover {
+  opacity: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #453411;
+}
+
+.Intro {
+  font-size: 48px;
+}
+
+.Projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+.Blog-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #f1f5f8;
+  padding-bottom: 40px;
+}
+
+.Skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+.Experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #f1f5f8;
+  padding-bottom: 40px;
+}
+
+.Awards-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+.Involvement-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #f1f5f8;
+  padding-bottom: 40px;
+}
+
+.triangle {
+  width: auto;
+  height: 0;
+  border-left: 49vw solid #21183c;
+  border-right: 49vw solid #21183c;
+  border-top: 80px solid #f1f5f8;
+}
+
+.Footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fcfbeb;
+  background-color: #21183c;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-github {
+  background: white;
+  color: black;
+}

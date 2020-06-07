@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Gill Sans", "Segoe Print", "Segoe UI", -apple-system,
+    BlinkMacSystemFont, "Roboto", "Ubuntu", Sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  margin-bottom: 40px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Segoe UI", monospace;
+}
+
+h1 {
+  text-decoration: underline;
+  padding-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+hr {
+  color: #f1f5f8;
+}

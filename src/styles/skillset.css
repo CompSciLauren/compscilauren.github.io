@@ -1,0 +1,34 @@
+.skillset-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+.skillset-grid-item {
+  height: 150px;
+  background-color: #f3ebff;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-color: #453411;
+  border-width: 2px;
+  border-radius: 12px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.individual-skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.individual-skill img {
+  max-height: 70px;
+  width: auto;
+}
