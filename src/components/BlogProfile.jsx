@@ -18,9 +18,10 @@ function BlogProfile() {
       <div>
         <p style={{ fontSize: "24px" }}>Lauren Stephenson</p>
         <p style={{ fontSize: "16px" }}>
-          Intern at Cerner Corporation. 1st Generation Computer Science Major,
-          graduating December 2020. Stardew Valley Modder. Sleep Enthusiast.
-          JavaScript, React, UI Design, Open Source. she/her
+          Software Intern at Cerner Corporation. First generation college
+          student majoring in computer science and graduating in December 2020.
+          Stardew Valley Modder. Sleep Enthusiast. JavaScript, React, UI Design,
+          Open Source. she/her
         </p>
         <a
           href="https://www.linkedin.com/in/compscilauren/"
