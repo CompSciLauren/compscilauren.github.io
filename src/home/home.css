@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-image: url("images/header_image.png");
+  background-image: url("../images/header_image.png");
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -12,6 +12,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #fcfbeb;
+}
+
+.NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #794acf;
+  z-index: 1;
+}
+
+.NavBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .Page-wrap {
