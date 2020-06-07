@@ -1,16 +1,17 @@
 .involvement-grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
+  margin-top: 30px;
 }
 .involvement-grid-item {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 1fr 30px;
   text-align: left;
-  height: 200px;
   background-color: #f3ebff;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 15px;
   margin: 10px;
   margin-bottom: 30px;
   font-size: 16px;
@@ -28,4 +29,10 @@
   grid-column: 1 / span 2;
   font-size: 24px;
   font-weight: 500;
+  font-style: italic;
+}
+.involvement-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: left;
 }

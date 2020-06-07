@@ -30,6 +30,7 @@ import JavaLogo from "./images/java-logo.png";
 import HaskellLogo from "./images/haskell-logo.png";
 import SQLLogo from "./images/sql-logo.png";
 import Involvement from "./components/Involvement";
+import CommunityImpact from "./images/community-involvement.jpg";
 
 function App() {
   return (
@@ -321,11 +322,38 @@ function App() {
 
         <div className="Involvement-section">
           <div className="Page-wrap">
-            <h1>Leadership & Involvement</h1>
+            <h1>Community Impact</h1>
+            <div className="involvement-container">
+              <div className="involvement-item">
+                <img
+                  src={CommunityImpact}
+                  alt="Collage of photos showing involvement in community"
+                  style={{ marginRight: "30px" }}
+                ></img>
+              </div>
+              <div className="involvement-item">
+                <p>
+                  I have been an active volunteer in my local community for
+                  several years. I have started several computer science
+                  education organizations, organized many educational events
+                  about computer science as well as women's issues, and spoken
+                  at a small number of events. Most often, you'll find me
+                  mentoring young learners and teaching in small group settings.
+                </p>
+                <p>
+                  I'm currently focusing on facilitating a local Girls Who Code
+                  Club for students in 6th - 12th grade.
+                </p>
+                <p>
+                  Below are some of the things I've been especially involved in
+                  over the last few years.
+                </p>
+              </div>
+            </div>
             <div className="involvement-grid-container">
               <Involvement
-                company="Girls Who Code Club"
-                job="Co-Founder and Facilitator"
+                company="Girls Who Code"
+                job="Co-Founder and Facilitator of club in Lawrence, Kansas"
                 startDate="2018"
                 endDate="Present"
                 accomplishments={
@@ -342,8 +370,38 @@ function App() {
                 endDate="2020"
               ></Involvement>
               <Involvement
+                company="Honors Program"
+                job="Graduate at JCCC"
+                startDate="2018"
+                endDate="2018"
+              ></Involvement>
+              <Involvement
+                company="Civic Leadership Program"
+                job="Graduate at JCCC"
+                startDate="2018"
+                endDate="2018"
+              ></Involvement>
+              <Involvement
+                company="Cavalier Leadership Development Program"
+                job="Graduate with Distinction at JCCC"
+                startDate="2018"
+                endDate="2018"
+              ></Involvement>
+              <Involvement
                 company="Computer Club"
-                job="Founder and President"
+                job="Founder and President at JCCC"
+                startDate="2017"
+                endDate="2018"
+              ></Involvement>
+              <Involvement
+                company="Phi Theta Kappa Honor Society"
+                job="Vice President of Communication for Alpha Iota Gamma chapter"
+                startDate="2017"
+                endDate="2018"
+              ></Involvement>
+              <Involvement
+                company="American Association of University Women"
+                job="Vice President of Communication for JCCC student chapter"
                 startDate="2017"
                 endDate="2018"
               ></Involvement>
@@ -351,36 +409,6 @@ function App() {
                 company="KC STEMinists"
                 job="Co-Founder"
                 startDate="2016"
-                endDate="2018"
-              ></Involvement>
-              <Involvement
-                company="Phi Theta Kappa Honor Society"
-                job="Vice President of Communication"
-                startDate="2017"
-                endDate="2018"
-              ></Involvement>
-              <Involvement
-                company="American Association of University Women"
-                job="Vice President of Communication"
-                startDate="2017"
-                endDate="2018"
-              ></Involvement>
-              <Involvement
-                company="Honors Program"
-                job="Graduate"
-                startDate="2018"
-                endDate="2018"
-              ></Involvement>
-              <Involvement
-                company="Civic Leadership Program"
-                job="Graduate"
-                startDate="2018"
-                endDate="2018"
-              ></Involvement>
-              <Involvement
-                company="Cavalier Leadership Development Program"
-                job="Graduate with Distinction"
-                startDate="2018"
                 endDate="2018"
               ></Involvement>
             </div>
