@@ -130,23 +130,23 @@ function home() {
             </h1>
             {/* <BlogPost
               title="Recent Post Title 1"
-              date="July 6th, 2020"
+              date="July 13th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 2"
-              date="June 29th, 2020"
+              date="July 6th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 3"
-              date="June 22nd, 2020"
+              date="June 29th, 2020"
             ></BlogPost>
             <BlogPost
               title="Recent Post Title 4"
-              date="June 15th, 2020"
+              date="June 22nd, 2020"
             ></BlogPost> */}
             <BlogPost
               title="Improve your Git workflow and save time with Git hooks"
-              date="June 8th, 2020"
+              date="June 15th, 2020"
               link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
             ></BlogPost>
             <a href="/blog">

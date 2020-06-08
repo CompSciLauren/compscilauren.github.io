@@ -14,7 +14,7 @@ function Article0608() {
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1>Improve your Git workflow and save time with Git hooks</h1>
-          <BlogProfileTop date="June 8th, 2020" readTime="6 min" />
+          <BlogProfileTop date="June 15th, 2020" readTime="6 min" />
           <div className="tag-container">
             <Tag title="git" />
             <Tag title="automation" />
@@ -215,7 +215,8 @@ function Article0608() {
               helpful. This is my first blog post ever and I'm super excited
               about finally having a blog. My goal is to continue publishing one
               article per week at least for the summer. If you have any
-              questions or comments, feel free to reach out. Happy coding!
+              questions or comments, feel free to send me a message. Happy
+              coding!
             </p>
           </div>
           <BlogProfile />
