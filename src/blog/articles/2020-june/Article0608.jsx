@@ -6,6 +6,7 @@ import BlogProfileTop from "../../../components/BlogProfileTop";
 import Tag from "../../../components/Tag";
 import CodeSnippet from "../../../images/code-snippet.png";
 import CreateNewFile from "../../../images/create-new-file.gif";
+import FailedCommit from "../../../images/failed-commit.png";
 
 function Article0608() {
   return (
@@ -67,7 +68,9 @@ function Article0608() {
               . If you go there you'll find a Quick Start section in the table
               of contents. It should have everything you need to know.
             </p>
-            <p style={{ fontSize: "28px" }}>More details on how it works</p>
+            <p style={{ fontSize: "28px" }}>
+              Stepping through a simple example
+            </p>
             <p>
               Okay, let's see what it looks like to go through each step of
               adding a Git hook to a project. This will cover the Quick Start
@@ -132,39 +135,47 @@ function Article0608() {
               stage our file and then commit the file. Oops! Luckily, our Git
               hook is ready to save the day. Let's see what happens.
             </p>
-            <p>Picture here</p>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <img
+                src={FailedCommit}
+                alt="An attempt to commit the key phrase, it fails thanks to the Git hook"
+              ></img>
+            </div>
             <p>
               Our pre-commit hook was triggered, and scanned the file for the
               phrase "FIXME". It found the phrase and forced our commit to fail.
               Good thing we left a useful error message so we weren't left
               totally confused. Now we can either finish fixing whatever the
               code issue was, or if it's done then we just need to remove the
-              comment. Now let's try that commit again.
-            </p>
-            <p>Picture here</p>
-            <p>
-              Nice! We're good to go. A couple things you might be wondering.
-              Does this work if we write "fixme" in lowercase? What if we write
-              it like "fixme:" instead? Also, is this hook checking for comments
-              only, or if the phrase found its way into a block of text inside
-              an HTML &lt;p&gt; tag, would it still stop the commit?
+              comment.
             </p>
             <p>
-              It will work regardless of the casing or any characters
-              surrounding it, as long as it says exactly "fixme". Our hook is
-              only checking for the phrase "fixme", so it will work even if that
-              phrase is not found as part of a code comment.
+              After we remove that comment, we will be able to successfully
+              commit the code! A couple things you might be wondering. Does this
+              work if we write "fixme" in lowercase? What if we write it like
+              "FIXME:" instead? Also, is this hook checking for comments only,
+              or if the phrase found its way into a block of text inside an HTML
+              &lt;p&gt; tag, would it still stop the commit?
+            </p>
+            <p>
+              The phrase is case-sensitive based on how we wrote our hook, so in
+              this case it needs to be all uppercase. Any characters surrounding
+              it won't matter though, as long as it says exactly "FIXME". Our
+              hook is only checking for that phrase, so it will work even if
+              that phrase is found in a block of text instead of an actual code
+              comment.
             </p>
             <p style={{ fontSize: "28px" }}>Adding complexity</p>
             <p>
               If we wanted to make this more complex, we could add onto what we
-              already have. We could limit it to phrases found inside code
-              comments only, by changing the search phrase to "// FIXME"
-              instead. That would limit the results to only being code comments
-              that are begin exactly with that phrase. We could also make it so
-              the hook only warns us that the phrase was found, but have it
-              still allow us to continue with the commit anyway. We could also
-              add multiple phrases rather than only having one to detect.
+              already have. We could change it to not be case-sensitive. We
+              could limit it to phrases found inside code comments only, by
+              changing the search phrase to "// FIXME" instead. That would limit
+              the results to only being that style of a code comment that begins
+              exactly with that phrase. We could also make it so the hook only
+              warns us that the phrase was found, but have it still allow us to
+              continue with the commit anyway. We could also add multiple
+              phrases rather than only having one to detect.
             </p>
             <p>
               This is a really simple example, but you can create more complex
