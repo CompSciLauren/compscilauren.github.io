@@ -145,7 +145,7 @@ function home() {
               date="June 15th, 2020"
             ></BlogPost> */}
             <BlogPost
-              title="Improve your Git workflow and save time with Git Hooks"
+              title="Improve your Git workflow and save time with Git hooks"
               date="June 8th, 2020"
               link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
             ></BlogPost>

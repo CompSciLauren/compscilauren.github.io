@@ -13,7 +13,7 @@ function blog() {
             <h1 className="blogTitle">Blog Posts</h1>
             <div className="blogarticle-grid-container">
               <BlogArticle
-                title="Improve your Git workflow and save time with Git Hooks"
+                title="Improve your Git workflow and save time with Git hooks"
                 date="June 8th, 2020"
                 link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
               />

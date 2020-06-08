@@ -3,7 +3,7 @@ import Tag from "../components/Tag";
 
 const BlogArticle = (props) => {
   return (
-    <a href={props.link} rel="noopener noreferrer">
+    <a href={props.link} rel="noopener noreferrer" className="aTagOnHome">
       <div className="blogarticle-grid-item">
         <div className="blogarticle-subitem">
           <h1 className="blogHeader">{props.title}</h1>

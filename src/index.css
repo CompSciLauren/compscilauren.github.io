@@ -18,9 +18,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Segoe UI", monospace;
 }
 
-a {
+.aTagOnHome {
   text-decoration: none;
-  color: #000000;
+  color: #000;
+}
+
+.aTagOnNavbar {
+  text-decoration: none;
+  color: #fff;
 }
 
 hr {

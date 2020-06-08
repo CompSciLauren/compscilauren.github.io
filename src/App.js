@@ -12,10 +12,14 @@ function App() {
         <nav>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a className="aTagOnNavbar" href="/">
+                Home
+              </a>
             </li>
             <li>
-              <a href="/blog">Blog</a>
+              <a className="aTagOnNavbar" href="/blog">
+                Blog
+              </a>
             </li>
           </ul>
         </nav>
