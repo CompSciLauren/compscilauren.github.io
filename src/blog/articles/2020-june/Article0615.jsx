@@ -8,7 +8,7 @@ import CodeSnippet from "../../../images/code-snippet.png";
 import CreateNewFile from "../../../images/create-new-file.gif";
 import FailedCommit from "../../../images/failed-commit.png";
 
-function Article0608() {
+function Article0615() {
   return (
     <>
       <main id="main-content">
@@ -226,4 +226,4 @@ function Article0608() {
   );
 }
 
-export default Article0608;
+export default Article0615;
