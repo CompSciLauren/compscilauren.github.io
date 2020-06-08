@@ -35,6 +35,18 @@ function Article0608() {
               committing and merging, while server-side hooks run on network
               operations, like whenever a pushed commit is received.
             </p>
+            <p>
+              In this article, we will cover three things.
+              <ol>
+                <li>How to get started with using Git hooks quickly.</li>
+                <li>A simple example of adding a new Git hook.</li>
+                <li>
+                  How to add a Git hook to a project and make it so everyone
+                  uses the Git hook without requiring each individual to
+                  manually add the hook to their copy of the project.
+                </li>
+              </ol>
+            </p>
             <p style={{ fontSize: "28px" }}>Has this ever happened to you?</p>
             <p>
               Do you ever push your code, only to realize you forgot to run that
@@ -182,6 +194,10 @@ function Article0608() {
               hooks to automate trickier Git workflows too. You can find a
               variety of Git hook examples on that repo I linked above.
             </p>
+            <p style={{ fontSize: "28px" }}>
+              Adding Git hooks to a team project
+            </p>
+            <p>To do</p>
             <p style={{ fontSize: "28px" }}>Conclusion</p>
             <p>
               If you don't already use Git hooks in your day to day coding, I
