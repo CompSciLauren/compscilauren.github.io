@@ -16,6 +16,7 @@
   border-color: #fcfbeb;
   border-width: 2px;
   border-radius: 12px;
+  color: #fff;
 }
 
 .projects-grid-item h2 {
@@ -34,5 +35,5 @@
 }
 
 .tool-list {
-  color: #000;
+  color: #fff;
 }

@@ -84,7 +84,7 @@ function home() {
               <Project
                 link="https://github.com/compscilauren/awesome-git-hooks"
                 title="Awesome Git Hooks"
-                description="Curated list of awesome git hooks"
+                description="Curated list of awesome Git hooks"
                 builtWith="Bash, Python, Perl"
               ></Project>
 
