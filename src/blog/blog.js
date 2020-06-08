@@ -15,8 +15,13 @@ function blog() {
               <BlogArticle
                 title="Improve your Git workflow and save time with Git hooks"
                 date="June 15th, 2020"
-                link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
+                link="/blog/TempArticle0615"
               />
+              {/* <BlogArticle
+                title="Improve your Git workflow and save time with Git hooks"
+                date="June 15th, 2020"
+                link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
+              /> */}
               {/* <BlogArticle
                 title="Building a simple clock-in clock-out web app using React"
                 date="June 22nd, 2020"
