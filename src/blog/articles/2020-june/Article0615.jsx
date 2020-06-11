@@ -14,7 +14,7 @@ function Article0615() {
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1>Improve your Git workflow and save time with Git hooks</h1>
-          <BlogProfileTop date="June 15th, 2020" readTime="6 min" />
+          <BlogProfileTop date="June 15th, 2020" readTime="9 min" />
           <div className="tag-container">
             <Tag title="git" />
             <Tag title="automation" />
@@ -38,11 +38,11 @@ function Article0615() {
             <p>
               In this article, we will cover three things.
               <ol>
-                <li>How to get started with using Git hooks quickly.</li>
+                <li>How to get started with Git hooks quickly.</li>
                 <li>A simple example of adding a new Git hook.</li>
                 <li>
                   How to add a Git hook to a project and make it so everyone
-                  uses the Git hook without requiring each individual to
+                  uses the Git hook without requiring each person to
                   manually add the hook to their copy of the project.
                 </li>
               </ol>
@@ -90,7 +90,7 @@ function Article0615() {
             </p>
             <p>
               First we need to think of a task that we could automate. Say you
-              are writing "fixme" as a comment next to whatever is not currently
+              are writing "FIXME" as a comment next to whatever is not currently
               working in the code. You plan to fix them before committing. You
               probably fix most of them, but maybe sometimes you lose track and
               accidentally commit one or two. How can we prevent this from
@@ -98,7 +98,7 @@ function Article0615() {
             </p>
             <p>
               Let's add a Git hook that will prevent us from successfully
-              commiting code if it detects the phrase "fixme" in any of the
+              commiting code if it detects the phrase "FIXME" in any of the
               modified files.
             </p>
             <p>
@@ -108,7 +108,7 @@ function Article0615() {
             <img
               src={CodeSnippet}
               alt="Code snippet for a Git hook"
-              width="1000"
+              width="620px"
             ></img>
             <p style={{ fontSize: "16px", textAlign: "center" }}>
               <a
@@ -151,6 +151,7 @@ function Article0615() {
               <img
                 src={FailedCommit}
                 alt="An attempt to commit the key phrase, it fails thanks to the Git hook"
+                width="620px"
               ></img>
             </div>
             <p>
@@ -164,7 +165,7 @@ function Article0615() {
             <p>
               After we remove that comment, we will be able to successfully
               commit the code! A couple things you might be wondering. Does this
-              work if we write "fixme" in lowercase? What if we write it like
+              work if we write "FIXME" in lowercase? What if we write it like
               "FIXME:" instead? Also, is this hook checking for comments only,
               or if the phrase found its way into a block of text inside an HTML
               &lt;p&gt; tag, would it still stop the commit?
