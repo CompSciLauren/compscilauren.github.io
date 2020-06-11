@@ -1,11 +1,12 @@
 .experience-grid-container {
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
 }
 .experience-grid-item {
   display: grid;
   grid-template-columns: auto auto;
-  height: 250px;
+  min-height: 250px;
   background-color: #f3ebff;
   padding: 20px;
   margin: 10px;
