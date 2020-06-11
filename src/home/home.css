@@ -41,7 +41,7 @@
   transition-duration: 0.4s;
   margin-top: 30px;
   padding: 10px;
-  font-size: 18px;
+  font-size: calc(8px + 0.7vw);
   background-color: #ffed4a;
   color: #453411;
   opacity: 0.9;
@@ -60,7 +60,9 @@
 }
 
 .Intro {
-  font-size: 48px;
+  margin-top: 80px;
+  font-size: calc(32px + 1vw);
+  /* font-size: 3rem; */
 }
 
 .Projects-section {
@@ -129,10 +131,21 @@
 }
 
 .header-description {
-  font-size: 28px;
+  font-size: calc(16px + 0.7vw);
+  /* font-size: 1.75rem; */
 }
 
 .homeHeader {
   text-decoration: underline;
   padding-top: 60px;
 }
+
+/* @media screen and (max-width: 800px) {
+  .Intro {
+    font-size: 1.5rem;
+  }
+
+  .header-description {
+    font-size: 1rem;
+  }
+} */
