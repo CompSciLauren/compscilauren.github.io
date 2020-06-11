@@ -34,6 +34,7 @@
 }
 .involvement-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(548px, 1fr));
   text-align: left;
+  justify-content: center;
 }

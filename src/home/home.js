@@ -344,7 +344,7 @@ function home() {
                 <img
                   src={CommunityImpact}
                   alt="Collage of photos showing involvement in community"
-                  style={{ marginRight: "30px" }}
+                  style={{ maxWidth: "548px", marginRight: "30px" }}
                 ></img>
               </div>
               <div className="involvement-item">
