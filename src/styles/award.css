@@ -1,12 +1,13 @@
 .award-grid-container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
   justify-content: space-between;
+  justify-items: center;
 }
 .award-grid-item {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   height: 215px;
   width: 215px;
   background-color: #f3ebff;
