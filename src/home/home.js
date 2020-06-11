@@ -144,15 +144,10 @@ function home() {
               title="Recent Post Title 4"
               date="June 22nd, 2020"
             ></BlogPost> */}
-            {/* <BlogPost
+            <BlogPost
               title="Improve your Git workflow and save time with Git hooks"
               date="June 15th, 2020"
               link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
-            ></BlogPost> */}
-            <BlogPost
-              title="Improve your Git workflow and save time with Git hooks"
-              date="Coming soon, on June 15th, 2020"
-              link="/blog/TempArticle0615"
             ></BlogPost>
             <a href="/blog">
               <button className="Header-btn">See all blog posts ></button>

@@ -197,7 +197,17 @@ function Article0615() {
             <p style={{ fontSize: "28px" }}>
               Adding Git hooks to a team project
             </p>
-            <p>To do</p>
+            <p>Manually adding a Git hook to your project is fine, especially
+               if it's a solo project. But what about your team's project?
+                How can we allow everyone to benefit from your Git hooks?</p>
+            <p>It's actually pretty straightforward if you use husky, a
+               tool specifically developed to make sharing Git hooks easy.</p>
+            <p>Let's say you want to add automatic code formatting to your
+               project using the Prettier formatter. Here are the steps you'd take.</p>
+            <ol>
+              <li>Install prettier</li>
+              <li>Add script</li>
+            </ol>
             <p style={{ fontSize: "28px" }}>Conclusion</p>
             <p>
               If you don't already use Git hooks in your day to day coding, I
