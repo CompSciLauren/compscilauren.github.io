@@ -2,11 +2,14 @@
   display: grid;
   grid-template-columns: auto;
   margin-top: 30px;
+  justify-content: center;
 }
 .involvement-grid-item {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: 1fr 30px;
+  min-height: 96px;
+  max-width: 1000px;
+  grid-template-rows: auto 30px;
   text-align: left;
   background-color: #f3ebff;
   padding-left: 24px;
