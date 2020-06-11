@@ -45,8 +45,7 @@ function home() {
               I'm a software developer in Overland Park, Kansas. I'm passionate
               about front-end development and UI/UX design. I'm currently
               interning at Cerner Corporation and will graduate from the
-              University of Kansas in December 2020 with a bachelor's degree in
-              computer science.
+              University of Kansas in December 2020.
             </p>
             <a href="#portfolio-section">
               <button className="Header-btn">See my work!</button>
