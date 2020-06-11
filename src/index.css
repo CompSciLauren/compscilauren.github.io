@@ -44,9 +44,9 @@ nav li {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: calc(2px + 0.6vw) calc(4px + 0.6vw);
   text-decoration: none;
-  font-size: 20px;
+  font-size: calc(16px + 0.4vw);
 }
 
 nav a {
