@@ -8,8 +8,6 @@
   display: grid;
   grid-template-columns: auto auto;
   min-height: 96px;
-  max-width: 1000px;
-  grid-template-rows: auto 30px;
   text-align: left;
   background-color: #f3ebff;
   padding-left: 24px;
