@@ -1,12 +1,13 @@
 .projects-grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
 }
 .projects-grid-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 250px;
+  min-height: 290px;
   background-color: #9561e2;
   padding: 20px;
   margin: 20px;
