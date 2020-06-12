@@ -138,12 +138,13 @@
   padding-top: 60px;
 }
 
-/* @media screen and (max-width: 800px) {
-  .Intro {
-    font-size: 1.5rem;
-  }
+.communityImpactImg {
+  margin-right: 30px;
+}
 
-  .header-description {
-    font-size: 1rem;
+@media screen and (max-width: 800px) {
+  .communityImpactImg {
+    width: 300px;
+    margin-right: 0px;
   }
-} */
+}

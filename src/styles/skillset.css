@@ -3,7 +3,7 @@
   grid-template-columns: auto;
 }
 .skillset-grid-item {
-  height: 150px;
+  min-height: 150px;
   background-color: #f3ebff;
   padding: 20px;
   margin: 10px;
@@ -31,4 +31,14 @@
 .individual-skill img {
   max-height: 70px;
   width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .skill-list {
+    flex-direction: column;
+  }
+
+  .individual-skill img {
+    max-height: 40px;
+  }
 }

@@ -1,12 +1,11 @@
 import React from "react";
 import Project from "../components/Project";
-import BlogPost from "../components/BlogPost";
+import BlogArticle from "../components/BlogArticle";
 import Skillset from "../components/Skillset";
 import Experience from "../components/Experience";
 import Award from "../components/Award";
 import "./home.css";
 import "../styles/project.css";
-import "../styles/blogpost.css";
 import "../styles/skillset.css";
 import "../styles/experience.css";
 import "../styles/award.css";
@@ -143,11 +142,11 @@ function home() {
               title="Recent Post Title 4"
               date="June 22nd, 2020"
             ></BlogPost> */}
-            <BlogPost
+            <BlogArticle
               title="Improve your Git workflow and save time with Git hooks"
               date="June 15th, 2020"
               link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
-            ></BlogPost>
+            ></BlogArticle>
             <a href="/blog">
               <button className="Header-btn">See all blog posts ></button>
             </a>
@@ -344,7 +343,8 @@ function home() {
                 <img
                   src={CommunityImpact}
                   alt="Collage of photos showing involvement in community"
-                  style={{ maxWidth: "548px", marginRight: "30px" }}
+                  style={{ maxWidth: "548px" }}
+                  className="communityImpactImg"
                 ></img>
               </div>
               <div className="involvement-item">

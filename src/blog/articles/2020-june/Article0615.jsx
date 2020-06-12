@@ -108,7 +108,7 @@ function Article0615() {
             <img
               src={CodeSnippet}
               alt="Code snippet for a Git hook"
-              width="620px"
+              className="codeSnippetImg"
             ></img>
             <p style={{ fontSize: "16px", textAlign: "center" }}>
               <a
@@ -151,7 +151,7 @@ function Article0615() {
               <img
                 src={FailedCommit}
                 alt="An attempt to commit the key phrase, it fails thanks to the Git hook"
-                width="620px"
+                className="failedCommitImg"
               ></img>
             </div>
             <p>

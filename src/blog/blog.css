@@ -84,3 +84,37 @@ p {
   display: flex;
   flex-direction: row;
 }
+
+.codeSnippetImg {
+  width: 620px;
+}
+
+.failedCommitImg {
+  width: 628px;
+}
+
+@media screen and (max-width: 800px) {
+  .tag-container {
+    flex-direction: column;
+  }
+  .blog-home-page-wrap {
+    margin: auto;
+    margin-top: 100px;
+    width: 72%;
+  }
+  .blog-page-wrap {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 4px;
+    border: none;
+  }
+
+  .codeSnippetImg {
+    width: 400px;
+  }
+  .failedCommitImg {
+    width: 392px;
+  }
+} 
