@@ -41,9 +41,9 @@ function Article0615() {
                 <li>How to get started with Git hooks quickly.</li>
                 <li>A simple example of adding a new Git hook.</li>
                 <li>
-                  How to add a Git hook to a project and make it so everyone
-                  uses the Git hook without requiring each person to
-                  manually add the hook to their copy of the project.
+                  How to setup Git hooks for a project in a way that allows
+                  everyone to use them automatically. This means no one
+                  else will need to manually set anything up for the hooks to work.
                 </li>
               </ol>
             </p>
