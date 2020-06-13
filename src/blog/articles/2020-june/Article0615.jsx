@@ -42,8 +42,8 @@ function Article0615() {
                 <li>A simple example of adding a new Git hook.</li>
                 <li>
                   How to setup Git hooks for a project in a way that allows
-                  everyone to use them automatically. This means no one
-                  else will need to manually set anything up for the hooks to work.
+                  everyone to use them automatically. This means no one else
+                  will need to manually set anything up for the hooks to work.
                 </li>
               </ol>
             </p>
@@ -198,17 +198,35 @@ function Article0615() {
             <p style={{ fontSize: "28px" }}>
               Adding Git hooks to a team project
             </p>
-            <p>Manually adding a Git hook to your project is fine, especially
-               if it's a solo project. But what about your team's project?
-                How can we allow everyone to benefit from your Git hooks?</p>
-            <p>It's actually pretty straightforward if you use husky, a
-               tool specifically developed to make sharing Git hooks easy.</p>
-            <p>Let's say you want to add automatic code formatting to your
-               project using the Prettier formatter. Here are the steps you'd take.</p>
-            <ol>
-              <li>Install prettier</li>
-              <li>Add script</li>
-            </ol>
+            <p>
+              Manually adding a Git hook to your project is fine, especially if
+              it's a solo project. But what about your team's project? How can
+              we allow everyone to benefit from your Git hooks?
+            </p>
+            <p>
+              It's actually pretty straightforward if you use husky, a tool
+              specifically developed to make sharing Git hooks easy.
+            </p>
+            <p>
+              Let's say you want to add automatic code formatting to your
+              project using the Prettier formatter. Here are the steps you'd
+              take.
+            </p>
+            <p>
+              <ol>
+                <li>
+                  Install prettier with <code>npm i prettier --save-dev</code>
+                </li>
+                <li>
+                  Install husky and lint-staged with{" "}
+                  <code>npx mrm lint-staged</code>
+                </li>
+                <li>
+                  Add this as another script under your package.json scripts:{" "}
+                  <code>"prettier": "prettier --write '**/*.js'"</code>
+                </li>
+              </ol>
+            </p>
             <p style={{ fontSize: "28px" }}>Conclusion</p>
             <p>
               If you don't already use Git hooks in your day to day coding, I
