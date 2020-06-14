@@ -25,9 +25,12 @@ function Article0615() {
               If you're a software developer, you probably know about Git. You
               might use it for version control at work or for side projects. One
               interesting feature you may not have used yet, at least not
-              intentionally, is a Git hook. Git hooks are custom scripts that
-              you can use to automate tasks that will be triggered either
-              immediately before or after a Git command is executed.
+              intentionally, is a Git hook.
+            </p>
+            <p>
+              Git hooks are custom scripts that you can use to automate tasks
+              that will be triggered either immediately before or after a Git
+              command is executed.
             </p>
             <p>
               The Git book explains it best in their{" "}
@@ -232,8 +235,15 @@ function Article0615() {
               we allow everyone to benefit from your Git hooks?
             </p>
             <p>
-              It's actually pretty straightforward if you use husky, a tool
-              specifically developed to make sharing Git hooks easy.
+              It's actually pretty straightforward if you use{" "}
+              <a
+                href="https://github.com/typicode/husky"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                husky
+              </a>
+              , a tool specifically developed to make sharing Git hooks easy.
             </p>
             <p>
               Let's say you want to add automatic code formatting to your
@@ -254,6 +264,26 @@ function Article0615() {
                   <code>"prettier": "prettier --write '**/*.js'"</code>
                 </li>
               </ol>
+              <p>
+                It's that easy! Once these changes are added to the project, the
+                prettier formatter will automatically run on any modified files
+                that do not match the formatting settings.
+              </p>
+              <p>
+                Note that the files this example checks are any that match the
+                regex <code>**/*.js</code> which means any JavaScript files in
+                the project. To specify what types of files you want it to
+                check, change the regex. So if, for example, you wanted it to
+                check both JS and JSX files, you would change the regex to{" "}
+                <code>**/*.{"{js, jsx}"}</code>.
+              </p>
+              <p>
+                You can also execute <code>npm run prettier</code> manually to
+                run it on all current files that match the regex in the project.
+                This is useful if you want to use prettier but already have a
+                lot of existing code that needs the formatting updated.
+              </p>
+              <p></p>
             </p>
             <p style={{ fontSize: "28px" }}>Conclusion</p>
             <p>
@@ -269,11 +299,13 @@ function Article0615() {
             </p>
             <p>
               Thanks for reading and I hope you've found this short article
-              helpful. This is my first blog post ever and I'm super excited
-              about finally having a blog. My goal is to continue publishing one
-              article per week at least for the summer. If you have any
-              questions or comments, feel free to send me a message. Happy
-              coding!
+              helpful. This is my first blog post ever and I'm super excited to
+              finally have a blog. My goal is to publish one new article each
+              week, at least for the summer.
+            </p>
+            <p>
+              If you have any questions or comments, feel free to send me a
+              message. Happy coding!
             </p>
           </div>
           <BlogProfile />
