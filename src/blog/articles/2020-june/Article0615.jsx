@@ -30,11 +30,25 @@ function Article0615() {
               immediately before or after a Git command is executed.
             </p>
             <p>
-              These hooks fall into one of two categories: client-side or
-              server-side. Client-side hooks are triggered by operations like
-              committing and merging, while server-side hooks run on network
-              operations, like whenever a pushed commit is received.
+              The Git book explains it best in their{" "}
+              <a
+                href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Customizing Git - Git Hooks
+              </a>{" "}
+              section.
             </p>
+            <blockquote className="classyStyle">
+              "Like many other Version Control Systems, Git has a way to fire
+              off custom scripts when certain important actions occur. There are
+              two groups of these hooks: client-side and server-side.
+              Client-side hooks are triggered by operations such as committing
+              and merging, while server-side hooks run on network operations
+              such as receiving pushed commits. You can use these hooks for all
+              sorts of reasons."
+            </blockquote>
             <p>
               In this article, we will cover three things.
               <ol>
@@ -64,12 +78,12 @@ function Article0615() {
             </p>
             <p style={{ fontSize: "28px" }}>Get started quickly</p>
             <p>
-              Ready to jump in and give it a try already? I feel that. Here's a
+              Ready to jump right in and give it a try? I feel that. Here's a
               quick way to get started.
             </p>
             <p>
-              I wanted a place to keep a list of all the neat Git hooks I've
-              come across or attempted to create over time, and that place is my{" "}
+              I wanted a place to keep a list of all the useful Git hooks I've
+              come across or written over time, and that place is my{" "}
               <a
                 href="https://github.com/CompSciLauren/awesome-git-hooks"
                 target="_blank"
@@ -90,14 +104,15 @@ function Article0615() {
             </p>
             <p>
               First we need to think of a task that we could automate. Say you
-              are writing "FIXME" as a comment next to whatever is not currently
-              working in the code. You plan to fix them before committing. You
-              probably fix most of them, but maybe sometimes you lose track and
-              accidentally commit one or two. How can we prevent this from
-              happening?
+              like to write "FIXME" as a comment next to whatever needs to be
+              fixed in the code. You plan to fix them before committing. Once
+              you are finished, you remove the comment. You probably remember to
+              fix most of them, but once in a while you lose track and
+              accidentally commit one or two of the comments or unfinished code
+              sections. How can we prevent this from happening?
             </p>
             <p>
-              Let's add a Git hook that will prevent us from successfully
+              We can add a Git hook that will prevent us from successfully
               commiting code if it detects the phrase "FIXME" in any of the
               modified files.
             </p>
@@ -124,9 +139,10 @@ function Article0615() {
               designated hooks folder in our project that uses Git.
             </p>
             <p>
-              The folder we want is the "hooks" folder inside our hidden .git
-              folder inside the project. Once there, we just need to place our
-              new script inside.
+              The folder we want to navigate to is the .git/hooks folder inside
+              our local repository. The .git folder is hidden by default, but
+              every repository that uses Git has one. Once there, we just need
+              to place our new script inside.
             </p>
             <p>
               We create a new file here and paste the code snippet inside. When
@@ -141,11 +157,25 @@ function Article0615() {
               ></img>
             </div>
             <p>
-              Great! Now we're ready to see it in action. We have a file in our
-              project with the comment "FIXME" above a block of code we're
-              working on. Pretending we haven't noticed that code comment, we
-              stage our file and then commit the file. Oops! Luckily, our Git
-              hook is ready to save the day. Let's see what happens.
+              You'll notice there are several types of Git hooks in the
+              .git/hooks folder by default. Each file has an example of
+              something you can do with that type of Git hook. For a full list
+              of the types of Git hooks available, check out the{" "}
+              <a
+                href="https://git-scm.com/docs/githooks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Git hooks documentation
+              </a>
+              .
+            </p>
+            <p>
+              Great! Now we're ready to see it in action. Let's say we have a
+              file in our project with the comment "FIXME" above a block of code
+              we're working on. Pretending we haven't noticed that code comment,
+              we stage our file and then commit it. Oops! Luckily, our Git hook
+              is ready to save the day. Let's see what happens.
             </p>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
@@ -155,40 +185,38 @@ function Article0615() {
               ></img>
             </div>
             <p>
-              Our pre-commit hook was triggered, and scanned the file for the
-              phrase "FIXME". It found the phrase and forced our commit to fail.
-              Good thing we left a useful error message so we weren't left
-              totally confused. Now we can either finish fixing whatever the
-              code issue was, or if it's done then we just need to remove the
-              comment.
+              Our pre-commit hook was triggered automatically, and scanned the
+              file for the phrase "FIXME". It detected the phrase and forced our
+              commit to fail. Good thing we left a useful error message so we
+              weren't left totally confused. Now we can either finish fixing
+              whatever the code issue was, or if it's done then we just need to
+              remove the comment.
             </p>
             <p>
               After we remove that comment, we will be able to successfully
-              commit the code! A couple things you might be wondering. Does this
-              work if we write "FIXME" in lowercase? What if we write it like
-              "FIXME:" instead? Also, is this hook checking for comments only,
-              or if the phrase found its way into a block of text inside an HTML
-              &lt;p&gt; tag, would it still stop the commit?
+              commit the code. A couple of things you might be wondering. Does
+              this work if we write "FIXME" in lowercase? What if we write it
+              like "FIXME:" instead? Also, is this hook checking for comments
+              only, or if the phrase found its way into a block of text inside
+              an HTML &lt;p&gt; tag, would it still stop the commit?
             </p>
             <p>
               The phrase is case-sensitive based on how we wrote our hook, so in
               this case it needs to be all uppercase. Any characters surrounding
               it won't matter though, as long as it says exactly "FIXME". Our
-              hook is only checking for that phrase, so it will work even if
-              that phrase is found in a block of text instead of an actual code
-              comment.
+              hook is only checking for that phrase, so it will work even if it
+              is found outside of a code comment.
             </p>
             <p style={{ fontSize: "28px" }}>Adding complexity</p>
             <p>
-              If we wanted to make this more complex, we could add onto what we
+              If we wanted to do more with this hook, we can add onto what we
               already have. We could change it to not be case-sensitive. We
-              could limit it to phrases found inside code comments only, by
-              changing the search phrase to "// FIXME" instead. That would limit
-              the results to only being that style of a code comment that begins
-              exactly with that phrase. We could also make it so the hook only
-              warns us that the phrase was found, but have it still allow us to
-              continue with the commit anyway. We could also add multiple
-              phrases rather than only having one to detect.
+              could greatly increase the odds that it is only detected when part
+              of a code comment, by changing the search phrase to "// FIXME"
+              instead. We could also make it so the hook only warns us that the
+              phrase was found, but still allow us to proceed with the commit
+              anyway. We could also add multiple phrases rather than only having
+              one to detect.
             </p>
             <p>
               This is a really simple example, but you can create more complex
