@@ -12,7 +12,7 @@ const BlogProfileTop = (props) => {
         <img
           src={ProfilePicture}
           alt="Lauren smiling at a desk"
-          style={{ width: "48px", height: "48px", borderRadius: "50%" }}
+          className="profilePictureTopImg"
         ></img>
         <p style={{ fontSize: "16px" }}>Lauren Stephenson</p>
         <p style={{ fontSize: "16px", fontStyle: "italic" }}>

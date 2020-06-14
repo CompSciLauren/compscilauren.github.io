@@ -12,7 +12,12 @@ function BlogProfile() {
         <img
           src={ProfilePicture}
           alt="Lauren smiling at a desk"
-          style={{ width: "100px", height: "124px", borderRadius: "50%" }}
+          style={{
+            width: "100px",
+            height: "124px",
+            borderRadius: "50%",
+            imageOrientation: "from-image",
+          }}
         ></img>
       </div>
       <div>
