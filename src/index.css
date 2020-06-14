@@ -1,10 +1,10 @@
-html,body
-{
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 html {
@@ -25,6 +25,10 @@ button {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Segoe UI", monospace;
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 16px;
 }
 
 .aTagOnHome {
