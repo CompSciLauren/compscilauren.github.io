@@ -7,6 +7,7 @@ import Tag from "../../../components/Tag";
 import CodeSnippet from "../../../images/code-snippet.png";
 import CreateNewFile from "../../../images/create-new-file.gif";
 import FailedCommit from "../../../images/failed-commit.png";
+import CommentSection from "../../../components/CommentSection";
 
 function Article0615() {
   return (
@@ -20,7 +21,7 @@ function Article0615() {
             <Tag title="automation" />
           </div>
           <hr></hr>
-          <div style={{ lineHeight: "28px" }}>
+          <div style={{ color: "#292929", lineHeight: "28px" }}>
             <p>
               If you're a software developer, you probably know about Git. You
               might use it for version control at work or for side projects. One
@@ -44,13 +45,13 @@ function Article0615() {
               section.
             </p>
             <blockquote className="classyStyle">
-              "Like many other Version Control Systems, Git has a way to fire
-              off custom scripts when certain important actions occur. There are
-              two groups of these hooks: client-side and server-side.
-              Client-side hooks are triggered by operations such as committing
-              and merging, while server-side hooks run on network operations
-              such as receiving pushed commits. You can use these hooks for all
-              sorts of reasons."
+              Like many other Version Control Systems, Git has a way to fire off
+              custom scripts when certain important actions occur. There are two
+              groups of these hooks: client-side and server-side. Client-side
+              hooks are triggered by operations such as committing and merging,
+              while server-side hooks run on network operations such as
+              receiving pushed commits. You can use these hooks for all sorts of
+              reasons.
             </blockquote>
             <p>
               In this article, we will cover three things.
@@ -64,7 +65,9 @@ function Article0615() {
                 </li>
               </ol>
             </p>
-            <p style={{ fontSize: "28px" }}>Has this ever happened to you?</p>
+            <p style={{ color: "#794ACF", fontSize: "28px" }}>
+              Has this ever happened to you?
+            </p>
             <p>
               Do you ever push your code, only to realize you forgot to run that
               darn formatting command? There's a Git hook for that!
@@ -79,7 +82,9 @@ function Article0615() {
               branch, only to realize it's because you forgot to update
               submodules (again)? Let's "Git" hooked on Git hooks. (Ha!)
             </p>
-            <p style={{ fontSize: "28px" }}>Get started quickly</p>
+            <p style={{ color: "#794ACF", fontSize: "28px" }}>
+              Get started quickly
+            </p>
             <p>
               Ready to jump right in and give it a try? I feel that. Here's a
               quick way to get started.
@@ -97,7 +102,7 @@ function Article0615() {
               . If you go there you'll find a Quick Start section in the table
               of contents. It should have everything you need to know.
             </p>
-            <p style={{ fontSize: "28px" }}>
+            <p style={{ color: "#794ACF", fontSize: "28px" }}>
               Stepping through a simple example
             </p>
             <p>
@@ -210,7 +215,9 @@ function Article0615() {
               hook is only checking for that phrase, so it will work even if it
               is found outside of a code comment.
             </p>
-            <p style={{ fontSize: "28px" }}>Adding complexity</p>
+            <p style={{ color: "#794ACF", fontSize: "28px" }}>
+              Adding complexity
+            </p>
             <p>
               If we wanted to do more with this hook, we can add onto what we
               already have. We could change it to not be case-sensitive. We
@@ -226,7 +233,7 @@ function Article0615() {
               hooks to automate trickier Git workflows too. You can find a
               variety of Git hook examples on that repo I linked above.
             </p>
-            <p style={{ fontSize: "28px" }}>
+            <p style={{ color: "#794ACF", fontSize: "28px" }}>
               Adding Git hooks to a team project
             </p>
             <p>
@@ -285,30 +292,27 @@ function Article0615() {
               </p>
               <p></p>
             </p>
-            <p style={{ fontSize: "28px" }}>Conclusion</p>
+            <p style={{ color: "#794ACF", fontSize: "28px" }}>Conclusion</p>
             <p>
               If you don't already use Git hooks in your day to day coding, I
               hope you'll give it a try. Automating your Git workflow will save
-              you time and can prevent all kinds of little mistakes from
-              happening.
+              you time and can prevent all kinds of mistakes from happening.
             </p>
             <p>
-              Do you have a useful Git hook to share? Feel free to contribute it
-              to the GitHub repo linked above, if there isn't already a hook
-              that covers it on the list.
+              Do you have a useful Git hook you can share? Please consider
+              contributing it to the GitHub repo linked above, if it's not
+              already on there. Let's help each other make the most out of Git
+              hooks!
             </p>
             <p>
-              Thanks for reading and I hope you've found this short article
-              helpful. This is my first blog post ever and I'm super excited to
-              finally have a blog. My goal is to publish one new article each
-              week, at least for the summer.
-            </p>
-            <p>
-              If you have any questions or comments, feel free to send me a
-              message. Happy coding!
+              Have you used Git hooks before? Which ones do you use the most?
+              Let me know what you think about hooks in the comments below!
             </p>
           </div>
           <BlogProfile />
+        </div>
+        <div className="comment-section-wrap">
+          <CommentSection />
         </div>
       </main>
     </>

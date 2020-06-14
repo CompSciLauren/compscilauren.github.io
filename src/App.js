@@ -18,7 +18,7 @@ function App() {
             </li>
             <li>
               <a className="aTagOnNavbar" href="/blog">
-                Blog
+                Joy Bytes Blog
               </a>
             </li>
           </ul>

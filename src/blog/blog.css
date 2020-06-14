@@ -5,6 +5,13 @@
   font-size: 48px;
 }
 
+.blogPostsHeader {
+  padding-top: 0px;
+  margin: 16px;
+  text-decoration: none;
+  font-size: 40px;
+}
+
 .blogHeader {
   padding-top: 0px;
   margin: 16px;
@@ -30,6 +37,11 @@ p {
   width: 36%;
   padding: 30px 80px;
   border: 2px solid #b8c2cc;
+}
+
+.comment-section-wrap {
+  margin: auto;
+  width: 44%;
 }
 
 .blogprofile-grid-container {

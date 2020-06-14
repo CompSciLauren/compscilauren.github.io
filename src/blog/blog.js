@@ -10,7 +10,23 @@ function blog() {
       <main id="main-content">
         <div>
           <div className="blog-home-page-wrap">
-            <h1 className="blogTitle">Blog Posts</h1>
+            <h1 className="blogTitle">Joy Bytes</h1>
+            <p>
+              Hi there! This is a blog that focuses on software development and
+              is geared toward newer developers. It is run by me, Lauren
+              Stephenson (@CompSciLauren on social media).
+            </p>
+            <p>
+              I'm super excited to finally have a blog! My goal is to publish
+              one new article each week, at least for the summer. Topics I am
+              likely to cover are things related to React, JavaScript, UI
+              design, open source, and tips for newer developers.
+            </p>
+            <p>
+              If you have any questions or would like to see a specific topic
+              covered, feel free to send me a message. Happy coding!
+            </p>
+            <h2 className="blogPostsHeader">Blog Posts</h2>
             <div className="blogarticle-grid-container">
               <BlogArticle
                 title="Improve your Git workflow and save time with Git hooks"
