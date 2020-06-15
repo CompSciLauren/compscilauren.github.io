@@ -252,7 +252,8 @@ function Article0615() {
             <p>
               This is a simple example, but you can create more complex hooks to
               automate trickier Git workflows too. You can find a variety of Git
-              hook examples on that repo I linked above.
+              hook examples on a GitHub repository that I have linked at the
+              bottom of this article under the Conclusion section.
             </p>
             <p style={{ color: "#794ACF", fontSize: "28px" }}>
               Adding Git hooks to a team project
@@ -283,8 +284,7 @@ function Article0615() {
               >
                 Prettier
               </a>
-              Prettier, a popular formatting tool. Here are the steps you'd
-              take.
+              , a popular formatting tool. Here are the steps you'd take.
             </p>
             <p>
               <ol>
@@ -318,6 +318,18 @@ function Article0615() {
                 run it on all current files that match the glob pattern in the
                 project. This is useful if you want to use prettier but already
                 have a lot of existing code that needs the formatting updated.
+              </p>
+              <p>
+                You can find more information on automating Prettier with Git
+                hooks on the Prettier{" "}
+                <a
+                  href="https://prettier.io/docs/en/precommit.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  pre-commit hook
+                </a>{" "}
+                documentation.
               </p>
             </p>
             <p style={{ color: "#794ACF", fontSize: "28px" }}>Conclusion</p>
