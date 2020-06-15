@@ -156,4 +156,8 @@ blockquote.classyStyle span {
   .failedCommitImg {
     width: 392px;
   }
+  .comment-section-wrap {
+    margin: auto;
+    width: 96%;
+  }
 }
