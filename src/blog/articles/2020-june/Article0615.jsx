@@ -54,10 +54,9 @@ function Article0615() {
               reasons.
             </blockquote>
             <p>
-              In this article, we will cover three things.
+              In this article, we will cover two things.
               <ol>
-                <li>How to get started with Git hooks quickly.</li>
-                <li>A simple example of adding a new Git hook.</li>
+                <li>A simple way to add a new Git hook.</li>
                 <li>
                   How to setup Git hooks for a project in a way that allows
                   everyone to use them automatically. This means no one else
@@ -81,26 +80,6 @@ function Article0615() {
               Ever wonder why your code doesn't work after checking out a new
               branch, only to realize it's because you forgot to update
               submodules (again)? Let's "Git" hooked on Git hooks. (Ha!)
-            </p>
-            <p style={{ color: "#794ACF", fontSize: "28px" }}>
-              Get started quickly
-            </p>
-            <p>
-              Ready to jump right in and give it a try? I feel that. Here's a
-              quick way to get started.
-            </p>
-            <p>
-              I wanted a place to keep a list of all the useful Git hooks I've
-              come across or written over time, and that place is my{" "}
-              <a
-                href="https://github.com/CompSciLauren/awesome-git-hooks"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Awesome Git Hooks repository on GitHub
-              </a>
-              . If you go there you'll find a Quick Start section in the table
-              of contents. It should have everything you need to know.
             </p>
             <p style={{ color: "#794ACF", fontSize: "28px" }}>
               Stepping through a simple example
@@ -139,9 +118,62 @@ function Article0615() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View this code snippet on the GitHub repo
+                View this code snippet on GitHub
               </a>
             </p>
+            <h2 style={{ color: "#3D4852", fontSize: "20px" }}>
+              What this code is doing
+            </h2>
+            <p>
+              This is our Git hook script. A script can be written in many
+              different languages. This one happens to be written in Bash.
+            </p>
+            <p>
+              You always use a shebang at the top of the hook script to specify
+              which language you are writing it in. A shebang always starts with{" "}
+              <code>#!/</code>.
+            </p>
+            <p>
+              Our shebang is <code>#!/bin/bash</code> because we are writing our
+              script in Bash. Other common shebangs you might see are:
+              <ul>
+                <li>
+                  <code>#!/usr/bin/perl</code>
+                </li>
+                <li>
+                  <code>#!/usr/bin/python3</code>
+                </li>
+                <li>
+                  <code>#!/usr/bin/env bash</code>
+                </li>
+              </ul>
+            </p>
+            <p>
+              We also need to specify the phrase that we want to search for in
+              the code. Whatever phrase you put as the value for the variable
+              "SEARCH_TERM" is what the script will detect and then prevent from
+              being committed.
+            </p>
+            <p>
+              The last block of code is where we do the legwork of searching for
+              the term and the logic for handling that. If it detects the search
+              term anywhere in the modified files, it will display the messages
+              we've written and then exit with a status of 1.
+            </p>
+            <p>
+              Exit 1 means that something went wrong, so the script stops and
+              Git will not proceed with the commit.
+            </p>
+            <p>
+              If the search term is not detected however, then the logic inside
+              our if-statement is ignored and it reaches the end of our script.
+              At this point it is implied that it exits with a status of 0. Exit
+              0 means that the script finished successfully, and so Git will
+              proceed with the commit.
+            </p>
+            <h2 style={{ color: "#3D4852", fontSize: "20px" }}>
+              Putting our script to work
+            </h2>
             <p>
               Now that our hook is written, we just need to place it in the
               designated hooks folder in our project that uses Git.
@@ -215,23 +247,10 @@ function Article0615() {
               hook is only checking for that phrase, so it will work even if it
               is found outside of a code comment.
             </p>
-            <p style={{ color: "#794ACF", fontSize: "28px" }}>
-              Adding complexity
-            </p>
             <p>
-              If we wanted to do more with this hook, we can add onto what we
-              already have. We could change it to not be case-sensitive. We
-              could greatly increase the odds that it is only detected when part
-              of a code comment, by changing the search phrase to "// FIXME"
-              instead. We could also make it so the hook only warns us that the
-              phrase was found, but still allow us to proceed with the commit
-              anyway. We could also add multiple phrases rather than only having
-              one to detect.
-            </p>
-            <p>
-              This is a really simple example, but you can create more complex
-              hooks to automate trickier Git workflows too. You can find a
-              variety of Git hook examples on that repo I linked above.
+              This is a simple example, but you can create more complex hooks to
+              automate trickier Git workflows too. You can find a variety of Git
+              hook examples on that repo I linked above.
             </p>
             <p style={{ color: "#794ACF", fontSize: "28px" }}>
               Adding Git hooks to a team project
@@ -248,13 +267,21 @@ function Article0615() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                husky
+                Husky
               </a>
               , a tool specifically developed to make sharing Git hooks easy.
             </p>
             <p>
               Let's say you want to add automatic code formatting to your
-              project using the Prettier formatter. Here are the steps you'd
+              project, to help keep the code looking consistent. We can use{" "}
+              <a
+                href="https://prettier.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prettier
+              </a>
+              Prettier, a popular formatting tool. Here are the steps you'd
               take.
             </p>
             <p>
@@ -278,31 +305,41 @@ function Article0615() {
               </p>
               <p>
                 Note that the files this example checks are any that match the
-                regex <code>**/*.js</code> which means any JavaScript files in
-                the project. To specify what types of files you want it to
-                check, change the regex. So if, for example, you wanted it to
-                check both JS and JSX files, you would change the regex to{" "}
-                <code>**/*.{"{js, jsx}"}</code>.
+                glob pattern <code>**/*.js</code> which means any JavaScript
+                files in the project. To specify what types of files you want it
+                to check, change the glob pattern. So if, for example, you
+                wanted it to check both JavaScript and markdown files, you would
+                change the glob pattern to <code>**/*.{"{js, md}"}</code>.
               </p>
               <p>
                 You can also execute <code>npm run prettier</code> manually to
-                run it on all current files that match the regex in the project.
-                This is useful if you want to use prettier but already have a
-                lot of existing code that needs the formatting updated.
+                run it on all current files that match the glob pattern in the
+                project. This is useful if you want to use prettier but already
+                have a lot of existing code that needs the formatting updated.
               </p>
-              <p></p>
             </p>
             <p style={{ color: "#794ACF", fontSize: "28px" }}>Conclusion</p>
+            <p>
+              I wanted a place to keep a list of all the useful Git hooks I've
+              come across or written over time, and that place is my{" "}
+              <a
+                href="https://github.com/CompSciLauren/awesome-git-hooks"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Awesome Git Hooks repository on GitHub
+              </a>
+              . Feel free to check there for Git hook ideas.
+            </p>
+            <p>
+              Have a useful Git hook to share? Please consider contributing it
+              to the GitHub repo, if it's not already on there. Let's help each
+              other make the most out of Git hooks!
+            </p>
             <p>
               If you don't already use Git hooks in your day to day coding, I
               hope you'll give it a try. Automating your Git workflow will save
               you time and can prevent all kinds of mistakes from happening.
-            </p>
-            <p>
-              Do you have a useful Git hook you can share? Please consider
-              contributing it to the GitHub repo linked above, if it's not
-              already on there. Let's help each other make the most out of Git
-              hooks!
             </p>
             <p>
               Have you used Git hooks before? Which ones do you use the most?

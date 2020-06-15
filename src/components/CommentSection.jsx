@@ -18,13 +18,6 @@ const CommentSection = () => {
   return (
     <>
       <div id="disqus_thread"></div>
-      <body>
-        <script
-          id="dsq-count-scr"
-          src="//compscilauren.disqus.com/count.js"
-          async
-        ></script>
-      </body>
     </>
   );
 };
