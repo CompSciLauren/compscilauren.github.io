@@ -17,7 +17,9 @@ function Article0615() {
       </head>
       <main id="main-content">
         <div className="blog-page-wrap">
-          <h1>Improve your Git workflow and save time with Git hooks</h1>
+          <h1 style={{ padding: "8px" }}>
+            Improve your Git workflow and save time with Git hooks
+          </h1>
           <BlogProfileTop date="June 15th, 2020" readTime="11 min" />
           <div className="tag-container">
             <Tag title="git" />
@@ -126,7 +128,7 @@ function Article0615() {
                 View this code snippet on GitHub
               </a>
             </p>
-            <h2 style={{ color: "#3D4852", fontSize: "20px" }}>
+            <h2 style={{ padding: "8px", color: "#3D4852", fontSize: "20px" }}>
               What this code is doing
             </h2>
             <p>
@@ -176,7 +178,7 @@ function Article0615() {
               0 means that the script finished successfully, and so Git will
               proceed with the commit.
             </p>
-            <h2 style={{ color: "#3D4852", fontSize: "20px" }}>
+            <h2 style={{ padding: "8px", color: "#3D4852", fontSize: "20px" }}>
               Putting our script to work
             </h2>
             <p>
