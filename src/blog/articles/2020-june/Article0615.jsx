@@ -93,17 +93,18 @@ function Article0615() {
             </p>
             <p>
               Okay, let's see what it looks like to go through each step of
-              adding a Git hook to a project. This will cover the Quick Start
-              steps mentioned above, but in more detail.
+              adding a Git hook to a project.
             </p>
             <p>
               First we need to think of a task that we could automate. Say you
               like to write "FIXME" as a comment next to whatever needs to be
               fixed in the code. You plan to fix them before committing. Once
-              you are finished, you remove the comment. You probably remember to
-              fix most of them, but once in a while you lose track and
-              accidentally commit one or two of the comments or unfinished code
-              sections. How can we prevent this from happening?
+              you are finished, you remove the comment.
+            </p>
+            <p>
+              You probably remember to fix most of them, but once in a while you
+              lose track and accidentally commit one or two of the comments or
+              unfinished code sections. How can we prevent this from happening?
             </p>
             <p>
               We can add a Git hook that will prevent us from successfully
@@ -163,9 +164,12 @@ function Article0615() {
             </p>
             <p>
               The last block of code is where we do the legwork of searching for
-              the term and the logic for handling that. If it detects the search
-              term anywhere in the modified files, it will display the messages
-              we've written and then exit with a status of 1.
+              the term and the logic for handling that.
+            </p>
+            <p>
+              If it detects the search term anywhere in the modified files, it
+              will display the messages we've written and then exit with a
+              status of 1.
             </p>
             <p>
               Exit 1 means that something went wrong, so the script stops and
@@ -174,6 +178,8 @@ function Article0615() {
             <p>
               If the search term is not detected however, then the logic inside
               our if-statement is ignored and it reaches the end of our script.
+            </p>
+            <p>
               At this point it is implied that it exits with a status of 0. Exit
               0 means that the script finished successfully, and so Git will
               proceed with the commit.
@@ -220,9 +226,12 @@ function Article0615() {
             <p>
               Great! Now we're ready to see it in action. Let's say we have a
               file in our project with the comment "FIXME" above a block of code
-              we're working on. Pretending we haven't noticed that code comment,
-              we stage our file and then commit it. Oops! Luckily, our Git hook
-              is ready to save the day. Let's see what happens.
+              we're working on.
+            </p>
+            <p>
+              Pretending we haven't noticed that code comment, we stage our file
+              and then commit it. Oops! Luckily, our Git hook is ready to save
+              the day. Let's see what happens.
             </p>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <img
@@ -234,18 +243,23 @@ function Article0615() {
             <p>
               Our pre-commit hook was triggered automatically, and scanned the
               file for the phrase "FIXME". It detected the phrase and forced our
-              commit to fail. Good thing we left a useful error message so we
-              weren't left totally confused. Now we can either finish fixing
-              whatever the code issue was, or if it's done then we just need to
-              remove the comment.
+              commit to fail.
             </p>
             <p>
-              After we remove that comment, we will be able to successfully
-              commit the code. A couple of things you might be wondering. Does
-              this work if we write "FIXME" in lowercase? What if we write it
-              like "FIXME:" instead? Also, is this hook checking for comments
-              only, or if the phrase found its way into a block of text inside
-              an HTML &lt;p&gt; tag, would it still stop the commit?
+              Good thing we left a useful error message so we weren't left
+              totally confused. Now we can either finish fixing whatever the
+              code issue was, or if it's done then we just need to remove the
+              comment.
+            </p>
+            <p>
+              After we remove that comment, we can successfully commit the code.
+            </p>
+            <p>
+              A couple of things you might be wondering. Does this work if we
+              write "FIXME" in lowercase? What if we write it like "FIXME:"
+              instead? Also, is this hook checking for comments only, or if the
+              phrase found its way into a block of text inside an HTML &lt;p&gt;
+              tag, would it still stop the commit?
             </p>
             <p>
               The phrase is case-sensitive based on how we wrote our hook, so in
@@ -256,9 +270,12 @@ function Article0615() {
             </p>
             <p>
               This is a simple example, but you can create more complex hooks to
-              automate trickier Git workflows too. You can find a variety of Git
-              hook examples on a GitHub repository that I have linked at the
-              bottom of this article under the Conclusion section.
+              automate trickier Git workflows too.
+            </p>
+            <p>
+              You can find a variety of Git hook examples on a GitHub repository
+              that I have linked at the bottom of this article under the
+              Conclusion section.
             </p>
             <p style={{ color: "#794ACF", fontSize: "28px" }}>
               Adding Git hooks to a team project
@@ -294,10 +311,10 @@ function Article0615() {
             <p>
               <ol>
                 <li>
-                  Install prettier with <code>npm i prettier --save-dev</code>
+                  Install Prettier with <code>npm i prettier --save-dev</code>
                 </li>
                 <li>
-                  Install husky and lint-staged with{" "}
+                  Install Husky and lint-staged with{" "}
                   <code>npx mrm lint-staged</code>
                 </li>
                 <li>
@@ -313,10 +330,13 @@ function Article0615() {
               <p>
                 Note that the files this example checks are any that match the
                 glob pattern <code>**/*.js</code> which means any JavaScript
-                files in the project. To specify what types of files you want it
-                to check, change the glob pattern. So if, for example, you
-                wanted it to check both JavaScript and markdown files, you would
-                change the glob pattern to <code>**/*.{"{js, md}"}</code>.
+                files in the project.
+              </p>
+              <p>
+                To specify what types of files you want it to check, change the
+                glob pattern. So if, for example, you wanted it to check both
+                JavaScript and markdown files, you would change the glob pattern
+                to <code>**/*.{"{js, md}"}</code>.
               </p>
               <p>
                 You can also execute <code>npm run prettier</code> manually to
