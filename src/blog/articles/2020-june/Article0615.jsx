@@ -7,11 +7,14 @@ import Tag from "../../../components/Tag";
 import CodeSnippet from "../../../images/code-snippet.png";
 import CreateNewFile from "../../../images/create-new-file.gif";
 import FailedCommit from "../../../images/failed-commit.png";
-import CommentSection from "../../../components/CommentSection";
+import { DiscussionEmbed } from "disqus-react";
 
 function Article0615() {
   return (
     <>
+      <head>
+        <title>Improve your Git workflow and save time with Git hooks</title>
+      </head>
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1>Improve your Git workflow and save time with Git hooks</h1>
@@ -363,7 +366,16 @@ function Article0615() {
           <BlogProfile />
         </div>
         <div className="comment-section-wrap">
-          <CommentSection />
+          <DiscussionEmbed
+            shortname="compscilauren"
+            config={{
+              url:
+                "https://compscilauren.com/blog/improve-your-git-workflow-and-save-time-with-git-hooks",
+              identifier: "article-2020-06-15",
+              title: "Improve your Git workflow and save time with Git hooks",
+              //language: 'zh_TW' //e.g. for Traditional Chinese (Taiwan)
+            }}
+          />
         </div>
       </main>
     </>
