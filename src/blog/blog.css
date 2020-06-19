@@ -132,6 +132,37 @@ blockquote.classyStyle span {
   background-position: bottom right;
 }
 
+@media screen and (max-width: 1540px) {
+  .blog-page-wrap {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .blog-page-wrap {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .blog-page-wrap {
+    width: 56%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .blog-page-wrap {
+    width: 64%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .blog-page-wrap {
+    width: 76%;
+    border: 2px solid pink;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .tag-container {
     flex-direction: column;
