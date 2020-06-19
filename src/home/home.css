@@ -142,6 +142,75 @@
   margin-right: 30px;
 }
 
+@media screen and (max-width: 1660px) {
+  .Page-wrap {
+    margin: auto;
+    width: 72%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .Page-wrap {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .Page-wrap {
+    margin: auto;
+    width: 84%;
+  }
+  .communityImpactImg {
+    width: 460px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .Page-wrap {
+    margin: auto;
+    width: 88%;
+  }
+  .communityImpactImg {
+    width: 400px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .Page-wrap {
+    margin: auto;
+    width: 96%;
+  }
+  .communityImpactImg {
+    width: 400px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .Page-wrap {
+    margin: auto;
+    width: 100%;
+  }
+  .communityImpactImg {
+    width: 400px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .Page-wrap {
+    margin: auto;
+    width: 100%;
+  }
+  .communityImpactImg {
+    width: 400px;
+    margin-right: 0px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .communityImpactImg {
     width: 300px;

@@ -28,3 +28,9 @@
 .award-grid-item-text {
   transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 1080px) {
+  .award-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+  }
+}

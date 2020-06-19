@@ -159,7 +159,6 @@ blockquote.classyStyle span {
 @media screen and (max-width: 860px) {
   .blog-page-wrap {
     width: 76%;
-    border: 2px solid pink;
   }
 }
 

@@ -33,7 +33,7 @@
   width: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .skill-list {
     flex-direction: column;
   }
