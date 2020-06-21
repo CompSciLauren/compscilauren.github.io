@@ -10,6 +10,7 @@ const Tag = (props) => {
           padding: "4px 12px",
           borderRadius: "12px",
           fontWeight: "600",
+          margin: "16px",
         }}
       >
         #{props.title}

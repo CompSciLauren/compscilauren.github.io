@@ -10,7 +10,7 @@ function blog() {
       <main id="main-content">
         <div>
           <div className="blog-home-page-wrap">
-            <h1 className="blogTitle">Joy Bytes</h1>
+            <h1 className="blogHomePageTitle">Joy Bytes</h1>
             <p>
               Hi there! This is a blog that focuses on software development and
               is geared toward newer developers. It is run by me, Lauren

@@ -21,8 +21,8 @@ function BlogProfile() {
         ></img>
       </div>
       <div>
-        <p style={{ fontSize: "24px" }}>Lauren Stephenson</p>
-        <p style={{ fontSize: "16px" }}>
+        <p style={{ fontSize: "24px", margin: "16px" }}>Lauren Stephenson</p>
+        <p style={{ fontSize: "16px", margin: "16px" }}>
           Software Intern at Cerner Corporation. First generation college
           student majoring in computer science and graduating in December 2020.
           Stardew Valley Modder. Sleep Enthusiast. JavaScript, React, UI Design,

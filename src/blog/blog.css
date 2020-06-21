@@ -1,6 +1,5 @@
-.blogTitle {
+.blogHomePageTitle {
   padding-top: 0px;
-  margin: 16px;
   text-decoration: none;
   font-size: 48px;
 }
@@ -46,7 +45,6 @@ p {
 .blogprofile-grid-container {
   display: grid;
   grid-template-columns: auto auto;
-  margin: 16px;
   margin-top: 64px;
 }
 
