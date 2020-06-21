@@ -71,7 +71,7 @@ function Article0615() {
                 </li>
               </ol>
             </p>
-            <p className="sectionTitle">Has this ever happened to you?</p>
+            <h1 className="sectionTitle">Has this ever happened to you?</h1>
             <p>
               Do you ever push your code, only to realize you forgot to run that
               darn formatting command? There's a Git hook for that!
@@ -86,7 +86,7 @@ function Article0615() {
               branch, only to realize it's because you forgot to update
               submodules (again)? Let's "Git" hooked on Git hooks. (Ha!)
             </p>
-            <p className="sectionTitle">Stepping through a simple example</p>
+            <h1 className="sectionTitle">Stepping through a simple example</h1>
             <p>
               Okay, let's see what it looks like to go through each step of
               adding a Git hook to a project.
@@ -269,7 +269,7 @@ function Article0615() {
               that I have linked at the bottom of this article under the
               Conclusion section.
             </p>
-            <p className="sectionTitle">Adding Git hooks to a team project</p>
+            <h1 className="sectionTitle">Adding Git hooks to a team project</h1>
             <p>
               Manually adding a Git hook to your project is fine, especially if
               it's a solo project. But what about your team's project? How can
@@ -347,7 +347,7 @@ function Article0615() {
                 documentation.
               </p>
             </p>
-            <p className="sectionTitle">Conclusion</p>
+            <h1 className="sectionTitle">Conclusion</h1>
             <p>
               I wanted a place to keep a list of all the useful Git hooks I've
               come across or written over time, and that place is my{" "}

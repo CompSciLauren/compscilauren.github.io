@@ -25,21 +25,21 @@ function Article0622() {
           <hr></hr>
           <div style={{ color: "#292929", lineHeight: "28px" }}>
             <p>Text.</p>
-            <p className="sectionTitle">What is open source?</p>
+            <h1 className="sectionTitle">What is open source?</h1>
             <p>Text.</p>
-            <p className="sectionTitle">Who uses open source software?</p>
+            <h1 className="sectionTitle">Who uses open source software?</h1>
             <p>Text.</p>
-            <p className="sectionTitle">Why people care about FOSS/FLOSS</p>
+            <h1 className="sectionTitle">Why people care about FOSS/FLOSS</h1>
             <p>Text.</p>
-            <p className="sectionTitle">
+            <h1 className="sectionTitle">
               What you get from contributing to open source
-            </p>
+            </h1>
             <p>Text.</p>
-            <p className="sectionTitle">Hacktoberfest</p>
+            <h1 className="sectionTitle">Hacktoberfest</h1>
             <p>Text.</p>
-            <p className="sectionTitle">Getting started with GitHub</p>
+            <h1 className="sectionTitle">Getting started with GitHub</h1>
             <p>Text.</p>
-            <p className="sectionTitle">Finding a project</p>
+            <h1 className="sectionTitle">Finding a project</h1>
             <p>Text.</p>
             <h2 className="subSectionTitle">
               Strategy #1: Pick a "practice" project
@@ -49,21 +49,21 @@ function Article0622() {
               Strategy #2: Collect interesting projects over time
             </h2>
             <p>Text.</p>
-            <p className="sectionTitle">Google Summer of Code</p>
+            <h1 className="sectionTitle">Google Summer of Code</h1>
             <p>Text.</p>
-            <p className="sectionTitle">Figuring out what to contribute</p>
+            <h1 className="sectionTitle">Figuring out what to contribute</h1>
             <p>Text.</p>
-            <p className="sectionTitle">Getting an employer to notice</p>
+            <h1 className="sectionTitle">Getting an employer to notice</h1>
             <p>Text.</p>
-            <p className="sectionTitle">
+            <h1 className="sectionTitle">
               How to actually make the contribution
-            </p>
+            </h1>
             <p>Text.</p>
-            <p className="sectionTitle">
+            <h1 className="sectionTitle">
               Creating your own open source project
-            </p>
+            </h1>
             <p>Text.</p>
-            <p className="sectionTitle">Conclusion</p>
+            <h1 className="sectionTitle">Conclusion</h1>
             <p>Summary text here.</p>
             <p>
               Have you ever contributed to open source? What kind of projects
