@@ -17,7 +17,7 @@ function Article0622() {
           <h1 style={{ padding: "8px" }}>
             Why contribute to open source and how to get started
           </h1>
-          <BlogProfileTop date="June 22nd, 2020" readTime="5 min" />
+          <BlogProfileTop date="June 22nd, 2020" readTime="8 min" />
           <div className="tag-container">
             <Tag title="opensource" />
             <Tag title="github" />
@@ -223,7 +223,12 @@ function Article0622() {
               about some really great resources.
             </p>
             <h1 className="sectionTitle">Figuring out what to contribute</h1>
-            <p>Text.</p>
+            <blockquote className="protipStyle">
+              <span>
+                Pro Tip: start with documentation first. You'll learn more about
+                the project and can find easy typos or grammar issues to fix.
+              </span>
+            </blockquote>
             <h1 className="sectionTitle">Getting an employer to notice</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">
