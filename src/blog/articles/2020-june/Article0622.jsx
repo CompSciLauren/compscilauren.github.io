@@ -24,8 +24,36 @@ function Article0622() {
           </div>
           <hr></hr>
           <div style={{ color: "#292929", lineHeight: "28px" }}>
-            <p>Text.</p>
-            <h1 className="sectionTitle">What is open source?</h1>
+            <p>
+              Contributing to open source is a fantastic way to gain valuable
+              experience collaborating with others and working on a "real-world"
+              project.
+            </p>
+            <p>
+              This is one of my favorite topics to talk about with other
+              students at my university. Open source isn't something you
+              typically learn about in a computer science degree program.
+            </p>
+            <p>
+              And yet, it can be an incredibly fun and useful way to gain
+              real-world experience with software development.
+            </p>
+            <p>
+              It's also valuable experience to add to your resume, and can help
+              you land your first internship or even a full-time job. It's
+              useful regardless of whether or not you're a student.
+            </p>
+            <p>
+              In this article, we'll go over the basics of open source and how
+              to find interest projects. We'll also walk through the steps of
+              actually making a contribution.
+            </p>
+            <p>
+              If you're interested in maintaining your own open source project
+              rather than contributing to someone else's, I'll be writing about
+              that next week!
+            </p>
+            <h1 className="sectionTitle">So, what is open source?</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">Who uses open source software?</h1>
             <p>Text.</p>
