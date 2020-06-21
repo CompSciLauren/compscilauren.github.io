@@ -190,7 +190,45 @@ function Article0622() {
               of cost. ;)
             </p>
             <h1 className="sectionTitle">Getting started with GitHub</h1>
-            <p>Text.</p>
+            <p>
+              A great website for getting started with open source software is
+              GitHub. It’s where you and anyone else can upload their coding
+              projects for everyone else to see.
+            </p>
+            <p>
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>{" "}
+              is a popular place to go for open source projects, and it's what
+              I'll be using for this article. That said, here are some{" "}
+              <a
+                href="https://itsfoss.com/github-alternatives/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                other open source hosting services
+              </a>{" "}
+              that you can check out.
+            </p>
+            <p>
+              When you contribute to someone else’s public GitHub project, you
+              are contributing to open source. If you upload your own project to
+              GitHub and make it public, then your project is open source!
+            </p>
+            <p>
+              It's highly recommended that projects include licenses to protect
+              the project maintainer and the project itself. This is more
+              important to consider if you want to maintain your own project.
+            </p>
+            <p>
+              If you're only looking to contribute to a project, then you should
+              be fine if you are acting with good ethics and read their
+              contribution guidelines.
+            </p>
             <h1 className="sectionTitle">Finding a project</h1>
             <p>
               There are{" "}
@@ -239,15 +277,8 @@ function Article0622() {
             </p>
             <p>
               Search online to find out if it is open source or not. If it is,
-              there's a good chance you can find them on GitHub (or check out{" "}
-              <a
-                href="https://itsfoss.com/github-alternatives/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                other open source hosting services
-              </a>
-              ).
+              there's a good chance you can find them on GitHub (or check out
+              any other open source hosting services).
             </p>
             <p>
               If they're on GitHub, you can “star” them as a way of bookmarking
