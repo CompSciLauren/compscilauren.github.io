@@ -6,6 +6,7 @@ import BlogProfileTop from "../../../components/BlogProfileTop";
 import Tag from "../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
 import ConferenceRoom from "../../../images/conference-room.jpg";
+import LockedDoor from "../../../images/locked-door.jpg";
 
 function Article0622() {
   return (
@@ -67,17 +68,35 @@ function Article0622() {
             <img
               src={ConferenceRoom}
               alt="Conference room with glass windows all around it"
-            ></img>
+            />
+            Image by{" "}
+            <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768441">
+              Free-Photos
+            </a>{" "}
+            from{" "}
+            <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=768441">
+              Pixabay
+            </a>
             <p>
-              Open source projects are like rooms with unlocked glass doors. You
-              can look inside and interact with everything. This is different
-              from proprietary software, whose code cannot be viewed openly by
-              the public.
+              Open source projects are like rooms that you can easily look into
+              and walk inside. You can interact with the things inside the room.
             </p>
             <p>
-              You can think of that like the company keeping a locked safe with
-              the code for their software, only available to people who have
-              access to it.
+              This is different from proprietary software, whose code cannot be
+              viewed openly by the public.
+            </p>
+            <img src={LockedDoor} alt="A locked door" />
+            Image by{" "}
+            <a href="https://pixabay.com/users/draconianimages-182808/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2352669">
+              John Collins
+            </a>{" "}
+            from{" "}
+            <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2352669">
+              Pixabay
+            </a>
+            <p>
+              You can think of that like the company keeping their code behind a
+              locked door, only available to people who have access to the room.
             </p>
             <p>
               They are two different approaches and there are pros and cons to
