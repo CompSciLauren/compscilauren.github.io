@@ -71,9 +71,7 @@ function Article0615() {
                 </li>
               </ol>
             </p>
-            <p style={{ color: "#794ACF", fontSize: "28px" }}>
-              Has this ever happened to you?
-            </p>
+            <p className="sectionTitle">Has this ever happened to you?</p>
             <p>
               Do you ever push your code, only to realize you forgot to run that
               darn formatting command? There's a Git hook for that!
@@ -88,9 +86,7 @@ function Article0615() {
               branch, only to realize it's because you forgot to update
               submodules (again)? Let's "Git" hooked on Git hooks. (Ha!)
             </p>
-            <p style={{ color: "#794ACF", fontSize: "28px" }}>
-              Stepping through a simple example
-            </p>
+            <p className="sectionTitle">Stepping through a simple example</p>
             <p>
               Okay, let's see what it looks like to go through each step of
               adding a Git hook to a project.
@@ -129,9 +125,7 @@ function Article0615() {
                 View this code snippet on GitHub
               </a>
             </p>
-            <h2 style={{ padding: "8px", color: "#3D4852", fontSize: "20px" }}>
-              What this code is doing
-            </h2>
+            <h2 className="subSectionTitle">What this code is doing</h2>
             <p>
               This is our Git hook script. A script can be written in many
               different languages. This one happens to be written in Bash.
@@ -184,9 +178,7 @@ function Article0615() {
               0 means that the script finished successfully, and so Git will
               proceed with the commit.
             </p>
-            <h2 style={{ padding: "8px", color: "#3D4852", fontSize: "20px" }}>
-              Putting our script to work
-            </h2>
+            <h2 className="subSectionTitle">Putting our script to work</h2>
             <p>
               Now that our hook is written, we just need to place it in the
               designated hooks folder in our project that uses Git.
@@ -277,9 +269,7 @@ function Article0615() {
               that I have linked at the bottom of this article under the
               Conclusion section.
             </p>
-            <p style={{ color: "#794ACF", fontSize: "28px" }}>
-              Adding Git hooks to a team project
-            </p>
+            <p className="sectionTitle">Adding Git hooks to a team project</p>
             <p>
               Manually adding a Git hook to your project is fine, especially if
               it's a solo project. But what about your team's project? How can
@@ -357,7 +347,7 @@ function Article0615() {
                 documentation.
               </p>
             </p>
-            <p style={{ color: "#794ACF", fontSize: "28px" }}>Conclusion</p>
+            <p className="sectionTitle">Conclusion</p>
             <p>
               I wanted a place to keep a list of all the useful Git hooks I've
               come across or written over time, and that place is my{" "}

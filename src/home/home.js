@@ -130,8 +130,8 @@ function home() {
               title="Why contribute to open source and how to get started"
               date="June 22nd, 2020"
               link="/blog/why-contribute-to-open-source-and-how-to-get-started"
-              tag1="github"
-              tag2="automation"
+              tag1="opensource"
+              tag2="github"
             />
             <BlogArticle
               title="Improve your Git workflow and save time with Git hooks"

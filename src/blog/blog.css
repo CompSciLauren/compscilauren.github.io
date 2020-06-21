@@ -132,6 +132,16 @@ blockquote.classyStyle span {
   background-position: bottom right;
 }
 
+.sectionTitle {
+  color: #794acf;
+  font-size: 28px;
+}
+
+.subSectionTitle {
+  color: #3d4852;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1540px) {
   .blog-page-wrap {
     width: 40%;

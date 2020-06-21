@@ -32,7 +32,7 @@ function blog() {
                 title="Why contribute to open source and how to get started"
                 date="June 22nd, 2020"
                 link="/blog/why-contribute-to-open-source-and-how-to-get-started"
-                tag1="open source"
+                tag1="opensource"
                 tag2="github"
               />
               <BlogArticle
