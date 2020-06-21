@@ -223,12 +223,68 @@ function Article0622() {
               about some really great resources.
             </p>
             <h1 className="sectionTitle">Figuring out what to contribute</h1>
+            <p>
+              It can be tempting to jump straight into the code, but hold on a
+              minute before you do that.
+            </p>
             <blockquote className="protipStyle">
               <span>
-                Pro Tip: start with documentation first. You'll learn more about
+                Pro Tip: Start with documentation first. You'll learn more about
                 the project and can find easy typos or grammar issues to fix.
               </span>
             </blockquote>
+            <h2 className="subSectionTitle">
+              What if the project doesn't have documentation?
+            </h2>
+            <p>
+              Zero documentation makes a project difficult to learn about. You
+              could help just by creating a README for the project.
+            </p>
+            <p>
+              It doesn't even need to be totally filled out. Just add what
+              information you can, like the project title and a short
+              description describing its purpose, or how to run it on your local
+              machine.
+            </p>
+            <p>
+              If it's a project that involves visual elements, add a screenshot
+              or GIF showing the project in action.
+            </p>
+            <p>
+              I did this once for someone's open source project. It was a small
+              improvement, but even adding a simple README can go a long way.
+            </p>
+            <h2 className="subSectionTitle">Next steps after documentation</h2>
+            <p>
+              The easiest way to find specific problems to sovle is by searching
+              a project’s “Issues” to see what existing problems have been
+              documented.
+            </p>
+            <p>
+              Keep an eye out for labels like “beginner-friendly”, “good first
+              issue”, “first timers only”, and so on. You can even search for
+              specific labels on the GitHub search bar.
+            </p>
+            <p>
+              As you work on an existing issue or just try running the project
+              and navigating it as a user, you might find bugs or notice things
+              that could be added or improved upon.
+            </p>
+            <p>
+              You can create a new issue on the project to document the problem
+              or new feature idea. This gives project maintainers a chance to
+              discuss the issue with you and hash out any important details
+              before getting deep into writing the solution.
+            </p>
+            <p>
+              It's common practice to make sure there is an issue documented on
+              the Issues page before adding the change.
+            </p>
+            <p>
+              Still, every project has their own way of doing things. Make sure
+              you read their contributing guidelines before you try to get your
+              changes added to the project.
+            </p>
             <h1 className="sectionTitle">Getting an employer to notice</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">
