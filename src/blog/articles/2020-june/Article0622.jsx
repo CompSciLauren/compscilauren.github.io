@@ -8,6 +8,7 @@ import { DiscussionEmbed } from "disqus-react";
 import ConferenceRoom from "../../../images/conference-room.jpg";
 import LockedDoor from "../../../images/locked-door.jpg";
 import OpenSourceExamples from "../../../images/open-source-examples.png";
+import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
 
 function Article0622() {
   return (
@@ -197,6 +198,15 @@ function Article0622() {
             </p>
             <p>Wait wait wait, free t-shirt? Where?!</p>
             <h2 className="subSectionTitle">Hacktoberfest</h2>
+            <img
+              src={HacktoberfestShirt}
+              alt="Hacktoberfest 2019 t-shirt"
+              style={{ width: "640px" }}
+            />
+            Image from{" "}
+            <a href="https://www.digitalocean.com/blog/recapping-hacktoberfest-6/?">
+              Recapping Hacktoberfest
+            </a>
             <p>
               That's right, you can get a cool t-shirt if you contribute to open
               source.
