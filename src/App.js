@@ -4,6 +4,7 @@ import "./index.css";
 import home from "./home/home.js";
 import blog from "./blog/blog.js";
 import Article0615 from "./blog/articles/2020-june/Article0615.jsx";
+import Article0622 from "./blog/articles/2020-june/Article0622.jsx";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
         </nav>
         <Route path="/" exact component={home} />
         <Route path="/blog" exact component={blog} />
+        <Route
+          path="/blog/why-contribute-to-open-source-and-how-to-get-started"
+          component={Article0622}
+        />
         <Route
           path="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
           component={Article0615}
