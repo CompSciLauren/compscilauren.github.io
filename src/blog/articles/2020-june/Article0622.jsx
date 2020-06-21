@@ -297,7 +297,102 @@ function Article0622() {
               changes added to the project.
             </p>
             <h1 className="sectionTitle">Getting an employer to notice</h1>
-            <p>Text.</p>
+            <p>
+              Put your GitHub account link on your resume. Share it on Linkedin,
+              Twitter, or whatever other relevant social media you use. If you
+              have a portfolio/personal website, use that instead.
+            </p>
+            <p>
+              GitHub is not a replacement for a portfolio, but it is definitely
+              good to show employers if you don’t have a portfolio built out
+              already.
+            </p>
+            <p>
+              Recruiters probably won’t spend much, if any, time looking at the
+              projects. Hiring managers probably will.
+            </p>
+            <p>
+              Keep in mind, it is totally fine that your code isn’t perfect.
+              Hiring managers aren’t looking for perfection.
+            </p>
+            <p>
+              They just want to see things you’ve worked on. It makes for a good
+              talking point that either party can bring up during the interview.
+            </p>
+            <p>
+              Make sure the link to your GitHub goes straight to your profile
+              page. You can add up to 6 projects to your profile page as
+              featured repositories. Add the ones you want them to see.
+            </p>
+            <p>
+              Don't want anyone looking at your code? Totally normal to feel
+              that way. But most developers are never completely satisfied with
+              their code. Something to show is usually better than nothing.
+            </p>
+            <h2 className="subSectionTitle">
+              How open source helped me get a job
+            </h2>
+            <p>
+              I actually landed my first job writing code, in part, to my GitHub
+              profile. At the time I had maybe 6 or 7 projects, and just about
+              every one of them were awful.
+            </p>
+            <p>
+              I had never contributed to open source at this point, but my
+              personal projects were all open source. Anyone could look at my
+              code.
+            </p>
+            <p>
+              I had one project I felt was fairly decent. I pinned it to my
+              profile, and linked it on my resume.
+            </p>
+            <p>
+              During the interview, my GitHub profile was brought up. I don't
+              remember if they brought it up or I did, but the point is that it
+              was brought up. We discussed it, and that discussion contributed
+              to me getting hired.
+            </p>
+            <p>
+              After I had started the job, I talked to one of the people who had
+              interviewed me. They flat-out told me that they were glad I had
+              linked my GitHub on my resume.
+            </p>
+            <p>
+              I was the only one who did, and it gave them better insight into
+              what kind of coding experience I had.
+            </p>
+            <p>
+              And the funny thing is, they said that while they were running it
+              they managed to break it. There were bugs in my code and it was
+              obvious.
+            </p>
+            <p>
+              Seriously, a poorly-coded project played a big role in securing my
+              first tech job. Even though it was far from perfect, it was better
+              than nothing.
+            </p>
+            <p>
+              I'm sure that my overall experience level was taken into account.
+              I wasn't far along in college yet. My only other experience was
+              working at my community college and being a crossing guard for a
+              year.
+            </p>
+            <p>
+              So bare in mind that there will be many factors considered. If you
+              have 10 years of experience but only a few beginner-level
+              projects, maybe don't link your GitHub.
+            </p>
+            <p>
+              But if you're looking for an internship, or an entry-level coding
+              position, this kind of thing could be really beneficial even if
+              you think your code isn't very good.
+            </p>
+            <p>
+              As you get better at coding, you'll have more and more interesting
+              projects to show employers. The code will never be perfect, but
+              you'll continue to improve over time and it will show in your
+              projects.
+            </p>
             <h1 className="sectionTitle">
               How to actually make the contribution
             </h1>
