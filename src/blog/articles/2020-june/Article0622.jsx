@@ -9,6 +9,7 @@ import ConferenceRoom from "../../../images/conference-room.jpg";
 import LockedDoor from "../../../images/locked-door.jpg";
 import OpenSourceExamples from "../../../images/open-source-examples.png";
 import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
+import GitHub from "../../../images/github.png";
 
 function Article0622() {
   return (
@@ -229,6 +230,11 @@ function Article0622() {
               of cost. ;)
             </p>
             <h1 className="sectionTitle">Getting started with GitHub</h1>
+            <img
+              src={GitHub}
+              alt="GitHub logo and several GitHub cartoon character drawings"
+              style={{ width: "640px" }}
+            />
             <p>
               A great website for getting started with open source software is
               GitHub. It’s where you and anyone else can upload their coding
