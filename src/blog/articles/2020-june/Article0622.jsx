@@ -30,8 +30,8 @@ function Article0622() {
               project.
             </p>
             <p>
-              This is one of my favorite topics to talk about with other
-              students at my university. Open source isn't something you
+              This is one of my favorite topics to talk about, especially with
+              other students at my university. Open source isn't something you
               typically learn about in a computer science degree program.
             </p>
             <p>
@@ -150,9 +150,45 @@ function Article0622() {
             <h1 className="sectionTitle">
               What you get from contributing to open source
             </h1>
-            <p>Text</p>
-            <h1 className="sectionTitle">Hacktoberfest</h1>
-            <p>Text.</p>
+            <p>
+              So how does it benefit you specifically? There's a lot of value in
+              it, but here are some of the practical highlights.
+            </p>
+            <p>
+              <ul>
+                <li>Improve as a programmer</li>
+                <li>Increase confidence</li>
+                <li>Experience collaborating with others</li>
+                <li>Community and recognition</li>
+                <li>Build something, create an impact</li>
+                <li>Stand out amongst other job applicants</li>
+                <li>Experience joy and satisfaction</li>
+                <li>Free t-shirt</li>
+              </ul>
+            </p>
+            <p>Wait wait wait, free t-shirt? Where?!</p>
+            <h2 className="subSectionTitle">Hacktoberfest</h2>
+            <p>
+              That's right, you can get a cool t-shirt if you contribute to open
+              source.
+            </p>
+            <p>
+              <a
+                href="https://hacktoberfest.digitalocean.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hacktoberfest
+              </a>{" "}
+              is an event that happens every year in October to promote open
+              source and help people learn how to get involved.
+            </p>
+            <p>
+              Typically, if you sign up on the Hacktoberfest website, you just
+              need to make 4 or 5 open source contributions. Do that, and you
+              can get yourself a snazzy shirt for free! And that's free in terms
+              of cost. ;)
+            </p>
             <h1 className="sectionTitle">Getting started with GitHub</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">Finding a project</h1>
