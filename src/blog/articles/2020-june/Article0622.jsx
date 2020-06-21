@@ -62,7 +62,28 @@ function Article0622() {
             <h1 className="sectionTitle">
               Creating your own open source project
             </h1>
-            <p>.</p>
+            <p>
+              Another interesting way to get involved in open source is to start
+              your own open source project!
+            </p>
+            <p>
+              The basics are pretty straightforward, but there are a few
+              different key features that tend to get overlooked when you're
+              maintaining one for the first time.
+            </p>
+            <p>
+              There's also the task of getting people to actually use your
+              project. Not to mention finding people who are willing to help
+              contribute to it.
+            </p>
+            <p>
+              I've made plenty of mistakes along the way with my own open source
+              projects, and I can't wait to share what I've learned with you.
+            </p>
+            <p>
+              Next week I'll cover how to get started with your own open source
+              project, plus some tips for success.
+            </p>
             <h1 className="sectionTitle">Conclusion</h1>
             <p>
               I hope this article has helped you understand open source better.
@@ -71,8 +92,9 @@ function Article0622() {
               least once.
             </p>
             <p>
-              Next week I will cover starting an open source project and tips
-              for success!
+              Remember to check back next week if you're interested in starting
+              your own open source project, or learning some new tips for
+              success!
             </p>
             <p>
               Have you ever contributed to open source? Do you have any
