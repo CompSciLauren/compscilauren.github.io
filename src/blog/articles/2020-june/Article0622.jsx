@@ -444,6 +444,26 @@ function Article0622() {
               Feel free to skip this section if you've already created a pull
               request on someone else's GitHub repository before.
             </p>
+            <p>
+              So you can actually find some very well-written steps on the
+              README for the First Contributions repository.
+            </p>
+            <p>
+              If you want to follow the standard way of making a contribution,
+              you can follow those steps.
+            </p>
+            <p>
+              I'm going to show you how you can make a contribution by staying
+              inside the browser.
+            </p>
+            <p>
+              This isn't a typical workflow, but it can work for very minor
+              changes.
+            </p>
+            <p>
+              Since there's not much point in me repeating the README steps
+              here, I figured I'd show how to do it this way instead.
+            </p>
             <h2 className="subSectionTitle">1. Create a GitHub account</h2>
             <p>
               Okay, so I lied a little. I'm not going to show this step because
