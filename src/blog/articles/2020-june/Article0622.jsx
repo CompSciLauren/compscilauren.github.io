@@ -10,6 +10,8 @@ import LockedDoor from "../../../images/locked-door.jpg";
 import OpenSourceExamples from "../../../images/open-source-examples.png";
 import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
 import GitHub from "../../../images/github.png";
+import Interview from "../../../images/interview.jpg";
+import Lego404 from "../../../images/lego404.jpg";
 
 function Article0622() {
   return (
@@ -539,6 +541,10 @@ function Article0622() {
               have a portfolio/personal website, use that instead.
             </p>
             <p>
+              Consider adding a section for open source projects on your resume,
+              or including it under any relevant list of projects/experiences.
+            </p>
+            <p>
               GitHub is not a replacement for a portfolio, but it is definitely
               good to show employers if you don’t have a portfolio built out
               already.
@@ -550,6 +556,22 @@ function Article0622() {
             <p>
               Keep in mind, it is totally fine that your code isn’t perfect.
               Hiring managers aren’t looking for perfection.
+            </p>
+            <img
+              src={Interview}
+              alt="Two women shaking hands, presumably after an interview has just ended"
+            />
+            Image by{" "}
+            <a href="https://pixabay.com/users/styles66-8817528/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4835116">
+              Sue Styles
+            </a>{" "}
+            from{" "}
+            <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4835116">
+              Pixabay
+            </a>
+            <p>
+              Be prepared to talk about your projects and/or open source
+              contributions during your interview.
             </p>
             <p>
               They just want to see things you’ve worked on. It makes for a good
@@ -602,6 +624,15 @@ function Article0622() {
               they managed to break it. There were bugs in my code and it was
               obvious.
             </p>
+            <img src={Lego404} alt="404 written using legos" />
+            Image by{" "}
+            <a href="https://pixabay.com/users/aitoff-388338/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2129569">
+              Andrew Martin
+            </a>{" "}
+            from{" "}
+            <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2129569">
+              Pixabay
+            </a>
             <p>
               Seriously, a poorly-coded project played a big role in securing my
               first tech job. Even though it was far from perfect, it was better
