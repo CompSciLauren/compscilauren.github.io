@@ -65,3 +65,7 @@ nav li {
 nav a {
   color: #f2f2f2;
 }
+
+img:not([alt]) {
+  outline: 2px dashed red;
+}
