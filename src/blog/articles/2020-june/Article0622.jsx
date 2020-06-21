@@ -12,6 +12,9 @@ import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
 import GitHub from "../../../images/github.png";
 import Interview from "../../../images/interview.jpg";
 import Lego404 from "../../../images/lego404.jpg";
+import GitHubIssues from "../../../images/github-issues.png";
+import GitHubFilterIssues from "../../../images/github-filter-issues.png";
+import GitHubSearchIssues from "../../../images/github-search-issues.png";
 
 function Article0622() {
   return (
@@ -505,15 +508,40 @@ function Article0622() {
             </p>
             <h2 className="subSectionTitle">Next steps after documentation</h2>
             <p>
-              The easiest way to find specific problems to sovle is by searching
+              The easiest way to find specific problems to solve is by searching
               a project’s “Issues” to see what existing problems have been
               documented.
             </p>
+            <img
+              src={GitHubIssues}
+              alt="Screenshot of a GitHub Issues page on a GitHub repository"
+              style={{ width: "640px" }}
+            />
             <p>
               Keep an eye out for labels like “beginner-friendly”, “good first
               issue”, “first timers only”, and so on. You can even search for
-              specific labels on the GitHub search bar.
+              specific labels across all of GitHub using the main search bar.
             </p>
+            <p>
+              For example, to search for all Issues on all public GitHub
+              repositories that use the "good first issue" tag, type{" "}
+              <code>is:open is:issue label:"good first issue"</code> into the
+              search bar.
+            </p>
+            <img
+              src={GitHubSearchIssues}
+              alt="Screenshot showing how to search for GitHub Issues that use a specific tag"
+              style={{ width: "640px" }}
+            />
+            <p>
+              You can also filter the results on any repo by clicking the
+              "Label" dropdown on its GitHub Issues page.
+            </p>
+            <img
+              src={GitHubFilterIssues}
+              alt="Screenshot showing the filter option on a GitHub repository"
+              style={{ width: "640px" }}
+            />
             <p>
               As you work on an existing issue or just try running the project
               and navigating it as a user, you might find bugs or notice things
@@ -528,6 +556,10 @@ function Article0622() {
             <p>
               It's common practice to make sure there is an issue documented on
               the Issues page before adding the change.
+            </p>
+            <p>
+              If no one has added the issue yet, you can add it to the Issues
+              page yourself.
             </p>
             <p>
               Still, every project has their own way of doing things. Make sure
@@ -694,8 +726,7 @@ function Article0622() {
             </p>
             <p>
               Remember to check back next week if you're interested in starting
-              your own open source project, or learning some new tips for
-              success!
+              your own open source project, or learning some tips for success!
             </p>
             <p>
               Have you ever contributed to open source? Do you have any
