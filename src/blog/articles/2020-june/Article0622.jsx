@@ -15,6 +15,12 @@ import Lego404 from "../../../images/lego404.jpg";
 import GitHubIssues from "../../../images/github-issues.png";
 import GitHubFilterIssues from "../../../images/github-filter-issues.png";
 import GitHubSearchIssues from "../../../images/github-search-issues.png";
+import FirstContributionsRepo from "../../../images/first-contributions-repo.png";
+import GitHubFork from "../../../images/github-fork.png";
+import ContributorsFile from "../../../images/contributors-file.png";
+import EditFileButton from "../../../images/edit-file-button.png";
+import AddName from "../../../images/add-name.png";
+import SaveChanges from "../../../images/save-changes.png";
 
 function Article0622() {
   return (
@@ -452,16 +458,132 @@ function Article0622() {
               and create an account if you don't have one yet.
             </p>
             <h2 className="subSectionTitle">2. Choose a practice project</h2>
-            <p>We are going to use the classic first-timers repository.</p>
+            <p>
+              We are going to use the{" "}
+              <a
+                href="https://github.com/firstcontributions/first-contributions"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                First Contributions
+              </a>{" "}
+              repository as our practice project.
+            </p>
+            <img
+              src={FirstContributionsRepo}
+              alt="Screenshot showing the top of the First Contributions GitHub repository"
+              style={{ width: "640px" }}
+            />
             <h2 className="subSectionTitle">3. Fork the project</h2>
             <p>
-              Forking the project creates a copy of it on your GitHub account.
+              Fork is a weird term when you hear it for the first time, but it's
+              pretty easy to understand once you know what it means.
             </p>
+            <p>
+              When you fork a project, you are creating a copy of the project.
+            </p>
+            <p>
+              You can make whatever changes you want to this personal copy, and
+              it will not affect the original repository at all.
+            </p>
+            <p>
+              If you want to contribute to a project, forking the repository is
+              a good way to set it up so you can work on the contribution you
+              want to make.
+            </p>
+            <img
+              src={GitHubFork}
+              alt="Screenshot showing the location of the GitHub fork button"
+              style={{ width: "640px" }}
+            />
+            <p>Click the "Fork" button to create a copy of the repository.</p>
             <h2 className="subSectionTitle">4. Make a contribution</h2>
+            <p>
+              The standard way of making a contribution involves cloning the
+              repository on your local machine.
+            </p>
+            <p>
+              I'm going to show you a different way of doing it. This is much
+              less frequently used, but it's a simple way to see how
+              contributing works.
+            </p>
+            <p>
+              To see the steps for cloning the repo and making the changes on
+              your local machine, see the First Contributions README on their
+              repository.
+            </p>
             <p>
               This project asks us to add our name to the contributors list.
             </p>
-            <h2 className="subSectionTitle">5. Create a pull request</h2>
+            <p>
+              Click on the <code>Contributors.md</code> file.
+            </p>
+            <img
+              src={ContributorsFile}
+              alt="Screenshot showing location of Contributors.md file"
+              style={{ width: "640px" }}
+            />
+            <p>Click the edit button to edit the file.</p>
+            <img
+              src={EditFileButton}
+              alt="Screenshot showing the Edit File button"
+              style={{ width: "640px" }}
+            />
+            <p>
+              Type your name into the file. Don't add it at the beginning or end
+              of the file, though.
+            </p>
+            <img
+              src={AddName}
+              alt="Screenshot showing how to add your name to the file"
+              style={{ width: "640px" }}
+            />
+            <p>
+              Make sure you add a dash at the start of the line so it gets added
+              to the list correctly.
+            </p>
+            <p>
+              If you want your name in the file to have a link to your GitHub
+              profile, make sure to add the correct syntax.
+            </p>
+            <p>
+              Just add brackets around your name, and then parenthesis around
+              your GitHub profile URL. So mine would be{" "}
+              <code>[Lauren Stephenson](https://github.com/CompSciLauren)</code>
+            </p>
+            <h2 className="subSectionTitle">5. Save your changes</h2>
+            <p>
+              Scroll to the bottom and you'll see a section to write some notes
+              and save your changes.
+            </p>
+            <p>
+              Here we will create a new branch to make our changes in, as well
+              as create the commit that adds our change.
+            </p>
+            <p>
+              Again, this is done slightly differently when you clone the
+              repository to your local machine.
+            </p>
+            <p>
+              It would still involve creating a branch and making a commit, but
+              it looks different than this.
+            </p>
+            <p>
+              Remember you can view the README for this First Contributions
+              repository to see what it looks like doing it the standard way on
+              your machine.
+            </p>
+            <p>
+              Here is what you should have, except where I wrote my name you
+              would write yours instead.
+            </p>
+            <img
+              src={SaveChanges}
+              alt="Screenshot showing how to save your changes"
+              style={{ width: "640px" }}
+            />
+            <p>Click "Propose changes" to save your work.</p>
+            <h2 className="subSectionTitle">6. Create a pull request</h2>
             <p>Here's the most exciting part.</p>
             <h1 className="sectionTitle">Figuring out what to contribute</h1>
             <p>
