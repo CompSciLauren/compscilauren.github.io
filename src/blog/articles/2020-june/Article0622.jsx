@@ -97,12 +97,60 @@ function Article0622() {
               software are open source too.
             </p>
             <p>It's pretty much everywhere these days.</p>
-            <h1 className="sectionTitle">Why people care about FOSS/FLOSS</h1>
-            <p>Text.</p>
+            <h1 className="sectionTitle">Why people care about open source</h1>
+            <p>
+              A lot of people are deeply passionate about open source (aka
+              FLOSS; Free Libre Open Source Software). I love this quote, from
+              an article titled "
+              <a
+                href="https://www.control-escape.com/linux/opensource.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                What is Free/Libre, Open Source Software?
+              </a>
+              "
+            </p>
+            <blockquote className="classyStyle">
+              <span>
+                By sharing our improvements and ideas, pooling our resources
+                with thousands, even millions of others around the world via the
+                Internet, the open source community is able to create powerful,
+                stable, reliable software, at very little cost.
+              </span>
+            </blockquote>
+            <p>
+              That's one of the coolest parts about being in the open source
+              community. And yes, it is very much a true community. It is full
+              of wonderful people, and many tend to care deeply about ethics and
+              freedom.
+            </p>
+            <p>
+              When people in the community say "free software", they aren't
+              referring to cost. The{" "}
+              <a
+                href="https://www.fsf.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Free Software Foundation
+              </a>{" "}
+              has this to say about it.
+            </p>
+            <blockquote className="classyStyle">
+              <span>
+                Free software developers guarantee everyone equal rights to
+                their programs; any user can study the source code, modify it,
+                and share the program. By contrast, most software carries fine
+                print that denies users these basic rights, leaving them
+                susceptible to the whims of its owners and vulnerable to
+                surveillance.
+              </span>
+            </blockquote>
             <h1 className="sectionTitle">
               What you get from contributing to open source
             </h1>
-            <p>Text.</p>
+            <p>Text</p>
             <h1 className="sectionTitle">Hacktoberfest</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">Getting started with GitHub</h1>
