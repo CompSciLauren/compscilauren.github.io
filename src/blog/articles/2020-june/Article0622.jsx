@@ -17,7 +17,7 @@ function Article0622() {
           <h1 style={{ padding: "8px" }}>
             Why contribute to open source and how to get started
           </h1>
-          <BlogProfileTop date="June 22nd, 2020" readTime="8 min" />
+          <BlogProfileTop date="June 22nd, 2020" readTime="12 min" />
           <div className="tag-container">
             <Tag title="opensource" />
             <Tag title="github" />
