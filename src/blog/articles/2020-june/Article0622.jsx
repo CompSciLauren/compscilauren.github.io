@@ -54,7 +54,31 @@ function Article0622() {
               that next week!
             </p>
             <h1 className="sectionTitle">So, what is open source?</h1>
-            <p>Text.</p>
+            <p>
+              When software is open source, it means that anybody can look at
+              the code.
+            </p>
+            <p>
+              Anybody can see how it was made, and they can often even make
+              their own copy of the entire project. They can use their copy
+              however they want, and change the code if they want.
+            </p>
+            <p>
+              Open source projects are like rooms with unlocked glass doors. You
+              can look inside and interact with everything. This is different
+              from proprietary software, whose code cannot be viewed openly by
+              the public.
+            </p>
+            <p>
+              You can think of that like the company keeping a locked safe with
+              the code for their software, only available to people who have
+              access to it.
+            </p>
+            <p>
+              They are two different approaches and there are pros and cons to
+              both. You can find all kinds of passionate debates about this
+              online. Here though, we'll just focus on the basics.
+            </p>
             <h1 className="sectionTitle">Who uses open source software?</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">Why people care about FOSS/FLOSS</h1>
