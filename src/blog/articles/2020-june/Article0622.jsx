@@ -5,6 +5,7 @@ import BlogProfile from "../../../components/BlogProfile";
 import BlogProfileTop from "../../../components/BlogProfileTop";
 import Tag from "../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
+import ConferenceRoom from "../../../images/conference-room.jpg";
 
 function Article0622() {
   return (
@@ -63,6 +64,10 @@ function Article0622() {
               their own copy of the entire project. They can use their copy
               however they want, and change the code if they want.
             </p>
+            <img
+              src={ConferenceRoom}
+              alt="Conference room with glass windows all around it"
+            ></img>
             <p>
               Open source projects are like rooms with unlocked glass doors. You
               can look inside and interact with everything. This is different
