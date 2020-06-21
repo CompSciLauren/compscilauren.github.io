@@ -233,6 +233,17 @@ function Article0622() {
                 the project and can find easy typos or grammar issues to fix.
               </span>
             </blockquote>
+            <p>
+              This is my favorite way to jump into a new open source project.
+              Even the best documentation writers are prone to accidental typos
+              and grammar mistakes.
+            </p>
+            <p>
+              Sometimes a section of the documentation is just a bit vague or
+              hard to understand. As a new contributor to the project, you can
+              provide a fresh pair of eyes to scan the project for easily
+              overlooked problems.
+            </p>
             <h2 className="subSectionTitle">
               What if the project doesn't have documentation?
             </h2>
