@@ -68,17 +68,160 @@ function Article0622() {
             <h1 className="sectionTitle">Getting started with GitHub</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">Finding a project</h1>
-            <p>Text.</p>
+            <p>
+              There are{" "}
+              <a
+                href="https://github.blog/2018-11-08-100M-repos/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                over 100 million repositories
+              </a>{" "}
+              on GitHub! With 1.6 new repositories created every second, the
+              options are basically limitless. So how do you choose?
+            </p>
             <h2 className="subSectionTitle">
               Strategy #1: Pick a "practice" project
             </h2>
-            <p>Text.</p>
+            <p>
+              This is an ideal choice if you have never made a pull request to
+              someone else's GitHub project before.
+            </p>
+            <p>
+              The idea is to make a contribution to a project that exists solely
+              for getting practice with the overall process.
+            </p>
+            <p>
+              This is useful because you don't have to worry about what you're
+              actually contributing. It's just so you can get familiar with the
+              process itself.
+            </p>
             <h2 className="subSectionTitle">
               Strategy #2: Collect interesting projects over time
             </h2>
-            <p>Text.</p>
-            <h1 className="sectionTitle">Google Summer of Code</h1>
-            <p>Text.</p>
+            <p>This is an ideal long-term strategy.</p>
+            <p>
+              The idea is to just keep an eye out for projects that are related
+              to something you are interested in. After all, contributing to
+              something you actually use or appreciate is the most fun.
+            </p>
+            <p>
+              You can find ideas on GitHub, random blogs, social media, etc.
+            </p>
+            <p>
+              As you go about your computer/phone activities, pay attention when
+              you come across something you think you'd like to help out as a
+              contributor.
+            </p>
+            <p>
+              Search online to find out if it is open source or not. If it is,
+              there's a good chance you can find them on GitHub (or check out{" "}
+              <a
+                href="https://itsfoss.com/github-alternatives/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                other open source hosting services
+              </a>
+              ).
+            </p>
+            <p>
+              If they're on GitHub, you can “star” them as a way of bookmarking
+              them. Over time, you’ll have a unique list of interesting projects
+              you can contribute to! Feel free to check out{" "}
+              <a
+                href="https://github.com/CompSciLauren?tab=stars"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                my starred projects
+              </a>{" "}
+              for an example.
+            </p>
+            <h2 className="subSectionTitle">
+              Strategy #3: Seek out specific opportunities
+            </h2>
+            <p>
+              There are specific programs and meetups you can find that are all
+              about being involved in open source. The hardest part is just
+              finding them.
+            </p>
+            <p>
+              If you're a student, check out{" "}
+              <a
+                href="https://summerofcode.withgoogle.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google Summer of Code
+              </a>
+              . You can get paid to work on open source over the summer.
+            </p>
+            <blockquote className="classyStyle">
+              <span>
+                Google Summer of Code is a global program focused on bringing
+                more student developers into open source software development.
+                Students work with an open source organization on a 3 month
+                programming project during their break from school.
+              </span>
+            </blockquote>
+            <p>
+              Many students lost their internships this summer due to COVID-19.
+              In response to this,{" "}
+              <a
+                href="https://mlh.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Major League Hacking
+              </a>{" "}
+              started the{" "}
+              <a
+                href="https://news.mlh.io/mlh-fellowship-the-future-of-tech-internships-05-04-2020?utm_source=MLH+Master+List&utm_campaign=21648c1bf4-MLH_Newsletter_APR_2020_2&utm_medium=email&utm_term=0_454e60092c-21648c1bf4-60725521&ct=t()&mc_cid=21648c1bf4&mc_eid=d11b1ed319"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                MLH Fellowship
+              </a>{" "}
+              to help students get experience. That article came out in May, and
+              stated that they would be paying students to work on open source
+              this summer.
+            </p>
+            <blockquote className="classyStyle">
+              <span>
+                We’re partnering up with GitHub to launch our inaugural 12-week
+                program for Summer 2020. We’ll be funding up to 1,000 students
+                to work full time on major open source projects under the
+                mentorship of experienced engineers.
+              </span>
+            </blockquote>
+            <p>
+              Of course these opportunities are already under way. Still,
+              various opportunities like these will continue to pop up each
+              year.
+            </p>
+            <p>
+              Finally, you can also search online for open source or coder
+              meetups. I live near Kansas City, so I checked on meetup.com and
+              found this{" "}
+              <a
+                href="https://www.meetup.com/Open-Source-Analytics-Kansas-city-KS/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open Source Analytics
+              </a>{" "}
+              group.
+            </p>
+            <p>
+              Looks interesting! This is yet another example of how you might
+              find open source opportunities.
+            </p>
+            <p>
+              Remember you can also reach out to people you know, whether on
+              social media or in-person. Your friends or coworkers might know
+              about some really great resources.
+            </p>
             <h1 className="sectionTitle">Figuring out what to contribute</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">Getting an employer to notice</h1>
