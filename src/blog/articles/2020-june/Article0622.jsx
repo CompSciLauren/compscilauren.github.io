@@ -80,7 +80,23 @@ function Article0622() {
               online. Here though, we'll just focus on the basics.
             </p>
             <h1 className="sectionTitle">Who uses open source software?</h1>
-            <p>Text.</p>
+            <p>
+              Well, pretty much everyone. There are various places on the
+              Internet that cite different statistics. I won't cite any here,
+              but just know that it is incredibly common both as a user and a
+              company.
+            </p>
+            <p>
+              Take a look at all of this. Each one of these is either fully open
+              sourced or involved in open source in some meaningful way.
+            </p>
+            <p>Image of Open Source Examples</p>
+            <p>
+              And that's not even the surface of it. There is a ton of open
+              source software out there. Many, many tools used to develop
+              software are open source too.
+            </p>
+            <p>It's pretty much everywhere these days.</p>
             <h1 className="sectionTitle">Why people care about FOSS/FLOSS</h1>
             <p>Text.</p>
             <h1 className="sectionTitle">
