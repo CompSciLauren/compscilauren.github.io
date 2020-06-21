@@ -7,6 +7,7 @@ import Tag from "../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
 import ConferenceRoom from "../../../images/conference-room.jpg";
 import LockedDoor from "../../../images/locked-door.jpg";
+import OpenSourceExamples from "../../../images/open-source-examples.png";
 
 function Article0622() {
   return (
@@ -110,11 +111,15 @@ function Article0622() {
               but just know that it is incredibly common both as a user and a
               company.
             </p>
+            <img
+              src={OpenSourceExamples}
+              alt="Examples of open source software"
+              style={{ width: "640px" }}
+            />
             <p>
               Take a look at all of this. Each one of these is either fully open
-              sourced or involved in open source in some meaningful way.
+              source or involved in open source in some meaningful way.
             </p>
-            <p>Image of Open Source Examples</p>
             <p>
               And that's not even the surface of it. There is a ton of open
               source software out there. Many, many tools used to develop
