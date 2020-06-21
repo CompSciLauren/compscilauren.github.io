@@ -62,12 +62,22 @@ function Article0622() {
             <h1 className="sectionTitle">
               Creating your own open source project
             </h1>
-            <p>Text.</p>
+            <p>.</p>
             <h1 className="sectionTitle">Conclusion</h1>
-            <p>Summary text here.</p>
             <p>
-              Have you ever contributed to open source? What kind of projects
-              are you most interested in? Let me know in the comments below!
+              I hope this article has helped you understand open source better.
+              I also hope you will give contributing a try! Even if you decide
+              you don't want to do it regularly, it's a good thing to try at
+              least once.
+            </p>
+            <p>
+              Next week I will cover starting an open source project and tips
+              for success!
+            </p>
+            <p>
+              Have you ever contributed to open source? Do you have any
+              recommended beginner-friendly projects that new contributors could
+              try? Let us all know in the comments below!
             </p>
           </div>
           <BlogProfile />
