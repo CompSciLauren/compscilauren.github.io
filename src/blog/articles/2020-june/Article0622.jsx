@@ -377,6 +377,42 @@ function Article0622() {
               social media or in-person. Your friends or coworkers might know
               about some really great resources.
             </p>
+            <h1 className="sectionTitle">
+              How to actually make the contribution
+            </h1>
+            <p>
+              This is the part where I show you exactly, step by step, how to
+              make a contribution.
+            </p>
+            <p>
+              Feel free to skip this section if you've already created a pull
+              request on someone else's GitHub repository before.
+            </p>
+            <h2 className="subSectionTitle">1. Create a GitHub account</h2>
+            <p>
+              Okay, so I lied a little. I'm not going to show this step because
+              you know how to signup for things already. Head on over to{" "}
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub.com
+              </a>{" "}
+              and create an account if you don't have one yet.
+            </p>
+            <h2 className="subSectionTitle">2. Choose a practice project</h2>
+            <p>We are going to use the classic first-timers repository.</p>
+            <h2 className="subSectionTitle">3. Fork the project</h2>
+            <p>
+              Forking the project creates a copy of it on your GitHub account.
+            </p>
+            <h2 className="subSectionTitle">4. Make a contribution</h2>
+            <p>
+              This project asks us to add our name to the contributors list.
+            </p>
+            <h2 className="subSectionTitle">5. Create a pull request</h2>
+            <p>Here's the most exciting part.</p>
             <h1 className="sectionTitle">Figuring out what to contribute</h1>
             <p>
               It can be tempting to jump straight into the code, but hold on a
@@ -548,10 +584,6 @@ function Article0622() {
               you'll continue to improve over time and it will show in your
               projects.
             </p>
-            <h1 className="sectionTitle">
-              How to actually make the contribution
-            </h1>
-            <p>Text.</p>
             <h1 className="sectionTitle">
               Creating your own open source project
             </h1>
