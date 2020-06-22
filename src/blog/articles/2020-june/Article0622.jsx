@@ -55,14 +55,17 @@ function Article0622() {
               real-world experience with software development.
             </p>
             <p>
-              It's also valuable experience to add to your resume, and can help
-              you land your first internship or even a full-time job. It's
-              useful regardless of whether or not you're a student.
+              It is great experience to put on your resume, and can help you
+              land your first internship or even a full-time job. It's useful
+              regardless of whether or not you're a student.
             </p>
             <p>
               In this article, we'll go over the basics of open source and how
-              to find interest projects. We'll also walk through the steps of
-              actually making a contribution.
+              to find interesting projects.
+            </p>
+            <p>
+              We'll also look at a good resource for learning how to actually
+              make a contribution to a project.
             </p>
             <p>
               If you're interested in maintaining your own open source project
@@ -75,9 +78,12 @@ function Article0622() {
               the code.
             </p>
             <p>
-              Anybody can see how it was made, and they can often even make
-              their own copy of the entire project. They can use their copy
-              however they want, and change the code if they want.
+              Anybody can see how it was made, and they can typically make their
+              own copy of the entire project.
+            </p>
+            <p>
+              They can use their copy however they want, and change the code if
+              they want. It won't affect the original repository.
             </p>
             <img
               src={ConferenceRoom}
@@ -113,9 +119,17 @@ function Article0622() {
               locked door, only available to people who have access to the room.
             </p>
             <p>
-              They are two different approaches and there are pros and cons to
-              both. You can find all kinds of passionate debates about this
-              online. Here though, we'll just focus on the basics.
+              It's worth noting that neither option is guaranteed to be more
+              secure than the other. Each option comes with its own
+              vulnerabilities.
+            </p>
+            <p>
+              They are simply two different approaches, each with their own pros
+              and cons.
+            </p>
+            <p>
+              You can find all kinds of passionate debates about which one is
+              better online. We won't cover that debate in this article, though.
             </p>
             <h1 className="sectionTitle">Who uses open source software?</h1>
             <p>
@@ -345,8 +359,7 @@ function Article0622() {
             </p>
             <p>
               Search online to find out if it is open source or not. If it is,
-              there's a good chance you can find them on GitHub (or check out
-              any other open source hosting services).
+              there's a good chance you can find them on GitHub.
             </p>
             <p>
               If they're on GitHub, you can “star” them as a way of bookmarking
@@ -359,7 +372,7 @@ function Article0622() {
               >
                 my starred projects
               </a>{" "}
-              for an example.
+              for some examples.
             </p>
             <h2 className="subSectionTitle">
               Strategy #3: Seek out specific opportunities
@@ -588,7 +601,7 @@ function Article0622() {
             </p>
             <p>
               Recruiters probably won’t spend much, if any, time looking at the
-              projects. Hiring managers probably will.
+              projects. Hiring managers (and/or hiring teams) probably will.
             </p>
             <p>
               Keep in mind, it is totally fine that your code isn’t perfect.
@@ -622,14 +635,15 @@ function Article0622() {
             <p>
               Don't want anyone looking at your code? Totally normal to feel
               that way. But most developers are never completely satisfied with
-              their code. Something to show is usually better than nothing.
+              their code.
             </p>
+            <p>Something to show is usually better than nothing.</p>
             <h2 className="subSectionTitle">
               How open source helped me get a job
             </h2>
             <p>
-              I actually landed my first job writing code, in part, to my GitHub
-              profile. At the time I had maybe 6 or 7 projects, and just about
+              I landed my first coding job, in part, to my GitHub profile. At
+              the time I had maybe 6 or 7 projects, and I thought just about
               every one of them were awful.
             </p>
             <p>
@@ -638,8 +652,8 @@ function Article0622() {
               code.
             </p>
             <p>
-              I had one project I felt was fairly decent. I pinned it to my
-              profile, and linked it on my resume.
+              I had one project I felt was decent enough. I pinned it to my
+              profile, and linked my GitHub profile on my resume.
             </p>
             <p>
               During the interview, my GitHub profile was brought up. I don't
@@ -672,8 +686,10 @@ function Article0622() {
             </a>
             <p>
               Seriously, a poorly-coded project played a big role in securing my
-              first tech job. Even though it was far from perfect, it was better
-              than nothing.
+              first tech job.
+            </p>
+            <p>
+              Even though it was far from perfect, it was better than nothing.
             </p>
             <p>
               I'm sure that my overall experience level was taken into account.
