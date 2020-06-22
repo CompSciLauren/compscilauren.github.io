@@ -4,7 +4,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 html {
@@ -64,4 +64,8 @@ nav li {
 
 nav a {
   color: #f2f2f2;
+}
+
+img:not([alt]) {
+  outline: 2px dashed red;
 }

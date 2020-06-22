@@ -126,26 +126,19 @@ function home() {
             <h1 className="homeHeader" id="latest-articles">
               Latest Articles
             </h1>
-            {/* <BlogPost
-              title="Recent Post Title 1"
-              date="July 13th, 2020"
-            ></BlogPost>
-            <BlogPost
-              title="Recent Post Title 2"
-              date="July 6th, 2020"
-            ></BlogPost>
-            <BlogPost
-              title="Recent Post Title 3"
-              date="June 29th, 2020"
-            ></BlogPost>
-            <BlogPost
-              title="Recent Post Title 4"
+            <BlogArticle
+              title="Why contribute to open source and how to get started"
               date="June 22nd, 2020"
-            ></BlogPost> */}
+              link="/blog/why-contribute-to-open-source-and-how-to-get-started"
+              tag1="opensource"
+              tag2="github"
+            />
             <BlogArticle
               title="Improve your Git workflow and save time with Git hooks"
               date="June 15th, 2020"
               link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
+              tag1="git"
+              tag2="automation"
             ></BlogArticle>
             <a href="/blog">
               <button className="Header-btn">See all blog posts ></button>

@@ -10,7 +10,7 @@ function blog() {
       <main id="main-content">
         <div>
           <div className="blog-home-page-wrap">
-            <h1 className="blogTitle">Joy Bytes</h1>
+            <h1 className="blogHomePageTitle">Joy Bytes</h1>
             <p>
               Hi there! This is a blog that focuses on software development and
               is geared toward newer developers. It is run by me, Lauren
@@ -29,14 +29,19 @@ function blog() {
             <h2 className="blogPostsHeader">Blog Posts</h2>
             <div className="blogarticle-grid-container">
               <BlogArticle
+                title="Why contribute to open source and how to get started"
+                date="June 22nd, 2020"
+                link="/blog/why-contribute-to-open-source-and-how-to-get-started"
+                tag1="opensource"
+                tag2="github"
+              />
+              <BlogArticle
                 title="Improve your Git workflow and save time with Git hooks"
                 date="June 15th, 2020"
                 link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
+                tag1="git"
+                tag2="automation"
               />
-              {/* <BlogArticle
-                title="Building a simple clock-in clock-out web app using React"
-                date="June 22nd, 2020"
-              /> */}
             </div>
           </div>
         </div>

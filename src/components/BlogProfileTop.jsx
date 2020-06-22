@@ -14,11 +14,13 @@ const BlogProfileTop = (props) => {
           alt="Lauren smiling at a desk"
           className="profilePictureTopImg"
         ></img>
-        <p style={{ fontSize: "16px" }}>Lauren Stephenson</p>
-        <p style={{ fontSize: "16px", fontStyle: "italic" }}>
+        <p style={{ fontSize: "16px", margin: "16px" }}>Lauren Stephenson</p>
+        <p style={{ fontSize: "16px", fontStyle: "italic", margin: "16px" }}>
           Published on {props.date}
         </p>
-        <p style={{ fontSize: "16px" }}>{props.readTime} read</p>
+        <p style={{ fontSize: "16px", margin: "16px" }}>
+          {props.readTime} read
+        </p>
       </div>
     </>
   );
