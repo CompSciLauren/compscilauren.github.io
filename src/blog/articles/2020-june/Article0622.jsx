@@ -16,11 +16,7 @@ import GitHubIssues from "../../../images/github-issues.png";
 import GitHubFilterIssues from "../../../images/github-filter-issues.png";
 import GitHubSearchIssues from "../../../images/github-search-issues.png";
 import FirstContributionsRepo from "../../../images/first-contributions-repo.png";
-import GitHubFork from "../../../images/github-fork.png";
-import ContributorsFile from "../../../images/contributors-file.png";
-import EditFileButton from "../../../images/edit-file-button.png";
-import AddName from "../../../images/add-name.png";
-import SaveChanges from "../../../images/save-changes.png";
+import AwesomeFirstPR from "../../../images/awesome-first-pr.png";
 
 function Article0622() {
   return (
@@ -340,6 +336,11 @@ function Article0622() {
               repo if you want to try this strategy. It's a fantastic repo for
               learning how to actually make a contribution to a project.
             </p>
+            <img
+              src={FirstContributionsRepo}
+              alt="Screenshot showing First Contributions repository"
+              style={{ width: "640px" }}
+            />
             <h2 className="subSectionTitle">
               Strategy #2: Collect interesting projects over time
             </h2>
@@ -364,7 +365,10 @@ function Article0622() {
             <p>
               If they're on GitHub, you can “star” them as a way of bookmarking
               them. Over time, you’ll have a unique list of interesting projects
-              you can contribute to! Feel free to check out{" "}
+              you can contribute to!
+            </p>
+            <p>
+              Feel free to check out{" "}
               <a
                 href="https://github.com/CompSciLauren?tab=stars"
                 target="_blank"
@@ -374,6 +378,26 @@ function Article0622() {
               </a>{" "}
               for some examples.
             </p>
+            <p>
+              One beginner-friendly repository I really like is the{" "}
+              <a
+                href="https://github.com/MunGell/awesome-for-beginners"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Awesome First PR Opportunities
+              </a>{" "}
+              repo.
+            </p>
+            <p>
+              It is exactly what it sounds like. You can find lots of great open
+              source projects on there that are beginner-friendly.
+            </p>
+            <img
+              src={AwesomeFirstPR}
+              alt="Screenshot showing the Awesome First PR repository"
+              style={{ width: "640px" }}
+            />
             <h2 className="subSectionTitle">
               Strategy #3: Seek out specific opportunities
             </h2>
