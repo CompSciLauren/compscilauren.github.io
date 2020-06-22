@@ -137,7 +137,7 @@ function Article0622() {
             <img
               src={OpenSourceExamples}
               alt="Examples of open source software"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <p>
               Take a look at all of this. Each one of these is either fully open
@@ -223,7 +223,7 @@ function Article0622() {
             <img
               src={HacktoberfestShirt}
               alt="Hacktoberfest 2019 t-shirt"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             Image from{" "}
             <a href="https://www.digitalocean.com/blog/recapping-hacktoberfest-6/?">
@@ -254,7 +254,7 @@ function Article0622() {
             <img
               src={GitHub}
               alt="GitHub logo and several GitHub cartoon character drawings"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <p>
               A great website for getting started with open source software is
@@ -339,7 +339,7 @@ function Article0622() {
             <img
               src={FirstContributionsRepo}
               alt="Screenshot showing First Contributions repository"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <h2 className="subSectionTitle">
               Strategy #2: Collect interesting projects over time
@@ -396,7 +396,7 @@ function Article0622() {
             <img
               src={AwesomeFirstPR}
               alt="Screenshot showing the Awesome First PR repository"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <h2 className="subSectionTitle">
               Strategy #3: Seek out specific opportunities
@@ -565,7 +565,7 @@ function Article0622() {
             <img
               src={GitHubIssues}
               alt="Screenshot of a GitHub Issues page on a GitHub repository"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <p>
               Keep an eye out for labels like “beginner-friendly”, “good first
@@ -584,7 +584,7 @@ function Article0622() {
             <img
               src={GitHubSearchIssues}
               alt="Screenshot showing how to search for GitHub Issues that use a specific tag"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <p>
               You can also filter the results on any repo by clicking the
@@ -593,7 +593,7 @@ function Article0622() {
             <img
               src={GitHubFilterIssues}
               alt="Screenshot showing the filter option on a GitHub repository"
-              style={{ width: "640px" }}
+              className="buggyImg"
             />
             <p>
               As you work on an existing issue or just try running the project
