@@ -427,6 +427,8 @@ function Article0622() {
             </blockquote>
             <p>
               Many students lost their internships this summer due to COVID-19.
+            </p>
+            <p>
               In response to this,{" "}
               <a
                 href="https://mlh.io/"
@@ -443,9 +445,11 @@ function Article0622() {
               >
                 MLH Fellowship
               </a>{" "}
-              to help students get experience. That article came out in May, and
-              stated that they would be paying students to work on open source
-              this summer.
+              to help students get experience.
+            </p>
+            <p>
+              That article came out in May, and stated that they would be paying
+              students to work on open source this summer.
             </p>
             <blockquote className="classyStyle">
               <span>
@@ -462,8 +466,10 @@ function Article0622() {
             </p>
             <p>
               Finally, you can also search online for open source or coder
-              meetups. I live near Kansas City, so I checked on meetup.com and
-              found this{" "}
+              meetups.
+            </p>
+            <p>
+              I live near Kansas City, so I checked on meetup.com and found this{" "}
               <a
                 href="https://www.meetup.com/Open-Source-Analytics-Kansas-city-KS/"
                 target="_blank"
@@ -523,9 +529,11 @@ function Article0622() {
             </p>
             <p>
               Sometimes a section of the documentation is just a bit vague or
-              hard to understand. As a new contributor to the project, you can
-              provide a fresh pair of eyes to scan the project for easily
-              overlooked problems.
+              hard to understand.
+            </p>
+            <p>
+              As a new contributor to the project, you can provide a fresh pair
+              of eyes to scan the project for easily overlooked problems.
             </p>
             <h2 className="subSectionTitle">
               What if the project doesn't have documentation?
@@ -561,8 +569,11 @@ function Article0622() {
             />
             <p>
               Keep an eye out for labels like “beginner-friendly”, “good first
-              issue”, “first timers only”, and so on. You can even search for
-              specific labels across all of GitHub using the main search bar.
+              issue”, “first timers only”, and so on.
+            </p>
+            <p>
+              You can even search for specific labels across all of GitHub using
+              the main search bar.
             </p>
             <p>
               For example, to search for all Issues on all public GitHub
@@ -591,9 +602,12 @@ function Article0622() {
             </p>
             <p>
               You can create a new issue on the project to document the problem
-              or new feature idea. This gives project maintainers a chance to
-              discuss the issue with you and hash out any important details
-              before getting deep into writing the solution.
+              or new feature idea.
+            </p>
+            <p>
+              This gives project maintainers a chance to discuss the issue with
+              you and hash out any important details before getting deep into
+              writing the solution.
             </p>
             <p>
               It's common practice to make sure there is an issue documented on
@@ -611,8 +625,10 @@ function Article0622() {
             <h1 className="sectionTitle">Getting an employer to notice</h1>
             <p>
               Put your GitHub account link on your resume. Share it on Linkedin,
-              Twitter, or whatever other relevant social media you use. If you
-              have a portfolio/personal website, use that instead.
+              Twitter, or whatever other relevant social media you use.
+            </p>
+            <p>
+              If you have a portfolio or personal website, use that instead.
             </p>
             <p>
               Consider adding a section for open source projects on your resume,
@@ -653,8 +669,11 @@ function Article0622() {
             </p>
             <p>
               Make sure the link to your GitHub goes straight to your profile
-              page. You can add up to 6 projects to your profile page as
-              featured repositories. Add the ones you want them to see.
+              page.
+            </p>
+            <p>
+              You can add up to 6 projects to your profile page as featured
+              repositories. Add the ones you want them to see.
             </p>
             <p>
               Don't want anyone looking at your code? Totally normal to feel
@@ -679,11 +698,11 @@ function Article0622() {
               I had one project I felt was decent enough. I pinned it to my
               profile, and linked my GitHub profile on my resume.
             </p>
+            <p>During the interview, my GitHub profile was brought up.</p>
             <p>
-              During the interview, my GitHub profile was brought up. I don't
-              remember if they brought it up or I did, but the point is that it
-              was brought up. We discussed it, and that discussion contributed
-              to me getting hired.
+              I don't remember if they brought it up or I did, but the point is
+              that it was brought up. We discussed it, and that discussion
+              contributed to me getting hired.
             </p>
             <p>
               After I had started the job, I talked to one of the people who had
@@ -721,9 +740,9 @@ function Article0622() {
               working at my community college and being a crossing guard for a
               year.
             </p>
+            <p>So bare in mind that there will be many factors considered.</p>
             <p>
-              So bare in mind that there will be many factors considered. If you
-              have 10 years of experience but only a few beginner-level
+              If you have 10 years of experience but only a few beginner-level
               projects, maybe don't link your GitHub.
             </p>
             <p>
@@ -733,9 +752,11 @@ function Article0622() {
             </p>
             <p>
               As you get better at coding, you'll have more and more interesting
-              projects to show employers. The code will never be perfect, but
-              you'll continue to improve over time and it will show in your
-              projects.
+              projects to show employers.
+            </p>
+            <p>
+              The code will never be perfect, but you'll continue to improve
+              over time and it will show in your projects.
             </p>
             <h1 className="sectionTitle">
               Creating your own open source project
@@ -765,9 +786,11 @@ function Article0622() {
             <h1 className="sectionTitle">Conclusion</h1>
             <p>
               I hope this article has helped you understand open source better.
-              I also hope you will give contributing a try! Even if you decide
-              you don't want to do it regularly, it's a good thing to try at
-              least once.
+              I also hope you will give contributing a try!
+            </p>
+            <p>
+              Even if you decide you don't want to do it regularly, it's a good
+              thing to try at least once.
             </p>
             <p>
               Remember to check back next week if you're interested in starting
