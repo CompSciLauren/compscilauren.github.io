@@ -685,9 +685,9 @@ function Article0622() {
               How open source helped me get a job
             </h2>
             <p>
-              I landed my first coding job, in part, to my GitHub profile. At
-              the time I had maybe 6 or 7 projects, and I thought just about
-              every one of them were awful.
+              I landed my first coding job thanks, in part, to my GitHub
+              profile. At the time I had maybe 6 or 7 projects, and I thought
+              just about every one of them were awful.
             </p>
             <p>
               I had never contributed to open source at this point, but my
