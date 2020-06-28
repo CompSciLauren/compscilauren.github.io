@@ -127,6 +127,13 @@ function home() {
               Latest Articles
             </h1>
             <BlogArticle
+              title="10 tips for maintaining an open source project"
+              date="June 29th, 2020"
+              link="/blog/10-tips-for-maintaining-an-open-source-project"
+              tag1="opensource"
+              tag2="github"
+            />
+            <BlogArticle
               title="Why contribute to open source and how to get started"
               date="June 22nd, 2020"
               link="/blog/why-contribute-to-open-source-and-how-to-get-started"
