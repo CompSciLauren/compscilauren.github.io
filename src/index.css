@@ -13,8 +13,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Gill Sans", "Segoe Print", "Segoe UI", -apple-system,
-    BlinkMacSystemFont, "Roboto", "Ubuntu", Sans-serif;
+  font-family: "Gill Sans", "Arial", "Roboto", "Segoe UI", "Segoe Print",
+    -apple-system, BlinkMacSystemFont, "Ubuntu", Sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
