@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../../../blog.css";
 import "../../../../home/home.css";
 import BlogProfile from "../../../../components/BlogProfile";
@@ -8,14 +8,15 @@ import CodeSnippet from "../../../../images/blog/2020/06-june/code-snippet.png";
 import CreateNewFile from "../../../../images/blog/2020/06-june/create-new-file.gif";
 import FailedCommit from "../../../../images/blog/2020/06-june/failed-commit.png";
 import { DiscussionEmbed } from "disqus-react";
+import { Helmet } from "react-helmet";
 
 function Article0615() {
-  useEffect(() => {
-    document.title = "Improve your Git workflow and save time with Git hooks";
-  }, []);
-
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Improve your Git workflow and save time with Git hooks</title>
+      </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1 style={{ padding: "8px" }}>

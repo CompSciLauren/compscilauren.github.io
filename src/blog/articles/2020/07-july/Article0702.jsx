@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../../../blog.css";
 import "../../../../home/home.css";
 import BlogProfile from "../../../../components/BlogProfile";
@@ -8,14 +8,15 @@ import { DiscussionEmbed } from "disqus-react";
 import CommunityDocumentation from "../../../../images/blog/2020/07-july/community-documentation.png";
 import GitHubIssues from "../../../../images/blog/common/github-issues.png";
 import HacktoberfestShirt from "../../../../images/blog/common/hacktoberfest-shirt.png";
+import { Helmet } from "react-helmet";
 
 function Article0702() {
-  useEffect(() => {
-    document.title = "10 tips for maintaining an open source project";
-  }, []);
-
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>10 tips for maintaining an open source project</title>
+      </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1 style={{ padding: "8px" }}>

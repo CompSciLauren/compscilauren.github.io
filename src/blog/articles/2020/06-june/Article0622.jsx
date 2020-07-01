@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../../../blog.css";
 import "../../../../home/home.css";
 import BlogProfile from "../../../../components/BlogProfile";
@@ -17,14 +17,15 @@ import GitHubFilterIssues from "../../../../images/blog/2020/06-june/github-filt
 import GitHubSearchIssues from "../../../../images/blog/2020/06-june/github-search-issues.png";
 import FirstContributionsRepo from "../../../../images/blog/2020/06-june/first-contributions-repo.png";
 import AwesomeFirstPR from "../../../../images/blog/2020/06-june/awesome-first-pr.png";
+import { Helmet } from "react-helmet";
 
 function Article0622() {
-  useEffect(() => {
-    document.title = "Why contribute to open source and how to get started";
-  }, []);
-
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Why contribute to open source and how to get started</title>
+      </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1 style={{ padding: "8px" }}>
