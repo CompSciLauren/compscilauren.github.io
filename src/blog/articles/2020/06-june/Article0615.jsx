@@ -15,9 +15,18 @@ function Article0615() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Improve your Git workflow and save time with Git hooks</title>
         <meta
-          name="description"
+          property="og:title"
+          content="Improve your Git workflow and save time with Git hooks"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://compscilauren.com/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
+        />
+        <meta property="og:image" content={CodeSnippet} />
+        <meta
+          property="og:description"
           content="Git hooks are custom scripts that you can use to automate tasks that will be triggered either immediately before or after a Git command is executed. Learn how to start using them and improve your Git workflow!"
         />
       </Helmet>
@@ -391,7 +400,6 @@ function Article0615() {
                 "https://compscilauren.com/blog/improve-your-git-workflow-and-save-time-with-git-hooks",
               identifier: "article-2020-06-15",
               title: "Improve your Git workflow and save time with Git hooks",
-              //language: 'zh_TW' //e.g. for Traditional Chinese (Taiwan)
             }}
           />
         </div>

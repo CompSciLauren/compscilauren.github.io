@@ -8,6 +8,7 @@ import { DiscussionEmbed } from "disqus-react";
 import CommunityDocumentation from "../../../../images/blog/2020/07-july/community-documentation.png";
 import GitHubIssues from "../../../../images/blog/common/github-issues.png";
 import HacktoberfestShirt from "../../../../images/blog/common/hacktoberfest-shirt.png";
+import WomanWorkingOnLaptop from "../../../../images/blog/2020/07-july/woman-working-on-laptop.jpg";
 import { Helmet } from "react-helmet";
 
 function Article0702() {
@@ -15,9 +16,18 @@ function Article0702() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>10 tips for maintaining an open source project</title>
         <meta
-          name="description"
+          property="og:title"
+          content="10 tips for maintaining an open source project"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://compscilauren.com/blog/10-tips-for-maintaining-an-open-source-project"
+        />
+        <meta property="og:image" content={WomanWorkingOnLaptop} />
+        <meta
+          property="og:description"
           content="Anyone can maintain an open source project. Here are some tips for success."
         />
       </Helmet>
@@ -33,6 +43,19 @@ function Article0702() {
           </div>
           <hr></hr>
           <div style={{ color: "#292929", lineHeight: "28px" }}>
+            <img
+              src={WomanWorkingOnLaptop}
+              alt="A woman typing on a Mac laptop with icons in the air behind her representing project related tasks"
+              className="buggyImg"
+            />
+            Image by{" "}
+            <a href="https://pixabay.com/users/Tumisu-148124/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5218160">
+              Tumisu
+            </a>{" "}
+            from{" "}
+            <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5218160">
+              Pixabay
+            </a>
             <p>
               Becoming an open source project maintainer is as easy as creating
               a public GitHub repository.
