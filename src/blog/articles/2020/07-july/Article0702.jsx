@@ -16,6 +16,10 @@ function Article0702() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>10 tips for maintaining an open source project</title>
+        <meta
+          name="description"
+          content="Anyone can maintain an open source project. Here are some tips for success."
+        />
       </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
