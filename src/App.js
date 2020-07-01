@@ -5,7 +5,7 @@ import home from "./home/home.js";
 import blog from "./blog/blog.js";
 import Article0615 from "./blog/articles/2020-june/Article0615.jsx";
 import Article0622 from "./blog/articles/2020-june/Article0622.jsx";
-import Article0629 from "./blog/articles/2020-june/Article0629.jsx";
+import Article0702 from "./blog/articles/2020-july/Article0702.jsx";
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
         <Route path="/blog" exact component={blog} />
         <Route
           path="/blog/10-tips-for-maintaining-an-open-source-project"
-          component={Article0629}
+          component={Article0702}
         />
         <Route
           path="/blog/why-contribute-to-open-source-and-how-to-get-started"

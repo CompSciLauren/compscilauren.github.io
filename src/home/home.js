@@ -128,7 +128,7 @@ function home() {
             </h1>
             <BlogArticle
               title="10 tips for maintaining an open source project"
-              date="June 29th, 2020"
+              date="July 2nd, 2020"
               link="/blog/10-tips-for-maintaining-an-open-source-project"
               tag1="opensource"
               tag2="github"

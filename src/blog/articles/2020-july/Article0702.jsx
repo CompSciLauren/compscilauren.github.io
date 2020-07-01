@@ -9,7 +9,7 @@ import CommunityDocumentation from "../../../images/blog/2020-june/community-doc
 import GitHubIssues from "../../../images/github-issues.png";
 import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
 
-function Article0622() {
+function Article0702() {
   return (
     <>
       <head>
@@ -20,7 +20,7 @@ function Article0622() {
           <h1 style={{ padding: "8px" }}>
             10 tips for maintaining an open source project
           </h1>
-          <BlogProfileTop date="June 29th, 2020" readTime="6 min" />
+          <BlogProfileTop date="July 2nd, 2020" readTime="6 min" />
           <div className="tag-container">
             <Tag title="opensource" />
             <Tag title="github" />
@@ -187,7 +187,7 @@ function Article0622() {
             config={{
               url:
                 "https://compscilauren.com/blog/10-tips-for-maintaining-an-open-source-project",
-              identifier: "article-2020-06-29",
+              identifier: "article-2020-07-02",
               title: "10 tips for maintaining an open source project",
             }}
           />
@@ -197,4 +197,4 @@ function Article0622() {
   );
 }
 
-export default Article0622;
+export default Article0702;
