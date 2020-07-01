@@ -5,7 +5,7 @@ import BlogProfile from "../../../../components/BlogProfile";
 import BlogProfileTop from "../../../../components/BlogProfileTop";
 import Tag from "../../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
-import CommunityDocumentation from "../../../../images/blog/2020/06-june/community-documentation.png";
+import CommunityDocumentation from "../../../../images/blog/2020/07-july/community-documentation.png";
 import GitHubIssues from "../../../../images/blog/common/github-issues.png";
 import HacktoberfestShirt from "../../../../images/blog/common/hacktoberfest-shirt.png";
 
