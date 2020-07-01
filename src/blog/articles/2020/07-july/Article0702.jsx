@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../../blog.css";
 import "../../../../home/home.css";
 import BlogProfile from "../../../../components/BlogProfile";
@@ -10,11 +10,12 @@ import GitHubIssues from "../../../../images/blog/common/github-issues.png";
 import HacktoberfestShirt from "../../../../images/blog/common/hacktoberfest-shirt.png";
 
 function Article0702() {
+  useEffect(() => {
+    document.title = "10 tips for maintaining an open source project";
+  }, []);
+
   return (
     <>
-      <head>
-        <title>10 tips for maintaining an open source project</title>
-      </head>
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1 style={{ padding: "8px" }}>

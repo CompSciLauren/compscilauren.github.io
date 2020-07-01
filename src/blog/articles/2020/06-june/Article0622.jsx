@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../../blog.css";
 import "../../../../home/home.css";
 import BlogProfile from "../../../../components/BlogProfile";
@@ -19,11 +19,12 @@ import FirstContributionsRepo from "../../../../images/blog/2020/06-june/first-c
 import AwesomeFirstPR from "../../../../images/blog/2020/06-june/awesome-first-pr.png";
 
 function Article0622() {
+  useEffect(() => {
+    document.title = "Why contribute to open source and how to get started";
+  }, []);
+
   return (
     <>
-      <head>
-        <title>Why contribute to open source and how to get started</title>
-      </head>
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1 style={{ padding: "8px" }}>
