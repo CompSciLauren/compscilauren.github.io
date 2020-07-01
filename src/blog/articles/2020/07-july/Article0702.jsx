@@ -1,13 +1,13 @@
 import React from "react";
-import "../../blog.css";
-import "../../../home/home.css";
-import BlogProfile from "../../../components/BlogProfile";
-import BlogProfileTop from "../../../components/BlogProfileTop";
-import Tag from "../../../components/Tag";
+import "../../../blog.css";
+import "../../../../home/home.css";
+import BlogProfile from "../../../../components/BlogProfile";
+import BlogProfileTop from "../../../../components/BlogProfileTop";
+import Tag from "../../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
-import CommunityDocumentation from "../../../images/blog/2020-june/community-documentation.png";
-import GitHubIssues from "../../../images/github-issues.png";
-import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
+import CommunityDocumentation from "../../../../images/blog/2020/06-june/community-documentation.png";
+import GitHubIssues from "../../../../images/blog/common/github-issues.png";
+import HacktoberfestShirt from "../../../../images/blog/common/hacktoberfest-shirt.png";
 
 function Article0702() {
   return (

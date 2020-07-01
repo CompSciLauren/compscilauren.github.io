@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePicture from "../images/profile-picture.jpg";
+import ProfilePicture from "../images/blog/common/profile-picture.jpg";
 
 const BlogProfileTop = (props) => {
   return (

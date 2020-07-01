@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./index.css";
 import home from "./home/home.js";
 import blog from "./blog/blog.js";
-import Article0615 from "./blog/articles/2020-june/Article0615.jsx";
-import Article0622 from "./blog/articles/2020-june/Article0622.jsx";
-import Article0702 from "./blog/articles/2020-july/Article0702.jsx";
+import Article0615 from "./blog/articles/2020/06-june/Article0615.jsx";
+import Article0622 from "./blog/articles/2020/06-june/Article0622.jsx";
+import Article0702 from "./blog/articles/2020/07-july/Article0702.jsx";
 
 function App() {
   return (

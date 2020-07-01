@@ -10,26 +10,26 @@ import "../styles/skillset.css";
 import "../styles/experience.css";
 import "../styles/award.css";
 import "../styles/involvement.css";
-import HTML5Logo from "../images/html5-logo.png";
-import CSS3Logo from "../images/css3-logo.png";
-import BootstrapLogo from "../images/bootstrap-logo.png";
-import JavaScriptLogo from "../images/javascript-logo.png";
-import ReactLogo from "../images/react-logo.png";
-import NodeLogo from "../images/node-logo.png";
+import HTML5Logo from "../images/home/html5-logo.png";
+import CSS3Logo from "../images/home/css3-logo.png";
+import BootstrapLogo from "../images/home/bootstrap-logo.png";
+import JavaScriptLogo from "../images/home/javascript-logo.png";
+import ReactLogo from "../images/home/react-logo.png";
+import NodeLogo from "../images/home/node-logo.png";
 
-import GitLogo from "../images/git-logo.png";
-import AgileLogo from "../images/agile-logo.png";
-import UnitTestingLogo from "../images/unit-testing-logo.png";
-import IntegrationTestingLogo from "../images/integration-testing-logo.png";
-import CICDLogo from "../images/cicd-logo.png";
+import GitLogo from "../images/home/git-logo.png";
+import AgileLogo from "../images/home/agile-logo.png";
+import UnitTestingLogo from "../images/home/unit-testing-logo.png";
+import IntegrationTestingLogo from "../images/home/integration-testing-logo.png";
+import CICDLogo from "../images/home/cicd-logo.png";
 
-import CSharpLogo from "../images/csharp-logo.png";
-import CPlusPlusLogo from "../images/cplusplus-logo.png";
-import JavaLogo from "../images/java-logo.png";
-import HaskellLogo from "../images/haskell-logo.png";
-import SQLLogo from "../images/sql-logo.png";
+import CSharpLogo from "../images/home/csharp-logo.png";
+import CPlusPlusLogo from "../images/home/cplusplus-logo.png";
+import JavaLogo from "../images/home/java-logo.png";
+import HaskellLogo from "../images/home/haskell-logo.png";
+import SQLLogo from "../images/home/sql-logo.png";
 import Involvement from "../components/Involvement";
-import CommunityImpact from "../images/community-involvement.jpg";
+import CommunityImpact from "../images/home/community-involvement.jpg";
 
 import Contact from "../components/Contact";
 

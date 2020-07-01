@@ -1,22 +1,22 @@
 import React from "react";
-import "../../blog.css";
-import "../../../home/home.css";
-import BlogProfile from "../../../components/BlogProfile";
-import BlogProfileTop from "../../../components/BlogProfileTop";
-import Tag from "../../../components/Tag";
+import "../../../blog.css";
+import "../../../../home/home.css";
+import BlogProfile from "../../../../components/BlogProfile";
+import BlogProfileTop from "../../../../components/BlogProfileTop";
+import Tag from "../../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
-import ConferenceRoom from "../../../images/conference-room.jpg";
-import LockedDoor from "../../../images/locked-door.jpg";
-import OpenSourceExamples from "../../../images/open-source-examples.png";
-import HacktoberfestShirt from "../../../images/hacktoberfest-shirt.png";
-import GitHub from "../../../images/github.png";
-import Interview from "../../../images/interview.jpg";
-import Lego404 from "../../../images/lego404.jpg";
-import GitHubIssues from "../../../images/github-issues.png";
-import GitHubFilterIssues from "../../../images/github-filter-issues.png";
-import GitHubSearchIssues from "../../../images/github-search-issues.png";
-import FirstContributionsRepo from "../../../images/first-contributions-repo.png";
-import AwesomeFirstPR from "../../../images/awesome-first-pr.png";
+import ConferenceRoom from "../../../../images/blog/2020/06-june/conference-room.jpg";
+import LockedDoor from "../../../../images/blog/2020/06-june/locked-door.jpg";
+import OpenSourceExamples from "../../../../images/blog/2020/06-june/open-source-examples.png";
+import HacktoberfestShirt from "../../../../images/blog/common/hacktoberfest-shirt.png";
+import GitHub from "../../../../images/blog/2020/06-june/github.png";
+import Interview from "../../../../images/blog/2020/06-june/interview.jpg";
+import Lego404 from "../../../../images/blog/2020/06-june/lego404.jpg";
+import GitHubIssues from "../../../../images/blog/common/github-issues.png";
+import GitHubFilterIssues from "../../../../images/blog/2020/06-june/github-filter-issues.png";
+import GitHubSearchIssues from "../../../../images/blog/2020/06-june/github-search-issues.png";
+import FirstContributionsRepo from "../../../../images/blog/2020/06-june/first-contributions-repo.png";
+import AwesomeFirstPR from "../../../../images/blog/2020/06-june/awesome-first-pr.png";
 
 function Article0622() {
   return (

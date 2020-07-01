@@ -1,12 +1,12 @@
 import React from "react";
-import "../../blog.css";
-import "../../../home/home.css";
-import BlogProfile from "../../../components/BlogProfile";
-import BlogProfileTop from "../../../components/BlogProfileTop";
-import Tag from "../../../components/Tag";
-import CodeSnippet from "../../../images/code-snippet.png";
-import CreateNewFile from "../../../images/create-new-file.gif";
-import FailedCommit from "../../../images/failed-commit.png";
+import "../../../blog.css";
+import "../../../../home/home.css";
+import BlogProfile from "../../../../components/BlogProfile";
+import BlogProfileTop from "../../../../components/BlogProfileTop";
+import Tag from "../../../../components/Tag";
+import CodeSnippet from "../../../../images/blog/2020/06-june/code-snippet.png";
+import CreateNewFile from "../../../../images/blog/2020/06-june/create-new-file.gif";
+import FailedCommit from "../../../../images/blog/2020/06-june/failed-commit.png";
 import { DiscussionEmbed } from "disqus-react";
 
 function Article0615() {
