@@ -1,5 +1,3 @@
-import ProfilePicture from "./src/images/blog/common/profile-picture.jpg";
-
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 5000;
@@ -25,7 +23,7 @@ app.get("/", function (request, response) {
       /\$OG_DESCRIPTION/g,
       "Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"
     );
-    let result = data.replace(/\$OG_IMAGE/g, { ProfilePicture });
+    let result = data.replace(/\$OG_IMAGE/g, "https://i.imgur.com/V7irMl8.png");
     response.send(result);
   });
 });
