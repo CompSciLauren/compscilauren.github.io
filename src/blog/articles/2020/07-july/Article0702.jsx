@@ -41,7 +41,7 @@ function Article0702() {
           <h1 style={{ padding: "8px" }}>
             10 tips for maintaining an open source project
           </h1>
-          <BlogProfileTop date="July 2nd, 2020" readTime="6 min" />
+          <BlogProfileTop date="July 2nd, 2020" readTime="8 min" />
           <div className="tag-container">
             <Tag title="opensource" />
             <Tag title="github" />
