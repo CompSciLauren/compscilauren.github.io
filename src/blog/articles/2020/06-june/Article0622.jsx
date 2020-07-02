@@ -24,6 +24,11 @@ function Article0622() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <title>Why contribute to open source and how to get started</title>
+        <meta
+          name="description"
+          content="Contributing to open source is a fantastic way to gain valuable experience collaborating with others and working on a 'real-world' project."
+        />
         <meta
           property="og:title"
           content="Why contribute to open source and how to get started"

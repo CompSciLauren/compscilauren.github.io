@@ -15,6 +15,11 @@ function Article0615() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <title>Improve your Git workflow and save time with Git hooks</title>
+        <meta
+          name="description"
+          content="Git hooks are custom scripts that you can use to automate tasks that will be triggered either immediately before or after a Git command is executed. Learn how to start using them and improve your Git workflow!"
+        />
         <meta
           property="og:title"
           content="Improve your Git workflow and save time with Git hooks"
