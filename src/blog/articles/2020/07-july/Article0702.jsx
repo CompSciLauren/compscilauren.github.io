@@ -358,7 +358,8 @@ function Article0702() {
             </p>
             <p>
               Not everyone uses the same words to describe things. And what they
-              said wasn't clearly intended to be toxic or hurtful.
+              said wasn't clearly intended to be toxic or hurtful. Plus, it was
+              kind of true honestly.
             </p>
             <p>
               It's tough! You put your heart into something, and then you have
@@ -454,7 +455,7 @@ function Article0702() {
             </p>
             <p>
               If you look at it as a community thing and not as a "this is all
-              mine" kind of a thing, it will show in the language you use. The
+              mine" kind of thing, it will show in the language you use. The
               language you use can make people feel a stronger sense of
               belonging, or it can make them feel distanced from the project.
             </p>
@@ -477,12 +478,18 @@ function Article0702() {
               project to be useful to other people.
             </p>
             <p>
+              Make sure it's easy enough for users to get started with your
+              project. If you find users asking the same questions, address
+              those frequently asked questions in the instructions or setup
+              process.
+            </p>
+            <p>
               Keep in mind what your users would like to see. If they offer you
               feedback, listen to them and consider the things they say.
             </p>
             <p>
-              Be sure to always act ethically and have their best interests at
-              heart.
+              Lastly, be sure to always act ethically and have their best
+              interests at heart.
             </p>
             <h1 className="sectionTitle">10. Take care of yourself</h1>
             <img
@@ -505,7 +512,7 @@ function Article0702() {
             </p>
             <p>
               You'll often find open source projects with tons of open pull
-              requests and issues.
+              requests and Issues.
             </p>
             <p>
               It can happen if a project is really popular, or if the maintainer
@@ -518,14 +525,19 @@ function Article0702() {
             </p>
             <p>
               Remember to take a breath. Do what you need to in order to be
-              okay. Your wellbeing comes before the project.
+              okay. Your well-being comes before the project.
             </p>
             <p>
               It's definitely good to consider having a second person who can
-              help actively maintain the project, if it starts to really take
-              off. Especially if you're in school or have a full-time job, it
-              can be challenging to manage open source projects on top of it
-              all.
+              help actively maintain the project, if things start to get busy.
+            </p>
+            <p>
+              If you're in school or have a full-time job, it can be especially
+              challenging to manage open source projects on top of it all.
+            </p>
+            <p>
+              Remember that you're awesome, it's good to take breaks when you
+              feel stressed, and it's okay to ask for help when you need it.
             </p>
             <h1 className="sectionTitle">Conclusion</h1>
             <p>
