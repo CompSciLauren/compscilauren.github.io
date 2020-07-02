@@ -3,10 +3,31 @@ import "../home/home.css";
 import "../styles/blogarticle.css";
 import BlogArticle from "../components/BlogArticle";
 import "./blog.css";
+import ProfilePicture from "../images/blog/common/profile-picture.jpg";
+import { Helmet } from "react-helmet";
 
 function blog() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Lauren Stephenson | Software Developer</title>
+        <meta
+          name="description"
+          content="Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"
+        />
+        <meta
+          property="og:title"
+          content="Lauren Stephenson | Software Developer"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://compscilauren.com/blog" />
+        <meta property="og:image" content={ProfilePicture} />
+        <meta
+          property="og:description"
+          content="Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"
+        />
+      </Helmet>
       <main id="main-content">
         <div>
           <div className="blog-home-page-wrap">

@@ -32,10 +32,31 @@ import Involvement from "../components/Involvement";
 import CommunityImpact from "../images/home/community-involvement.jpg";
 
 import Contact from "../components/Contact";
+import ProfilePicture from "../images/blog/common/profile-picture.jpg";
+import { Helmet } from "react-helmet";
 
 function home() {
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Lauren Stephenson | Software Developer</title>
+        <meta
+          name="description"
+          content="Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"
+        />
+        <meta
+          property="og:title"
+          content="Lauren Stephenson | Software Developer"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://compscilauren.com" />
+        <meta property="og:image" content={ProfilePicture} />
+        <meta
+          property="og:description"
+          content="Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"
+        />
+      </Helmet>
       <main id="main-content">
         <header className="App-header">
           <div className="Page-wrap">
