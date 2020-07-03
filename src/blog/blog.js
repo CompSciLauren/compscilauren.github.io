@@ -4,6 +4,9 @@ import "../styles/blogarticle.css";
 import BlogArticle from "../components/BlogArticle";
 import "./blog.css";
 import ProfilePicture from "../images/blog/common/profile-picture.jpg";
+import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-laptop.jpg";
+import GitHub from "../images/blog/2020/06-june/github.png";
+import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
 import { Helmet } from "react-helmet";
 
 function blog() {
@@ -50,6 +53,8 @@ function blog() {
             <h2 className="blogPostsHeader">Blog Posts</h2>
             <div className="blogarticle-grid-container">
               <BlogArticle
+                image={WomanWorkingOnLaptop}
+                imageAlt="A woman typing on a Mac laptop with icons in the air behind her representing project related tasks"
                 title="10 tips for maintaining an open source project"
                 date="July 2nd, 2020"
                 link="/blog/10-tips-for-maintaining-an-open-source-project"
@@ -57,6 +62,8 @@ function blog() {
                 tag2="github"
               />
               <BlogArticle
+                image={GitHub}
+                imageAlt="GitHub logo and several GitHub cartoon character drawings"
                 title="Why contribute to open source and how to get started"
                 date="June 22nd, 2020"
                 link="/blog/why-contribute-to-open-source-and-how-to-get-started"
@@ -64,6 +71,8 @@ function blog() {
                 tag2="github"
               />
               <BlogArticle
+                image={CodeSnippet}
+                imageAlt="Code snippet for a Git hook"
                 title="Improve your Git workflow and save time with Git hooks"
                 date="June 15th, 2020"
                 link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"

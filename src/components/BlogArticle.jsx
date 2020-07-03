@@ -6,6 +6,11 @@ const BlogArticle = (props) => {
   return (
     <a href={props.link} rel="noopener noreferrer" className="aTagOnHome">
       <div className="blogarticle-grid-item">
+        <img
+          src={props.image}
+          alt={props.imageAlt}
+          className="blogarticle-img"
+        />
         <div className="blogarticle-subitem">
           <h1 className="blogHeader">{props.title}</h1>
           <div className="tag-container">
