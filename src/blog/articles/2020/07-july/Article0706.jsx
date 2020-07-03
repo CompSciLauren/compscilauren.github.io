@@ -59,14 +59,15 @@ function Article0706() {
             <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=534103">
               Pixabay
             </a>
+            <p>Being stuck on something in Git is no fun.</p>
             <p>
-              Being stuck on something in Git is no fun. It can be really
-              stressful if you have no idea whether a command will do what you
-              expect or not.
+              It's stressful when you don't know whether a command will do what
+              you expect, or if you don't know what command to use in the first
+              place.
             </p>
             <p>
               Here's a run down of the commands you'll wish you knew when you
-              find yourself stuck on a common Git issue.
+              find yourself stuck on a common Git problem.
             </p>
             <h1 className="sectionTitle">Conclusion</h1>
             <p>
