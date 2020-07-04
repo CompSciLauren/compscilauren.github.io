@@ -69,6 +69,58 @@ function Article0706() {
               Here's a run down of the commands you'll wish you knew when you
               find yourself stuck on a common Git problem.
             </p>
+            <h1 className="sectionTitle">The Cheat Sheet</h1>
+            <p>
+              There are already some nice Git cheat sheets out there, but I
+              figured I'd take a shot at making my own.
+            </p>
+            <p>
+              Here's the cheat sheet. If you want more information about various
+              commands listed, scroll down to continue reading!
+            </p>
+            <h1 className="sectionTitle">
+              Change the local & remote branch name
+            </h1>
+            <p>1. Rename local branch, while on that branch</p>
+            <p>
+              <code>git branch -m new-name</code>
+            </p>
+            <p>2. Delete old-name remote branch, push new-name local branch</p>
+            <p>
+              <code>git push origin :old-name new-name</code>
+            </p>
+            <p>
+              3. Switch to new branch, reset upstream branch for new-name local
+              branch
+            </p>
+            <p>
+              <code>git push origin -u new-name</code>
+            </p>
+            <h1 className="sectionTitle">
+              Merge changes from incoming-branch into current branch
+            </h1>
+            <p>
+              Do this while on the current branch to merge the changes into.
+            </p>
+            <p>
+              So if you want to merge changes from one branch into your main
+              branch, then make sure you are on the main branch when you do
+              this.
+            </p>
+            <p>
+              <code>git merge incoming-branch-name</code>
+            </p>
+            <h1 className="sectionTitle">
+              Do a git squash & merge from Git Bash instead of a GitHub PR
+            </h1>
+            <h1 className="sectionTitle">
+              Make forked repo main branch updated to match original repo
+              current main branch
+            </h1>
+            <h1 className="sectionTitle">
+              Edit/delete a pushed commit (erases all history of the removal)
+            </h1>
+            <h1 className="sectionTitle">Perform a rebase</h1>
             <h1 className="sectionTitle">Conclusion</h1>
             <p>
               Did I leave out a handy command that you use in a pinch? Let me
