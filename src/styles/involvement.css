@@ -44,3 +44,9 @@
   justify-self: center;
   justify-items: center;
 }
+
+@media screen and (max-width: 980px) {
+  .involvement-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
