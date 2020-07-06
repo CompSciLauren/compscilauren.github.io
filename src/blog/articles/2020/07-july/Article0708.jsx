@@ -9,7 +9,7 @@ import WomanWorkingOnLaptop from "../../../../images/blog/2020/07-july/woman-wor
 import ConfusedRobot from "../../../../images/blog/2020/07-july/confused-robot.jpg";
 import { Helmet } from "react-helmet";
 
-function Article0706() {
+function Article0708() {
   return (
     <>
       <Helmet>
@@ -39,7 +39,7 @@ function Article0706() {
           <h1 style={{ padding: "8px" }}>
             Git commands to keep on hand (cheat sheet included)
           </h1>
-          <BlogProfileTop date="July 6th, 2020" readTime="5 min" />
+          <BlogProfileTop date="July 8th, 2020" readTime="5 min" />
           <div className="tag-container">
             <Tag title="git" />
             <Tag title="github" />
@@ -145,4 +145,4 @@ function Article0706() {
   );
 }
 
-export default Article0706;
+export default Article0708;

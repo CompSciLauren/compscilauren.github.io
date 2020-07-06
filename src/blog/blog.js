@@ -57,7 +57,7 @@ function blog() {
                 image={ConfusedRobot}
                 imageAlt="A red colored robot cartoon character who looks confused and upset"
                 title="Git commands to keep on hand (cheat sheet included)"
-                date="July 6th, 2020"
+                date="July 8th, 2020"
                 link="/blog/git-commands-to-keep-on-hand-cheat-sheet-included"
                 tag1="git"
                 tag2="github"
