@@ -15,10 +15,7 @@ app.get("/", function (request, response) {
     }
 
     // replace the special strings with server generated strings
-    data = data.replace(
-      /\$OG_TITLE/g,
-      "Lauren Stephenson | Software Developer"
-    );
+    data = data.replace(/\$OG_TITLE/g, "Lauren Stephenson | Software Engineer");
     data = data.replace(
       /\$OG_DESCRIPTION/g,
       "Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"

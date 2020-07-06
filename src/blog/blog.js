@@ -14,14 +14,14 @@ function blog() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Lauren Stephenson | Software Developer</title>
+        <title>Lauren Stephenson | Software Engineer</title>
         <meta
           name="description"
           content="Portfolio and blog, created by Lauren Stephenson, @CompSciLauren on social media"
         />
         <meta
           property="og:title"
-          content="Lauren Stephenson | Software Developer"
+          content="Lauren Stephenson | Software Engineer"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://compscilauren.com/blog" />

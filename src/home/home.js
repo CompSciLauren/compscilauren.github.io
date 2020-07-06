@@ -45,7 +45,7 @@ function home() {
           <div className="Page-wrap">
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
             <p className="header-description">
-              I'm a software developer in Overland Park, Kansas. I'm passionate
+              I'm a software engineer in Overland Park, Kansas. I'm passionate
               about front-end development and UI/UX design. I'm currently
               interning at Cerner Corporation and will graduate from the
               University of Kansas in December 2020.
