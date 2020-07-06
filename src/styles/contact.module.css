@@ -14,3 +14,13 @@
   color: #fcfbeb;
   background-color: #21183c;
 }
+
+@media screen and (max-width: 820px) {
+  .triangle {
+    width: auto;
+    height: 0;
+    border-left: 48vw solid #21183c;
+    border-right: 48vw solid #21183c;
+    border-top: 80px solid #f1f5f8;
+  }
+}

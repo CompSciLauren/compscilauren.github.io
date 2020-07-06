@@ -51,3 +51,14 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .award-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .award-grid-item {
+    height: 180px;
+    width: 180px;
+    font-size: 12px;
+  }
+}
