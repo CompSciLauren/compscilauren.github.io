@@ -66,6 +66,14 @@ function Article0708() {
               place.
             </p>
             <p>
+              I've been using Git for a few years now, and I'm all too familiar
+              with these problems. That's why I started collecting Git commands.
+            </p>
+            <p>
+              When I'm stuck on a Git problem, I refer to my personal Git cheat
+              sheet. And I'd like to share it with you today.
+            </p>
+            <p>
               Here's a run down of the commands you'll wish you knew when you
               find yourself stuck on a common Git problem.
             </p>
