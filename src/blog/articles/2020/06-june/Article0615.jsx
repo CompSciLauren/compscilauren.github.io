@@ -1,14 +1,14 @@
-import React from "react";
-import "../../../blog.css";
-import "../../../../home/home.css";
-import BlogProfile from "../../../../components/BlogProfile";
-import BlogProfileTop from "../../../../components/BlogProfileTop";
-import Tag from "../../../../components/Tag";
-import CodeSnippet from "../../../../images/blog/2020/06-june/code-snippet.png";
-import CreateNewFile from "../../../../images/blog/2020/06-june/create-new-file.gif";
-import FailedCommit from "../../../../images/blog/2020/06-june/failed-commit.png";
-import { DiscussionEmbed } from "disqus-react";
-import { Helmet } from "react-helmet";
+import React from 'react';
+import '../../../blog.css';
+import '../../../../home/home.css';
+import BlogProfile from '../../../../components/BlogProfile';
+import BlogProfileTop from '../../../../components/BlogProfileTop';
+import Tag from '../../../../components/Tag';
+import CodeSnippet from '../../../../images/blog/2020/06-june/code-snippet.png';
+import CreateNewFile from '../../../../images/blog/2020/06-june/create-new-file.gif';
+import FailedCommit from '../../../../images/blog/2020/06-june/failed-commit.png';
+import { DiscussionEmbed } from 'disqus-react';
+import { Helmet } from 'react-helmet';
 
 function Article0615() {
   return (
@@ -37,7 +37,7 @@ function Article0615() {
       </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
-          <h1 style={{ padding: "8px" }}>
+          <h1 style={{ padding: '8px' }}>
             Improve your Git workflow and save time with Git hooks
           </h1>
           <BlogProfileTop date="June 15th, 2020" readTime="7 min" />
@@ -46,7 +46,7 @@ function Article0615() {
             <Tag title="automation" />
           </div>
           <hr></hr>
-          <div style={{ color: "#292929", lineHeight: "28px" }}>
+          <div style={{ color: '#292929', lineHeight: '28px' }}>
             <p>
               If you're a software developer, you probably know about Git. You
               might use it for version control at work or for side projects. One
@@ -59,14 +59,14 @@ function Article0615() {
               command is executed.
             </p>
             <p>
-              The Git book explains it best in their{" "}
+              The Git book explains it best in their{' '}
               <a
                 href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Customizing Git - Git Hooks
-              </a>{" "}
+              </a>{' '}
               section.
             </p>
             <blockquote className="classyStyle">
@@ -136,7 +136,7 @@ function Article0615() {
               alt="Code snippet for a Git hook"
               className="codeSnippetImg"
             ></img>
-            <p style={{ fontSize: "16px", textAlign: "center" }}>
+            <p style={{ fontSize: '16px', textAlign: 'center' }}>
               <a
                 href="https://github.com/CompSciLauren/awesome-git-hooks/blob/c6942b03b74d0c583a858e89b58f761157df5c93/pre-commit-hooks/search-term.hook"
                 target="_blank"
@@ -145,6 +145,29 @@ function Article0615() {
                 View this code snippet on GitHub
               </a>
             </p>
+            <p>
+              <code className="codeBlock">
+                #!/bin/bash{'\n\n'}# Redirect output to stderr{'\n'}exec 1>&2
+                {'\n\n'}# Define colors{'\n'}
+                <span className="codeVariable">RED=</span>'\033[0;31m'
+                {'\n'}
+                <span className="codeVariable">NC=</span>'\033[0m'
+                {'\n\n'}# Define term to search for{'\n'}
+                <span className="codeVariable">SEARCH_TERM=</span>"FIXME:"
+                {'\n\n'}# Check for the presence of the SEARCH_TERM in updated
+                files{'\n'}if [[ $(git diff --cached | grep -E "^\+" | grep -v
+                '+++ b/' | cut -c 2-) == *$
+                {<span className="codeVariable">SEARCH_TERM</span>}* ]]{'\n'}
+                then{'\n\t'}
+                printf "${<span className="codeVariable">RED</span>}Error:$
+                {<span className="codeVariable">NC</span>} Found $
+                {<span className="codeVariable">SEARCH_TERM</span>} in attempted
+                commit.\n"{'\n\t'}printf "Please remove all occurances of $
+                {<span className="codeVariable">SEARCH_TERM</span>} before
+                committing.\n"
+                {'\n\t'}exit 1{'\n'}fi
+              </code>
+            </p>
             <h2 className="subSectionTitle">What this code is doing</h2>
             <p>
               This is our Git hook script. A script can be written in many
@@ -152,7 +175,7 @@ function Article0615() {
             </p>
             <p>
               You always use a shebang at the top of the hook script to specify
-              which language you are writing it in. A shebang always starts with{" "}
+              which language you are writing it in. A shebang always starts with{' '}
               <code>#!/</code>.
             </p>
             <p>
@@ -215,7 +238,7 @@ function Article0615() {
               extension. Doing this will tell Git that this file is a Git hook
               script, and is specifically a pre-commit hook.
             </p>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
               <img
                 src={CreateNewFile}
                 alt="Gif showing the creation of a new Git hook file"
@@ -225,7 +248,7 @@ function Article0615() {
               You'll notice there are several types of Git hooks in the
               .git/hooks folder by default. Each file has an example of
               something you can do with that type of Git hook. For a full list
-              of the types of Git hooks available, check out the{" "}
+              of the types of Git hooks available, check out the{' '}
               <a
                 href="https://git-scm.com/docs/githooks"
                 target="_blank"
@@ -245,7 +268,7 @@ function Article0615() {
               and then commit it. Oops! Luckily, our Git hook is ready to save
               the day. Let's see what happens.
             </p>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
               <img
                 src={FailedCommit}
                 alt="An attempt to commit the key phrase, it fails thanks to the Git hook"
@@ -296,7 +319,7 @@ function Article0615() {
               we allow everyone to benefit from your Git hooks?
             </p>
             <p>
-              It's actually pretty straightforward if you use{" "}
+              It's actually pretty straightforward if you use{' '}
               <a
                 href="https://github.com/typicode/husky"
                 target="_blank"
@@ -308,7 +331,7 @@ function Article0615() {
             </p>
             <p>
               Let's say you want to add automatic code formatting to your
-              project, to help keep the code looking consistent. We can use{" "}
+              project, to help keep the code looking consistent. We can use{' '}
               <a
                 href="https://prettier.io/"
                 target="_blank"
@@ -324,11 +347,11 @@ function Article0615() {
                   Install Prettier with <code>npm i prettier --save-dev</code>
                 </li>
                 <li>
-                  Install Husky and lint-staged with{" "}
+                  Install Husky and lint-staged with{' '}
                   <code>npx mrm lint-staged</code>
                 </li>
                 <li>
-                  Add this as another script under your package.json scripts:{" "}
+                  Add this as another script under your package.json scripts:{' '}
                   <code>"prettier": "prettier --write '**/*.js'"</code>
                 </li>
               </ol>
@@ -346,7 +369,7 @@ function Article0615() {
                 To specify what types of files you want it to check, change the
                 glob pattern. So if, for example, you wanted it to check both
                 JavaScript and markdown files, you would change the glob pattern
-                to <code>**/*.{"{js, md}"}</code>.
+                to <code>**/*.{'{js, md}'}</code>.
               </p>
               <p>
                 You can also execute <code>npm run prettier</code> manually to
@@ -356,21 +379,21 @@ function Article0615() {
               </p>
               <p>
                 You can find more information on automating Prettier with Git
-                hooks on the Prettier{" "}
+                hooks on the Prettier{' '}
                 <a
                   href="https://prettier.io/docs/en/precommit.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   pre-commit hook
-                </a>{" "}
+                </a>{' '}
                 documentation.
               </p>
             </p>
             <h1 className="sectionTitle">Conclusion</h1>
             <p>
               I wanted a place to keep a list of all the useful Git hooks I've
-              come across or written over time, and that place is my{" "}
+              come across or written over time, and that place is my{' '}
               <a
                 href="https://github.com/CompSciLauren/awesome-git-hooks"
                 target="_blank"
@@ -402,9 +425,9 @@ function Article0615() {
             shortname="compscilauren"
             config={{
               url:
-                "https://compscilauren.com/blog/improve-your-git-workflow-and-save-time-with-git-hooks",
-              identifier: "article-2020-06-15",
-              title: "Improve your Git workflow and save time with Git hooks",
+                'https://compscilauren.com/blog/improve-your-git-workflow-and-save-time-with-git-hooks',
+              identifier: 'article-2020-06-15',
+              title: 'Improve your Git workflow and save time with Git hooks',
             }}
           />
         </div>
