@@ -13,8 +13,8 @@ html {
 
 body {
   margin: 0;
-  font-family: "Gill Sans", "Arial", "Roboto", "Segoe UI", "Segoe Print",
-    -apple-system, BlinkMacSystemFont, "Ubuntu", Sans-serif;
+  font-family: 'Gill Sans', 'Arial', 'Roboto', 'Segoe UI', 'Segoe Print',
+    -apple-system, BlinkMacSystemFont, 'Ubuntu', Sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,9 +24,9 @@ button {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Segoe UI", monospace;
-  color: crimson;
-  background-color: #f1f1f1;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Segoe UI', monospace;
+  color: #b9bdb6;
+  background-color: #333333;
   padding: 2px;
   font-size: 16px;
 }
