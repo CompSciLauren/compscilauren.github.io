@@ -131,11 +131,37 @@ function Article0615() {
               First we need to write the hook. The simplest version might look
               something like this.
             </p>
-            <img
-              src={CodeSnippet}
-              alt="Code snippet for a Git hook"
-              className="codeSnippetImg"
-            ></img>
+            <p>
+              <code className="codeBlock">
+                #!/bin/bash{'\n\n'}# Redirect output to stderr{'\n'}exec 1>&2
+                {'\n\n'}# Define colors{'\n'}
+                <span className="codeVariable">{'RED'}=</span>'\033[0;31m'
+                {'\n'}
+                <span className="codeVariable">{'NC='}</span>'\033[0m'
+                {'\n\n'}# Define term to search for{'\n'}
+                <span className="codeVariable">SEARCH_TERM=</span>"FIXME:"
+                {'\n\n'}# Check for the presence of the SEARCH_TERM in updated
+                files{'\n'}if [[ $(git diff --cached | grep -E "^\+" | grep -v
+                '+++ b/' | cut -c 2-) == *$
+                {<span className="codeVariable">{'SEARCH_TERM'}</span>}* ]]
+                {'\n'}
+                then{'\n\t'}
+                printf "$
+                {'{'}
+                <span className="codeVariable">RED</span>
+                {'}'}
+                Error:$
+                {'{'}
+                <span className="codeVariable">NC</span>
+                {'}'} Found ${'{'}
+                <span className="codeVariable">SEARCH_TERM</span>
+                {'}'} in attempted commit.\n"{'\n\t'}printf "Please remove all
+                occurances of ${'{'}
+                <span className="codeVariable">SEARCH_TERM</span>
+                {'}'} before committing.\n"
+                {'\n\t'}exit 1{'\n'}fi
+              </code>
+            </p>
             <p style={{ fontSize: '16px', textAlign: 'center' }}>
               <a
                 href="https://github.com/CompSciLauren/awesome-git-hooks/blob/c6942b03b74d0c583a858e89b58f761157df5c93/pre-commit-hooks/search-term.hook"
@@ -144,29 +170,6 @@ function Article0615() {
               >
                 View this code snippet on GitHub
               </a>
-            </p>
-            <p>
-              <code className="codeBlock">
-                #!/bin/bash{'\n\n'}# Redirect output to stderr{'\n'}exec 1>&2
-                {'\n\n'}# Define colors{'\n'}
-                <span className="codeVariable">RED=</span>'\033[0;31m'
-                {'\n'}
-                <span className="codeVariable">NC=</span>'\033[0m'
-                {'\n\n'}# Define term to search for{'\n'}
-                <span className="codeVariable">SEARCH_TERM=</span>"FIXME:"
-                {'\n\n'}# Check for the presence of the SEARCH_TERM in updated
-                files{'\n'}if [[ $(git diff --cached | grep -E "^\+" | grep -v
-                '+++ b/' | cut -c 2-) == *$
-                {<span className="codeVariable">SEARCH_TERM</span>}* ]]{'\n'}
-                then{'\n\t'}
-                printf "${<span className="codeVariable">RED</span>}Error:$
-                {<span className="codeVariable">NC</span>} Found $
-                {<span className="codeVariable">SEARCH_TERM</span>} in attempted
-                commit.\n"{'\n\t'}printf "Please remove all occurances of $
-                {<span className="codeVariable">SEARCH_TERM</span>} before
-                committing.\n"
-                {'\n\t'}exit 1{'\n'}fi
-              </code>
             </p>
             <h2 className="subSectionTitle">What this code is doing</h2>
             <p>
