@@ -73,7 +73,28 @@ function home() {
                 description="Stardew Valley mod that automatically takes a screenshot of
                   your entire farm at the start of each day"
                 builtWith="C#"
-              ></Project>
+              />
+
+              <Project
+                link="https://github.com/compscilauren/web-clock-time-tracker"
+                title="Web Clock Time Tracker"
+                description="A webapp that makes time tracking simple for associates"
+                builtWith="React"
+              />
+
+              <Project
+                link="https://github.com/compscilauren/awesome-git-hooks"
+                title="Awesome Git Hooks"
+                description="Curated list of awesome Git hooks"
+                builtWith="Bash, Python, Perl"
+              />
+
+              <Project
+                link="https://compscilauren.github.io/uno/index.html"
+                title="Uno"
+                description="Card game Uno, playable in the browser"
+                builtWith="JavaScript"
+              />
 
               <Project
                 link="https://drive.google.com/file/d/1LsDeMeXUBJeSpBp4mGFLBYRrhL9-T9uG/view"
@@ -81,22 +102,7 @@ function home() {
                 description="Medical app that reminds people to take their medication and
             makes medication management simple"
                 builtWith="React Native"
-              ></Project>
-
-              <Project
-                link="https://github.com/compscilauren/awesome-git-hooks"
-                title="Awesome Git Hooks"
-                description="Curated list of awesome Git hooks"
-                builtWith="Bash, Python, Perl"
-              ></Project>
-
-              <Project
-                link="https://boiling-garden-86985.herokuapp.com/"
-                title="Server Finder"
-                description="Website for Stardew Valley that connects hosts and players for
-              multiplayer servers"
-                builtWith="React"
-              ></Project>
+              />
 
               <Project
                 link="https://github.com/compscilauren/fedcodeathon"
@@ -104,14 +110,7 @@ function home() {
                 description="Website that helps entrepreneurs find the best location to
               start their business"
                 builtWith="JavaScript, Bootstrap"
-              ></Project>
-
-              <Project
-                link="https://compscilauren.github.io/uno/index.html"
-                title="Uno"
-                description="Card game Uno, playable in the browser"
-                builtWith="JavaScript"
-              ></Project>
+              />
             </div>
             <a
               href="https://github.com/CompSciLauren"
