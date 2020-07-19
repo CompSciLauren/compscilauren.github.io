@@ -6,7 +6,6 @@ import blog from "./blog/blog.js";
 import Article0615 from "./blog/articles/2020/06-june/Article0615.jsx";
 import Article0622 from "./blog/articles/2020/06-june/Article0622.jsx";
 import Article0702 from "./blog/articles/2020/07-july/Article0702.jsx";
-import Article0708 from "./blog/articles/2020/07-july/Article0708.jsx";
 
 function App() {
   return (
@@ -28,10 +27,6 @@ function App() {
         </nav>
         <Route path="/" exact component={home} />
         <Route path="/blog" exact component={blog} />
-        <Route
-          path="/blog/git-commands-to-keep-on-hand-cheat-sheet-included"
-          component={Article0708}
-        />
         <Route
           path="/blog/10-tips-for-maintaining-an-open-source-project"
           component={Article0702}

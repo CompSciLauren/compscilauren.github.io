@@ -9,7 +9,7 @@ import WomanWorkingOnLaptop from "../../../../images/blog/2020/07-july/woman-wor
 import ConfusedRobot from "../../../../images/blog/2020/07-july/confused-robot.jpg";
 import { Helmet } from "react-helmet";
 
-function Article0708() {
+function Article0805() {
   return (
     <>
       <Helmet>
@@ -153,4 +153,4 @@ function Article0708() {
   );
 }
 
-export default Article0708;
+export default Article0805;

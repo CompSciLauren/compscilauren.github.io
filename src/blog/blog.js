@@ -7,7 +7,7 @@ import ProfilePicture from "../images/blog/common/profile-picture.jpg";
 import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-laptop.jpg";
 import GitHub from "../images/blog/2020/06-june/github.png";
 import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
-import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
+//import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
 import { Helmet } from "react-helmet";
 
 function blog() {
@@ -53,7 +53,7 @@ function blog() {
             </p>
             <h2 className="blogPostsHeader">Blog Posts</h2>
             <div className="blogarticle-grid-container">
-              <BlogArticle
+              {/* <BlogArticle
                 image={ConfusedRobot}
                 imageAlt="A red colored robot cartoon character who looks confused and upset"
                 title="Git commands to keep on hand (cheat sheet included)"
@@ -61,7 +61,7 @@ function blog() {
                 link="/blog/git-commands-to-keep-on-hand-cheat-sheet-included"
                 tag1="git"
                 tag2="github"
-              />
+              /> */}
               <BlogArticle
                 image={WomanWorkingOnLaptop}
                 imageAlt="A woman typing on a Mac laptop with icons in the air behind her representing project related tasks"
