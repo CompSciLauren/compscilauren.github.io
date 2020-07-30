@@ -106,9 +106,9 @@ function Article0730() {
               me.
             </p>
             <p>
-              If anything, I think working remotely made me even more focused on
-              getting my work done. The last thing I wanted was for anyone to
-              think that I wasn’t giving it my best effort.
+              If anything, I think working remotely made me even more determined
+              to do well. The last thing I wanted was for anyone to think that I
+              wasn’t giving it my best effort.
             </p>
             <p>
               If people couldn’t physically observe me working, then I needed to
