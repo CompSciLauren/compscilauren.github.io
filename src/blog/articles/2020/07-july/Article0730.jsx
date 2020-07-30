@@ -14,7 +14,10 @@ function Article0730() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Lessons learned as a software intern during a pandemic</title>
-        <meta name="description" content="Being an intern" />
+        <meta
+          name="description"
+          content="Interning is tough enough even when there isn’t a pandemic. I learned a lot of things from this experience, and wanted to share a few of them here."
+        />
         <meta
           property="og:title"
           content="Lessons learned as a software intern during a pandemic"
@@ -25,7 +28,10 @@ function Article0730() {
           content="https://compscilauren.com/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
         />
         <meta property="og:image" content={InternDay} />
-        <meta property="og:description" content="Being an intern" />
+        <meta
+          property="og:description"
+          content="Interning is tough enough even when there isn’t a pandemic. I learned a lot of things from this experience, and wanted to share a few of them here."
+        />
       </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
