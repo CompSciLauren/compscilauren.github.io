@@ -63,11 +63,11 @@ function blog() {
                 tag2="github"
               /> */}
               <BlogArticle
-                title="Building a ShipIt project and what I have learned about hackathons so far"
-                date="July 20th, 2020"
-                link="/blog/building-a-shipit-project-and-what-i-have-learned-about-hackathons-so-far"
-                tag1="hackathons"
-                tag2="projectdevelopment"
+                title="Lessons learned as a software intern during a pandemic"
+                date="July 30th, 2020"
+                link="/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
+                tag1="engineeringlife"
+                tag2="personal"
               />
               <BlogArticle
                 image={WomanWorkingOnLaptop}
