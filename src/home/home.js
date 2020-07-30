@@ -145,7 +145,7 @@ function home() {
               imageAlt="A note card that says Happy National Intern Day with a glass cup next to it with the Cerner logo on it and a heart shape filled with healthcare symbols"
               title="Lessons learned as a software intern during a pandemic"
               date="July 30th, 2020"
-              link="/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
+              link="/blog/lessons-learned-as-a-software-intern-during-a-pandemic"
               tag1="engineeringlife"
               tag2="personal"
             />

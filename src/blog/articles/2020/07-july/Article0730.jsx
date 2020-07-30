@@ -227,7 +227,7 @@ function Article0730() {
             shortname="compscilauren"
             config={{
               url:
-                "https://compscilauren.com/blog/lessoned-learned-as-a-software-intern-during-a-pandemic",
+                "https://compscilauren.com/blog/lessons-learned-as-a-software-intern-during-a-pandemic",
               identifier: "article-2020-07-30",
               title: "Lessons learned as a software intern during a pandemic",
             }}
