@@ -51,24 +51,24 @@ function Article0730() {
             /> */}
             <p>
               Interning is tough enough even when there isn’t a pandemic. I feel
-              for every person who has had to stress over the wellbeing of their
-              loved ones or worry a lot for their own health and safety. I’ve
-              been extremely fortunate in that my level of pandemic-related
+              for every person who has had to stress over the well-being of
+              their loved ones or worry a lot for their own health and safety.
+              I’ve been extremely fortunate in that my level of pandemic-related
               stress has probably been average, or maybe even below-average.
             </p>
             <p>
               I just want to say that for anyone who has had to deal with a high
-              amount of stress because of this pandemic, you’re not alone and
-              it’s okay if you feel like you aren’t excelling as much as you
-              would under regular circumstances. I’ve dealt with stressful
-              situations and I know that sometimes just getting through the work
-              day or school day is an accomplishment in itself. It’s hard to
-              give it your all when you’re already dealing with so much as it
-              is.
+              amount of stress because of this pandemic, or any reason really,
+              you’re not alone and it’s okay if you feel like you aren’t
+              excelling as much as you would under regular circumstances. I’ve
+              dealt with stressful situations and I know that sometimes just
+              getting through the work day or school day is an accomplishment in
+              itself. It’s hard to give it your all when you’re already dealing
+              with so much as it is.
             </p>
             <p>
-              I’ve been able to focus a lot on my internship this summer, and
-              what I want in my career.
+              I've been lucky to be able to spend time this summer focusing a
+              lot on my internship, and what I want in my career.
             </p>
             <p>
               Being an intern in a virtual setting has really made it clear to
@@ -82,8 +82,9 @@ function Article0730() {
               even under regular circumstances.
             </p>
             <p>
-              When you’re alone in a room all day, it feels more apparent. There
-              was no one to physically stop by my desk and check in with me.
+              But when you’re alone in a room all day, it feels more apparent.
+              There was no one to physically stop by my desk and check in with
+              me.
             </p>
             <p>
               If anything, I think working remotely made me even more focused on
@@ -104,16 +105,20 @@ function Article0730() {
               motivated and eager to make as much progress as I reasonably can.
             </p>
             <p>
-              I want to succeed in my career. I’ve learned a lot from observing
-              people at work, even including other interns. I’ve seen people
-              accomplish a ton of great things this summer, and seeing others do
-              so well has inspired me.
+              For me, my focus is currently on my career. And I've been lucky to
+              have a ton of inspirational people to learn from at this
+              internship, including other interns. I’ve seen people accomplish
+              some amazing things this summer, and it has definitely inspired
+              me.
             </p>
             <p>
-              I’ve learned that if you put in the work, you can get a lot out of
-              an internship or full-time job. Being committed to doing good work
-              and going above and beyond to make valuable contributions helps
-              everyone, including yourself.{" "}
+              Everyone make mistakes sometimes. I know I did. But I think at the
+              end of the day, if you're putting in effort, have a positive
+              attitude, and can learn from those mistakes, you'll do great.
+            </p>
+            <p>
+              Being committed to doing good work and going above and beyond to
+              make valuable contributions helps everyone, including yourself.
             </p>
             <p>
               All that said, it was also critical to know when to take a break
@@ -123,10 +128,10 @@ function Article0730() {
               dedicated to doing just work.
             </p>
             <p>
-              One thing I learned though, was that I actually feel better when I
-              can move around occasionally. Whether it was doing some work on
-              the couch or sitting outside when the weather was nice, sometimes
-              a change of scenery was surprisingly helpful.
+              I also learned that I actually feel better when I can move around
+              occasionally. Whether it was doing some work on the couch or
+              sitting outside when the weather was nice, sometimes a change of
+              scenery was surprisingly helpful.
             </p>
             <p>
               Working remotely has its perks. There’s no commute. That’s the
@@ -145,7 +150,7 @@ function Article0730() {
               I learned how to reach out to people. Whether it was a teammate, a
               fellow intern friend, or someone else I’d met virtually. It was
               nice to chat occasionally, like you would if you were working in
-              the same building.{" "}
+              the same building.
             </p>
             <p>
               One of the best things the summer internship program involved was
@@ -160,6 +165,11 @@ function Article0730() {
               this, but I was pleasantly surprised to meet a lot of great people
               who I hope to stay in touch with even after the internship is
               over.
+            </p>
+            <p>
+              I can honestly say that I love software engineering. I've
+              especially enjoyed working at Cerner. Making healthcare better is
+              something that I find extremely meaningful and valuable.
             </p>
             <p>
               Tomorrow is my last day, and even though everyone warned me it
