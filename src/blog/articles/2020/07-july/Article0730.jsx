@@ -36,7 +36,7 @@ function Article0730() {
       <main id="main-content">
         <div className="blog-page-wrap">
           <h1 style={{ padding: "8px" }}>
-            Lessons learned as a software intern in a pandemic
+            Lessons learned as a software intern during a pandemic
           </h1>
           <BlogProfileTop date="July 30th, 2020" readTime="5 min" />
           <div className="tag-container">
