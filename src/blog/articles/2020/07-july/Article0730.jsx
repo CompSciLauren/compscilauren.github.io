@@ -14,10 +14,7 @@ function Article0730() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Lessons learned as a software intern during a pandemic</title>
-        <meta
-          name="description"
-          content="When you get stuck in Git and don't know what to do, you'll want to know these commands.."
-        />
+        <meta name="description" content="Being an intern" />
         <meta
           property="og:title"
           content="Lessons learned as a software intern during a pandemic"
@@ -27,11 +24,8 @@ function Article0730() {
           property="og:url"
           content="https://compscilauren.com/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
         />
-        {/* <meta property="og:image" content={WomanWorkingOnLaptop} /> */}
-        <meta
-          property="og:description"
-          content="When you get stuck in Git and don't know what to do, you'll want to know these commands."
-        />
+        <meta property="og:image" content={InternDay} />
+        <meta property="og:description" content="Being an intern" />
       </Helmet>
       <main id="main-content">
         <div className="blog-page-wrap">
@@ -131,13 +125,13 @@ function Article0730() {
               me.
             </p>
             <p>
+              Being committed to doing good work and finding ways to make
+              valuable contributions helps everyone, including yourself.
+            </p>
+            <p>
               Everyone make mistakes sometimes. I know I did. But I think at the
               end of the day, if you're putting in effort, have a positive
               attitude, and can learn from those mistakes, you'll do great.
-            </p>
-            <p>
-              Being committed to doing good work and going above and beyond to
-              make valuable contributions helps everyone, including yourself.
             </p>
             <p>
               All that said, it was also critical to know when to take a break
@@ -161,23 +155,38 @@ function Article0730() {
               It also has some pitfalls to avoid. Like making sure you aren’t
               all alone when you’re working. It’s easy to just spend the day
               doing work and going to meetings, but not talking to anyone
-              outside of that. Normally you could walk down a hallway or step
-              into the break room and talk with people. Or stop by someone’s
-              desk to have a quick chat. Now that just isn’t a thing.
+              outside of that.
+            </p>
+            <p>
+              Normally you could walk down a hallway or step into the break room
+              and talk with people. Or stop by someone’s desk to have a quick
+              chat. That just isn’t a thing in remote work.
+            </p>
+            <p>
+              It was also important to keep in mind that this was not the
+              typical situation for remote work.
+            </p>
+            <p>
+              Working remotely during a pandemic is not going to feel the same
+              as it would under regular circumstances. So keeping an eye on how
+              I was feeling and making sure I was doing okay was crucial.
             </p>
             <p>
               I learned how to reach out to people. Whether it was a teammate, a
-              fellow intern friend, or someone else I’d met virtually. It was
-              nice to chat occasionally, like you would if you were working in
-              the same building.
+              fellow intern friend, or someone else I’d met virtually. It could
+              be about work, or maybe we would just catch up for a bit. It was
+              nice to just chat occasionally, like you would if you were working
+              in the same building.
             </p>
             <p>
               One of the best things the summer internship program involved was
               the Friday “lunch roulettes”. Every Friday we were assigned a new
-              group and we could meet up to get virtual lunch together. I was
-              able to meet lots and lots of other interns this way, and it was a
-              blast. I even met with a few interns on other days of the week to
-              do our own lunch get-togethers, and it was awesome.
+              group and we could meet up to get virtual lunch together.
+            </p>
+            <p>
+              I was able to meet lots and lots of other interns this way, and it
+              was a blast. I even met with a few interns on other days of the
+              week to do our own lunch get-togethers, and it was awesome.
             </p>
             <p>
               I wasn’t sure if I would make any friends in a remote setting like
