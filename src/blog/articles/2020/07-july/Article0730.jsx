@@ -85,19 +85,18 @@ function Article0730() {
             </p>
             <p>
               Being an intern in a virtual setting has really made it clear to
-              me that my career is in my hands. Even on the first day of work,
-              it was obvious.
+              me that my career is truly in my own hands. Even from the first
+              day of work, it was clear.
             </p>
             <p>
               It was up to me to login and figure out how to set everything up
               so that I could make it to that first day of training. Once I had
-              my first real task to do, it was on me to get it done. That’s true
-              even under regular circumstances.
+              my first real task to do, it was on me to get it done.
             </p>
             <p>
-              But when you’re alone in a room all day, it feels more apparent.
-              There was no one to physically stop by my desk and check in with
-              me.
+              That’s true even under regular circumstances. But when you’re
+              alone in a room all day, it feels more apparent. There was no one
+              to physically stop by my desk and check in with me.
             </p>
             <p>
               If anything, I think working remotely made me even more determined
@@ -187,6 +186,11 @@ function Article0730() {
               I was able to meet lots and lots of other interns this way, and it
               was a blast. I even met with a few interns on other days of the
               week to do our own lunch get-togethers, and it was awesome.
+            </p>
+            <p>
+              I also met a lot of people just through virtual chatting and
+              through special events, like at the ShipIt hackathon and the
+              DevCon conference.
             </p>
             <p>
               I wasn’t sure if I would make any friends in a remote setting like
