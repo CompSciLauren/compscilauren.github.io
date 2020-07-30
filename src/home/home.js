@@ -36,6 +36,7 @@ import Contact from "../components/Contact";
 import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-laptop.jpg";
 import GitHub from "../images/blog/2020/06-june/github.png";
 import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
+//import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
 
 function home() {
   return (
@@ -129,6 +130,22 @@ function home() {
             <h1 className="homeHeader" id="latest-articles">
               Latest Articles
             </h1>
+            {/* <BlogArticle
+              image={ConfusedRobot}
+              imageAlt="A red colored robot cartoon character who looks confused and upset"
+              title="Git commands to keep on hand (cheat sheet included)"
+              date="July 8th, 2020"
+              link="/blog/git-commands-to-keep-on-hand-cheat-sheet-included"
+              tag1="git"
+              tag2="github"
+            /> */}
+            <BlogArticle
+              title="Lessons learned as a software intern during a pandemic"
+              date="July 30th, 2020"
+              link="/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
+              tag1="engineeringlife"
+              tag2="personal"
+            />
             <BlogArticle
               image={WomanWorkingOnLaptop}
               imageAlt="A woman typing on a Mac laptop with icons in the air behind her representing project related tasks"
