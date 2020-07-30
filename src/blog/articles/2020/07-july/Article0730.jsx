@@ -6,6 +6,7 @@ import BlogProfileTop from "../../../../components/BlogProfileTop";
 import Tag from "../../../../components/Tag";
 import { DiscussionEmbed } from "disqus-react";
 import { Helmet } from "react-helmet";
+import InternDay from "../../../../images/blog/2020/07-july/intern-day.jpg";
 
 function Article0730() {
   return (
@@ -44,11 +45,11 @@ function Article0730() {
           </div>
           <hr></hr>
           <div style={{ color: "#292929", lineHeight: "28px" }}>
-            {/* <img
-              src={ConfusedRobot}
-              alt="Swag from the Cerner ShipIt Day hackathon from July 2020"
+            <img
+              src={InternDay}
+              alt="A note card that says Happy National Intern Day with a glass cup next to it with the Cerner logo on it and a heart shape filled with healthcare symbols"
               className="buggyImg"
-            /> */}
+            />
             <p>
               Interning is tough enough even when there isn’t a pandemic. I feel
               for every person who has had to stress over the well-being of
@@ -68,7 +69,25 @@ function Article0730() {
             </p>
             <p>
               I've been lucky to be able to spend time this summer focusing a
-              lot on my internship, and what I want in my career.
+              lot on my internship, and what I want in my career. I'm lucky to
+              have had a strong support system to help me as I navigated my
+              virtual internship too.
+            </p>
+            <p>
+              Everyone who helps run the summer internship program at Cerner has
+              been absolutely amazing and gone out of their way to help everyone
+              succeed. They provided guidance and helped us all navigate our
+              virtual internships.
+            </p>
+            <p>
+              I also had a ton of support from my team, other associates at
+              Cerner, and some wonderful friends. They know who they are and I
+              will be forever grateful to each of them.
+            </p>
+            <p>
+              At the end of the day, I think having a strong support system and
+              others who can help guide you is one of the best things for your
+              career or any other major endeavor.
             </p>
             <p>
               Being an intern in a virtual setting has really made it clear to

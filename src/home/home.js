@@ -36,6 +36,7 @@ import Contact from "../components/Contact";
 import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-laptop.jpg";
 import GitHub from "../images/blog/2020/06-june/github.png";
 import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
+import InternDay from "../images/blog/2020/07-july/intern-day.jpg";
 //import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
 
 function home() {
@@ -140,6 +141,8 @@ function home() {
               tag2="github"
             /> */}
             <BlogArticle
+              image={InternDay}
+              imageAlt="A note card that says Happy National Intern Day with a glass cup next to it with the Cerner logo on it and a heart shape filled with healthcare symbols"
               title="Lessons learned as a software intern during a pandemic"
               date="July 30th, 2020"
               link="/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
