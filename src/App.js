@@ -29,7 +29,7 @@ function App() {
         <Route path="/" exact component={home} />
         <Route path="/blog" exact component={blog} />
         <Route
-          path="/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
+          path="/blog/lessons-learned-as-a-software-intern-during-a-pandemic"
           component={Article0730}
         />
         <Route

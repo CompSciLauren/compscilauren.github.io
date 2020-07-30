@@ -25,7 +25,7 @@ function Article0730() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://compscilauren.com/blog/lessoned-learned-as-a-software-intern-during-a-pandemic"
+          content="https://compscilauren.com/blog/lessons-learned-as-a-software-intern-during-a-pandemic"
         />
         <meta property="og:image" content={InternDay} />
         <meta
