@@ -186,9 +186,11 @@ function Article0730() {
               over.
             </p>
             <p>
-              I can honestly say that I love software engineering. I've
-              especially enjoyed working at Cerner. Making healthcare better is
-              something that I find extremely meaningful and valuable.
+              I'm grateful to have had an internship at all this summer, and I'm
+              especially glad that it was with Cerner. Making healthcare better
+              is something that I find extremely meaningful, and I'm proud to
+              have made some contributions to that through this virtual
+              internship.
             </p>
             <p>
               Tomorrow is my last day, and even though everyone warned me it
