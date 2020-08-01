@@ -67,8 +67,8 @@ function blog() {
                 title="Lessons learned as a software intern during a pandemic"
                 date="July 30th, 2020"
                 link="/blog/lessons-learned-as-a-software-intern-during-a-pandemic"
-                tag1="engineeringlife"
-                tag2="personal"
+                tag1="career"
+                tag2="internship"
               />
               <BlogArticle
                 image={WomanWorkingOnLaptop}

@@ -40,8 +40,8 @@ function Article0730() {
           </h1>
           <BlogProfileTop date="July 30th, 2020" readTime="5 min" />
           <div className="tag-container">
-            <Tag title="engineeringlife" />
-            <Tag title="personal" />
+            <Tag title="career" />
+            <Tag title="internship" />
           </div>
           <hr></hr>
           <div style={{ color: "#292929", lineHeight: "28px" }}>
