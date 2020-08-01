@@ -84,9 +84,16 @@ function Article0622() {
               make a contribution to a project.
             </p>
             <p>
-              If you're interested in maintaining your own open source project
-              rather than contributing to someone else's, I'll be writing about
-              that next week!
+              If you're already familiar with contributing to open source and
+              you're interested in
+              <a
+                href="https://compscilauren.com/blog/10-tips-for-maintaining-an-open-source-project"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                maintaining your own open source project
+              </a>
+              , feel free to check out that article instead!
             </p>
             <h1 className="sectionTitle">So, what is open source?</h1>
             <p>
