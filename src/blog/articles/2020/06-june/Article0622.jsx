@@ -85,7 +85,7 @@ function Article0622() {
             </p>
             <p>
               If you're already familiar with contributing to open source and
-              you're interested in
+              you're interested in{" "}
               <a
                 href="https://compscilauren.com/blog/10-tips-for-maintaining-an-open-source-project"
                 target="_blank"
