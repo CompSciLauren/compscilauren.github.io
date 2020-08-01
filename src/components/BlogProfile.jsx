@@ -23,10 +23,10 @@ function BlogProfile() {
       <div>
         <p style={{ fontSize: "24px", margin: "16px" }}>Lauren Stephenson</p>
         <p style={{ fontSize: "16px", margin: "16px" }}>
-          Software Intern at Cerner Corporation. First generation college
-          student majoring in computer science and graduating in December 2020.
-          Stardew Valley Modder. Sleep Enthusiast. Plant parent. JavaScript,
-          React, UI Design, Open Source. she/her
+          Software Engineer. First generation college student majoring in
+          computer science and graduating in December 2020. Stardew Valley
+          Modder. Sleep Enthusiast. Plant parent. JavaScript, React, UI/UX
+          Design, Open Source. she/her
         </p>
         <a
           href="https://www.linkedin.com/in/compscilauren/"

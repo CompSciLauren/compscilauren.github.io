@@ -43,10 +43,8 @@ function blog() {
               Stephenson (@CompSciLauren on social media).
             </p>
             <p>
-              I'm super excited to finally have a blog! My goal is to publish
-              one new article each week, at least for the summer. Topics I am
-              likely to cover are things related to React, JavaScript, UI
-              design, open source, and tips for newer developers.
+              I'm most likely to write about React, JavaScript, UI/UX design,
+              open source, and tips for newer developers.
             </p>
             <p>
               If you have any questions or would like to see a specific topic

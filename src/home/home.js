@@ -48,7 +48,7 @@ function home() {
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
             <p className="header-description">
               I'm a software engineer in Overland Park, Kansas. I'm passionate
-              about front-end development and UI/UX design. I'm currently
+              about front-end development and UI/UX design. I recently finished
               interning at Cerner Corporation and will graduate from the
               University of Kansas in December 2020.
             </p>
@@ -305,7 +305,20 @@ function home() {
                 endDate="Present"
                 accomplishments={
                   <ul>
-                    <li>Just started the job!</li>
+                    <li>
+                      Worked on an internal tool developed to automate the
+                      process of installing, managing, and reporting for
+                      packaged software.
+                    </li>
+                    <li>
+                      Added multiple UI/UX enhancements that made it easier for
+                      users to understand and navigate various workflows.
+                    </li>
+                    <li>
+                      Developed new software that saves hourly associates time
+                      by calculating precisely what time they should clock out
+                      each day.
+                    </li>
                   </ul>
                 }
               ></Experience>
@@ -344,6 +357,11 @@ function home() {
             </h1>
             <div className="award-grid-container">
               <Award
+                title="2nd Place in Hackathon"
+                organization="Cerner Corporation"
+                year="2020"
+              ></Award>
+              <Award
                 title="3rd Place in Hackathon"
                 organization="KC Federal Reserve"
                 year="2019"
@@ -351,11 +369,6 @@ function home() {
               <Award
                 title="STEMMy Student Achiever Award"
                 organization="Central Exchange"
-                year="2018"
-              ></Award>
-              <Award
-                title="Outstanding Student Award"
-                organization="Johnson County Community College"
                 year="2018"
               ></Award>
             </div>
