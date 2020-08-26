@@ -7,6 +7,7 @@ import Article0615 from "./blog/articles/2020/06-june/Article0615.jsx";
 import Article0622 from "./blog/articles/2020/06-june/Article0622.jsx";
 import Article0702 from "./blog/articles/2020/07-july/Article0702.jsx";
 import Article0730 from "./blog/articles/2020/07-july/Article0730.jsx";
+import Article0831 from "./blog/articles/2020/08-august/Article0831.jsx";
 
 function App() {
   return (
@@ -28,6 +29,10 @@ function App() {
         </nav>
         <Route path="/" exact component={home} />
         <Route path="/blog" exact component={blog} />
+        <Route
+          path="/blog/how-to-organize-your-school-projects-on-github"
+          component={Article0831}
+        />
         <Route
           path="/blog/lessons-learned-as-a-software-intern-during-a-pandemic"
           component={Article0730}

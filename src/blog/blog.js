@@ -8,7 +8,7 @@ import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-l
 import GitHub from "../images/blog/2020/06-june/github.png";
 import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
 import InternDay from "../images/blog/2020/07-july/intern-day.jpg";
-//import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
+import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
 import { Helmet } from "react-helmet";
 
 function blog() {
@@ -61,6 +61,15 @@ function blog() {
                 tag1="git"
                 tag2="github"
               /> */}
+              <BlogArticle
+                image={ConfusedRobot}
+                imageAlt="A red colored robot cartoon character who looks confused and upset"
+                title="How to organize your school projects on GitHub"
+                date="August 31st, 2020"
+                link="/blog/how-to-organize-your-school-projects-on-github"
+                tag1="github"
+                tag2="prductivity"
+              />
               <BlogArticle
                 image={InternDay}
                 imageAlt="A note card that says Happy National Intern Day with a glass cup next to it with the Cerner logo on it and a heart shape filled with healthcare symbols"

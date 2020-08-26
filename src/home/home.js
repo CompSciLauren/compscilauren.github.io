@@ -37,7 +37,7 @@ import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-l
 import GitHub from "../images/blog/2020/06-june/github.png";
 import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
 import InternDay from "../images/blog/2020/07-july/intern-day.jpg";
-//import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
+import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
 
 function home() {
   return (
@@ -141,6 +141,15 @@ function home() {
               tag2="github"
             /> */}
             <BlogArticle
+              image={ConfusedRobot}
+              imageAlt="A red colored robot cartoon character who looks confused and upset"
+              title="How to organize your school projects on GitHub"
+              date="August 31st, 2020"
+              link="/blog/how-to-organize-your-school-projects-on-github"
+              tag1="github"
+              tag2="productivity"
+            />
+            <BlogArticle
               image={InternDay}
               imageAlt="A note card that says Happy National Intern Day with a glass cup next to it with the Cerner logo on it and a heart shape filled with healthcare symbols"
               title="Lessons learned as a software intern during a pandemic"
@@ -157,24 +166,6 @@ function home() {
               link="/blog/10-tips-for-maintaining-an-open-source-project"
               tag1="opensource"
               tag2="github"
-            />
-            <BlogArticle
-              image={GitHub}
-              imageAlt="GitHub logo and several GitHub cartoon character drawings"
-              title="Why contribute to open source and how to get started"
-              date="June 22nd, 2020"
-              link="/blog/why-contribute-to-open-source-and-how-to-get-started"
-              tag1="opensource"
-              tag2="github"
-            />
-            <BlogArticle
-              image={CodeSnippet}
-              imageAlt="Code snippet for a Git hook"
-              title="Improve your Git workflow and save time with Git hooks"
-              date="June 15th, 2020"
-              link="/blog/improve-your-git-workflow-and-save-time-with-git-hooks"
-              tag1="git"
-              tag2="automation"
             />
             <a href="/blog">
               <button className="Header-btn">See all blog posts ></button>
