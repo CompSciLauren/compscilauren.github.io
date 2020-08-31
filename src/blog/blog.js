@@ -8,7 +8,8 @@ import WomanWorkingOnLaptop from "../images/blog/2020/07-july/woman-working-on-l
 import GitHub from "../images/blog/2020/06-june/github.png";
 import CodeSnippet from "../images/blog/2020/06-june/code-snippet.png";
 import InternDay from "../images/blog/2020/07-july/intern-day.jpg";
-import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
+import EditFolder from "../images/blog/2020/08-august/edit-folder.png";
+// import ConfusedRobot from "../images/blog/2020/07-july/confused-robot.jpg";
 import { Helmet } from "react-helmet";
 
 function blog() {
@@ -62,8 +63,8 @@ function blog() {
                 tag2="github"
               /> */}
               <BlogArticle
-                image={ConfusedRobot}
-                imageAlt="A red colored robot cartoon character who looks confused and upset"
+                image={EditFolder}
+                imageAlt="An icon showing a folder in edit mode and four smaller folders also in edit mode directly below it"
                 title="How to organize your school projects on GitHub"
                 date="August 31st, 2020"
                 link="/blog/how-to-organize-your-school-projects-on-github"
