@@ -267,9 +267,13 @@ function Article0831() {
               You can also copy the snippet below into a README.md file as a
               basic starting point.
             </p>
-            ``` # Project Title > Short description of project. ## Quick Start
-            1. Clone or download the repo 2. Run `npm install` 3. Run `npm
-            start` ```
+            <p>
+              <code className="codeBlock">
+                # Project Title{"\n\n"}> Short description of project.{"\n\n"}##
+                Quick Start{"\n\n"}1. Clone or download the repo{"\n"}2. Run
+                `npm install`{"\n"}3. Run `npm start`
+              </code>
+            </p>
             <p>
               If you need a cheat sheet for markdown (used for formatting README
               files), there is a great resource for that{" "}
