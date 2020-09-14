@@ -292,7 +292,7 @@ function home() {
                 company="Cerner Corporation"
                 job="Software Intern"
                 startDate="May 2020"
-                endDate="Present"
+                endDate="July 2020"
                 accomplishments={
                   <ul>
                     <li>
