@@ -46,10 +46,8 @@ function home() {
           <div className="Page-wrap">
             <p className="Intro">Hi, I'm Lauren Stephenson.</p>
             <p className="header-description">
-              I'm a software engineer in Overland Park, Kansas. I'm passionate
-              about front-end development and UI/UX design. I recently finished
-              interning at Cerner Corporation and will graduate from the
-              University of Kansas in December 2020.
+              I'm a software engineer in Lenexa, Kansas. I'm passionate
+              about building positive user experiences through primarily front-end development and UI/UX design.
             </p>
             <a href="#portfolio-section">
               <button className="Header-btn">See my work!</button>
