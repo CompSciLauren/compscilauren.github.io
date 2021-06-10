@@ -193,7 +193,7 @@ function home() {
                   </div>{" "}
                   <div className="individual-skill">
                     <img src={NodeLogo} alt="Node Logo"></img>
-                    <p>Node</p>
+                    <p>Node.js</p>
                   </div>
                 </div>
               }
@@ -286,6 +286,19 @@ function home() {
               Experience
             </h1>
             <div className="experience-grid-container">
+              <Experience
+                company="Cerner Corporation"
+                job="Software Engineer I"
+                startDate="February 2021"
+                endDate="June 2021"
+                accomplishments={
+                  <ul>
+                    <li>
+                      Worked on a React and Redux client-facing web app used to improve efficiency for hospital operations. Web app helped distribute work equitably across nursing schedules for hospital shifts.
+                    </li>
+                  </ul>
+                }
+              ></Experience>
               <Experience
                 company="Cerner Corporation"
                 job="Software Intern"
